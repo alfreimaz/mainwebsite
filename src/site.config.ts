@@ -12,7 +12,7 @@ export const siteConfig: SiteConfig = {
 	*/
 	title: "Alexandre Freiburghaus Mazuir",
 	// Used as both a meta property (src/components/BaseHead.astro L:31 + L:49) & the generated satori png (src/pages/og-image/[slug].png.ts)
-	author: "Alexandre Freiburghaus Mazuir",
+	author: "EatTheSun",
 	// Used as the default description meta property and webmanifest description
 	description: "Personal website",
 	// HTML lang property, found in src/layouts/Base.astro L:18 & astro.config.ts L:48
