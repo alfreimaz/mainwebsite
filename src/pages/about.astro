@@ -1,5 +1,7 @@
 ---
 import PageLayout from "@/layouts/Base.astro";
+import { Image } from 'astro:assets';
+import imageFace from '../../assets/face.jpeg';
 
 const meta = {
 	description: "A propos / about",
@@ -9,7 +11,7 @@ const meta = {
 
 <PageLayout meta={meta}>
 	<h1 class="title mb-12">A propos / about</h1>
-  <img src={/face.jpeg} alt="alex" />
+  <Image src={imageFace} alt="alex" />
 	<div class="prose prose-sm prose-cactus max-w-none">
 		<p><u>Fran&ccedil;ais</u> - <b>english below !</b></p>
     <p>Bienvenue ! Je m'appelle <i>Alexandre Freiburghaus Mazuir</i>, mais appelez-moi juste <b>alex</b> &ccedil;a ira plus vite. Je suis &eacute;tudiant en master de logique (MoL) &agrave; l'universit&eacute; d'Amsterdam (UvA), sp&eacute;cialis&eacute; en logique philosophique, linguistique et/ou math&eacute;matique. Sur ce site, vous retrouverez les diff&eacute;rents articles que j'ai pu &eacute;crire (du moins ceux que je trouve pr&eacute;sentables), ainsi que d'autres projets qui n'ont rien &agrave; voir avec le milieu acad&eacute;mique, qu'ils soient musicaux, lit&eacute;raires, ou autre. Je vous souhaite une bonne visite, et vous invite &agrave; aussi passer voir ce que vous n'&eacute;tiez pas venu chercher ! :)) </p>
