@@ -8,7 +8,7 @@ pinned: true
 ---
 
 
-Here follow a few links to check our my techno/hardstyle/gabber project **Korean SkincaKe**.
+Here follow a few links to check out my techno/hardstyle/gabber project **Korean SkincaKe**.
 
 The name is just a funny typo I saw once.
 
