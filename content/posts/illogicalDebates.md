@@ -1,13 +1,12 @@
 ---
 title: "Illogician 2026i"
-description: "Illogician article (edited version)"
+description: "Opinion: logical rhetoric makes illogical debates"
 publishDate: "23 Feb 2026"
 tags: ["english", "logic", "philosophy","social","opinion"]
 updatedDate: 20 August 2026
 pinned: false
 ---
 
-# Opinion: logical rhetoric makes illogical debates
 
 *Note: for the published version of this article was accidentally its first draft, what follows may slightly differ from the printed text.*
 
