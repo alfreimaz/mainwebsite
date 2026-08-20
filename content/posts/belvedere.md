@@ -1,12 +1,14 @@
 ---
 title: ""
-description: "Rear view belvedere"
+description: "Short poems"
 publishDate: "24 Aug 2025"
 tags: ["english", "poem", "literature"]
 updatedDate: 20 August 2026
 pinned: false
 ---
 
+
+### Rear view belvedere
 
 Beauty lingers longer than the remnants
 It haunts the eye and breath of those who rest decayed
@@ -30,3 +32,16 @@ Than, in the change of a portrait,
 To lose the one you loved.
 
 I’ll stick to what I’ve always done.
+
+### Progress is never joy
+
+Like a dog outrunning its tail
+Convincing itself
+The bite doesn’t hurt.
+
+### Eat the Sun
+
+For some sunflowers strive at night,
+In stargazing.
+
+
