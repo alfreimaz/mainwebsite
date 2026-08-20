@@ -1,6 +1,6 @@
 ---
-title: ""
-description: "Short poems"
+title: "Short poems"
+description: "Short poems in english"
 publishDate: "24 Aug 2025"
 tags: ["english", "poem", "literature"]
 updatedDate: 20 August 2026
