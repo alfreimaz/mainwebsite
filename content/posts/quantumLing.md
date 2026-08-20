@@ -133,12 +133,12 @@ lap* and *file*. Each one of those words is ambiguous. We index their
 meanings the way described in Table 1.
 
 ::: {#tab:placeholder}
-   word      meaning 0      meaning 1
-  ------- ---------------- -----------
-   coach   sports trainer      bus
-   boxer      athlete       dog breed
-    lap         run           drink
-   file       document      smoothen
+   word  |    meaning 0    |  meaning 1
+  -------| ----------------| -----------
+   coach |  sports trainer |     bus
+   boxer |     athlete     |  dog breed
+    lap  |       run       |    drink
+   file  |     document    |  smoothen
 
   : Sample of ambiguities
 :::
@@ -157,12 +157,12 @@ Abramsky's work, see [@abramsky], who summarised the criteria each type
 must obtain[^7].
 
 ::: {#tab:placeholder}
-   noun    verb   (0,0)   (0,1)   (1,0)   (1,1)
-  ------- ------ ------- ------- ------- -------
-   coach   lap    **1**   **1**   **1**   **0**
-   coach   file   **1**   **1**   **0**   **0**
-   boxer   lap    **1**   **1**   **1**   **1**
-   boxer   file   **1**   **1**   **0**   **0**
+   noun  |  verb  | (0,0) |  (0,1) |  (1,0) |  (1,1)
+  -------| ------ |-------| -------| -------| -------
+   coach |  lap   | **1** |  **1** |  **1** |  **0**
+   coach |  file  | **1** |  **1** |  **0** |  **0**
+   boxer |  lap   | **1** |  **1** |  **1** |  **1**
+   boxer |  file  | **1** |  **1** |  **0** |  **0**
 
   : Possibilistic combinations
 :::
@@ -234,12 +234,12 @@ reading, we now know the ratio between interpretations of a single
 pairing[^13].
 
 ::: {#tab:placeholder}
-   noun    verb   (0,0)   (0,1)   (1,0)   (1,1)
-  ------- ------ ------- ------- ------- -------
-   coach   lap    2/11    7/11    2/11    **0**
-   coach   file   43/44   1/44    **0**   **0**
-   boxer   lap    11/53   22/53   8/53    12/53
-   boxer   file   35/54   19/54   **0**   **0**
+   noun  |  verb |  (0,0) |  (0,1) |  (1,0) |  (1,1)
+  -------| ------| -------| -------| -------| -------
+   coach |  lap  |  2/11  |  7/11  |  2/11  |  **0**
+   coach |  file |  43/44 |  1/44  |  **0** |  **0**
+   boxer |  lap  |  11/53 |  22/53 |  8/53  |  12/53
+   boxer |  file |  35/54 |  19/54 |  **0** |  **0**
 
   : Probabilistic combinations
 :::
