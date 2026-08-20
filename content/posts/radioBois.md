@@ -1,5 +1,5 @@
 ---
-title: "Chronique sur la langue de bois"
+title: "Chronique radio sur la langue de bois"
 description: "Chronique radio chez Fréquence Banane"
 publishDate: "4 Mar 2023"
 tags: ["french", "radio", "opinion", "social", "politics"]
