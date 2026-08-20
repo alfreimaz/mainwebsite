@@ -33,11 +33,13 @@ const latestNotes = allNotes
 
 <PageLayout meta={{ title: "Prologue" }}>
 	<section>
-		<h1 class="title mb-12">Prologue</h1>
+		<div class="heading-row">
+  <h1 class="title">Prologue</h1>
 
-<p id="clickable-text" class="clickable-text">
-  <u>fran&ccedil;ais</u> - english
-</p>
+  <p id="clickable-text" class="clickable-text">
+    <u>fran&ccedil;ais</u> - english
+  </p>
+</div>
 
 <script>
   const messages = [
@@ -92,6 +94,17 @@ if (jokeText) {
   .clickable-text {
     cursor: pointer;
   }
+.heading-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin-bottom: 3rem;
+}
+
+.clickable-text {
+  cursor: pointer;
+  margin: 0;
+}
 </style>
 <div class="prose prose-sm prose-cactus max-w-none">
 <center><Image src={face} alt="alex" layout='constrained' width={200} height={300}/>
