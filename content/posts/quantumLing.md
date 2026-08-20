@@ -258,13 +258,13 @@ in table, minus 1, for the system to be classically explainable, given
 any particular set of formulas. Contextuality is ensured when the
 inequality fails. Here, given our example, are the formulas one might
 consider: <br>
-$\varphi_1 &= (coach\rightarrow 1 \land lap\rightarrow 1)
+$\varphi_1 = (coach\rightarrow 1 \land lap\rightarrow 1)
 \vee (coach\rightarrow 0 \land lap\rightarrow 0)$ <br>
-$\varphi_2 &= (coach\rightarrow 1 \land file\rightarrow 1)
+$\varphi_2 = (coach\rightarrow 1 \land file\rightarrow 1)
 \vee (coach\rightarrow 0 \land file\rightarrow 0)$ <br>
-$\varphi_3 &= (boxer\rightarrow 1 \land lap\rightarrow 1)
+$\varphi_3 = (boxer\rightarrow 1 \land lap\rightarrow 1)
 \vee (boxer\rightarrow 0 \land lap\rightarrow 0)$ <br>
-$\varphi_4 &= (boxer\rightarrow 0 \land file\rightarrow 1)
+$\varphi_4 = (boxer\rightarrow 0 \land file\rightarrow 1)
 \vee (boxer\rightarrow 1 \land file\rightarrow 0)$
 
 
