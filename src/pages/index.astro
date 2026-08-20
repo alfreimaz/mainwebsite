@@ -53,6 +53,7 @@ const latestNotes = allNotes
 </div>
 
 <script>
+const otherText = document.getElementById("other-text");
 const branchSrc = otherText?.dataset.branchSrc;
 
   const messages = [
@@ -101,7 +102,6 @@ const otherMessages = [
   let index = 0;
 
   const clickableText = document.getElementById("clickable-text");
-  const otherText = document.getElementById("other-text");
   const jokeText = document.getElementById("funny-joke");
 
   clickableText?.addEventListener("click", () => {
