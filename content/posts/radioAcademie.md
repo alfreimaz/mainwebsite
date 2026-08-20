@@ -2,7 +2,7 @@
 title: "Chronique sur l'Académie Française"
 description: "Chronique radio chez Fréquence Banane"
 publishDate: "3 May 2023"
-tags: ["french", "radio", "linguistic", "opinion"]
+tags: ["french", "radio", "linguistic", "opinion", "politics"]
 updatedDate: 20 August 2026
 pinned: false
 ---
