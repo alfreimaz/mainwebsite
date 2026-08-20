@@ -1,10 +1,10 @@
 ---
 title: "En partant vers le Sud"
-description: "En partant vers le Sud"
-publishDate: "3 May 2023"
+description: "En partant vers le Sud extrait"
+publishDate: "14 Feb 2024"
 tags: ["french", "philosophy", "literature", "theater"]
 updatedDate: 20 August 2026
-pinned: false
+pinned: true
 ---
 
 
@@ -112,6 +112,8 @@ Une heure passe, puis d’autres suivent, non sans leurs entailles. Les palais s
 Fluide, les corps désarticulés, esquivant les lances du guetteur perpétuel, pour qui la nuit promeut clémence et non repos, le Soleil lorgnant sans cesse depuis son horizon, on se fraie un chemin le long du véhicule, raclant les dernières gouttes tièdes des parois en vue de ne laisser au désert avide que la ferraille sans sa rouille promise, se gardant bien de le recommander aux autres. Guidé par ce mouvement de danse, aussitôt le pas fini, on se retrouve les trois debout devant l’arrière de la voiture éventrée, à l’armature osseuse fracassée pareille à une implosion qui aurait eu la décence de ne pas projeter les tripes. Pas de sang. Une vue propre et horrible. Parfum infect. Celle du mort rassis à la curiosité morbide. La cage thoracique déchirée, maintenue en place par le frêle cordon ombilical au vœu de cacher la chair putréfiée. Un chirurgien se décide et s’avance pour arracher le fil, sans scalpel, dévoilant soudain aux lumières noires le cœur battant du cadavre. Le fœtus gît là, frappé de plein fouet par le Soleil endormi, brûlé vif dès sa naissance par l’observation, la bouche ouverte, de laquelle ne s’échappe pourtant aucun bruit. Des barreaux ivoires limés en canines. Comme des sangsues, deux paires d’yeux se fixent sur lui, la mienne l’évite, écœurée ou repue. Je tourne les talons, à mon tour sous les regards. Finalement, ils ne disent rien. Ils font bien, je ne saurais pas quoi leur rétorquer. Mais que dis-je ? je suis mort, je ne peux de toute façon plus parler.
 
 Le Soleil ne se taira pas, lui, et je l’imagine déjà insister, répétant encore et encore ses questions dans un espoir sadique d’en arracher une quelconque réponse. Un tortionnaire curieux qui dépèce et décharne os par os pour décider de qui nous sommes, soumis sous les sabres, une lame à chaque reflet, rasant les dermes échappés au cimetière en suivant la colonne par ses pointillés. On brûle sous le Soleil, et on est encore si loin du Sud. Un pas traîné me dirige vers la boîte à gants dont j’arrache, apathique, les quelques boyaux en cordes. Je les enroule autour de mon cou et de celui de ma dépouille (afin de garder les mains libres). Le nœud se doit de rester ample, large, que je puisse respirer. Mon scaphandre m’éborgne. Je serai le deuxième à parler.  
+
+**Fin du premier chapître. Si la suite vous intéresse, contactez-moi (surtout si vous êtes éditeurice °v°) **
 
 
 
