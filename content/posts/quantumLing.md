@@ -180,7 +180,7 @@ check that the cases corresponding to
 $(coach\rightarrow 0,lap\rightarrow 0)$,
 $(coach\rightarrow 0,file\rightarrow 0)$,
 $(boxer\rightarrow 0,lap\rightarrow 0)$ and
-$(boxer\rightarrow 0,file\rightarrow 0)$ all hold a $\textbf{1}$. On the
+$(boxer\rightarrow 0,file\rightarrow 0)$ all hold a *1*. On the
 contrary, what makes this array contextual is the impossibility of
 creating such a family containing certain attested combinations. One can
 check that the combination $(coach\rightarrow 0, lap\rightarrow1)$,
