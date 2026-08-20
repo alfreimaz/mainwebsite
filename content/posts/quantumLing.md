@@ -394,37 +394,59 @@ to claim the field dead or alive.
 
 ## References
 
-<a id="main"></a>
+<p id="main">
+Wang, Daphne, Mehrnoosh Sadrzadeh, Samson Abramsky, and Víctor H. Cervantes.
+<strong>“On the Quantum-like Contextuality of Ambiguous Phrases.”</strong>
+<em>CoRR</em>, 2021.
+<a href="https://arxiv.org/abs/2107.14589">arXiv:2107.14589</a>.
+</p>
 
-- Wang, Daphne, Mehrnoosh Sadrzadeh, Samson Abramsky, and Víctor H. Cervantes. **“On the Quantum-like Contextuality of Ambiguous Phrases.”** *CoRR*, 2021. [arXiv:2107.14589](https://arxiv.org/abs/2107.14589).
+<p id="abramsky">
+Abramsky, Samson.
+<strong>“Contextuality: At the Borders of Paradox.”</strong>
+2020.
+<a href="https://arxiv.org/abs/2011.04899">arXiv:2011.04899</a>.
+</p>
 
-<a id="abramsky"></a>
+<p id="vectors">
+Schütze, Hinrich.
+<strong>“Automatic Word Sense Discrimination.”</strong>
+<em>Computational Linguistics</em> 24, no. 1 (1998): 97–123.
+</p>
 
-- Abramsky, Samson. **“Contextuality: At the Borders of Paradox.”** 2020. [arXiv:2011.04899](https://arxiv.org/abs/2011.04899).
+<p id="cbd">
+Dzhafarov, Ehtibar N., and Janne V. Kujala.
+<strong>“Context–Content Systems of Random Variables: The Contextuality-by-Default Theory.”</strong>
+<em>Journal of Mathematical Psychology</em> 74 (2016): 11–33.
+<a href="https://doi.org/10.1016/j.jmp.2016.04.010">doi:10.1016/j.jmp.2016.04.010</a>.
+</p>
 
-<a id="vectors"></a>
+<p id="poly">
+Wang, Daphne, Mehrnoosh Sadrzadeh, Samson Abramsky, and Víctor H. Cervantes.
+<strong>“Analysing Ambiguous Nouns and Verbs with Quantum Contextuality Tools.”</strong>
+2021.
+<a href="https://discovery.ucl.ac.uk/id/eprint/10146180/1/JCogSci.pdf">UCL repository</a>.
+</p>
 
-- Schütze, Hinrich. **“Automatic Word Sense Discrimination.”** *Computational Linguistics* 24, no. 1 (1998): 97–123.
+<p id="vague">
+Aerts, Diederik, Liane Gabora, and Sandro Sozzo.
+<strong>“Concepts and Their Dynamics: A Quantum-Theoretic Modeling of Human Thought.”</strong>
+<em>Topics in Cognitive Science</em> 5, no. 4 (2013): 737–772.
+<a href="https://doi.org/10.1111/tops.12042">doi:10.1111/tops.12042</a>.
+</p>
 
-<a id="cbd"></a>
+<p id="buzzword">
+<strong>“The Heart of Quantum Linguistics.”</strong>
+</p>
 
-- Dzhafarov, Ehtibar N., and Janne V. Kujala. **“Context–Content Systems of Random Variables: The Contextuality-by-Default Theory.”** *Journal of Mathematical Psychology* 74 (2016): 11–33. [DOI](https://doi.org/10.1016/j.jmp.2016.04.010).
+<p id="hard">
+Piedeleu, Robin, Dimitri Kartsaklis, Bob Coecke, and Mehrnoosh Sadrzadeh.
+<strong>“Open System Categorical Quantum Semantics in Natural Language Processing.”</strong>
+2015.
+<a href="https://arxiv.org/abs/1502.00831">arXiv:1502.00831</a>.
+</p>
 
-<a id="poly"></a>
-
-- Wang, Daphne, Mehrnoosh Sadrzadeh, Samson Abramsky, and Víctor H. Cervantes. **“Analysing Ambiguous Nouns and Verbs with Quantum Contextuality Tools.”** 2021. [UCL repository](https://discovery.ucl.ac.uk/id/eprint/10146180/1/JCogSci.pdf).
-
-<a id="vague"></a>
-
-- Aerts, Diederik, Liane Gabora, and Sandro Sozzo. **“Concepts and Their Dynamics: A Quantum-Theoretic Modeling of Human Thought.”** *Topics in Cognitive Science* 5, no. 4 (2013): 737–772. [DOI](https://doi.org/10.1111/tops.12042).
-
-<a id="buzzword"></a>
-
-- **“The Heart of Quantum Linguistics.”**
-
-<a id="hard"></a>
-
-- Piedeleu, Robin, Dimitri Kartsaklis, Bob Coecke, and Mehrnoosh Sadrzadeh. **“Open System Categorical Quantum Semantics in Natural Language Processing.”** 2015. [arXiv:1502.00831](https://arxiv.org/abs/1502.00831).
+<div style="height: 50vh;"></div>
 
 [^1]: Although some have used the distributional framework for
     disambiguation, see [@vectors].
