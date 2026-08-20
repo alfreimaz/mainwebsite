@@ -9,7 +9,7 @@ pinned: false
 
 *Note: for the published version of this article was accidentally its first draft, what follows may slightly differ from the printed text.*
 
-### Debates as logic, an introduction
+## Debates as logic, an introduction
 
 When defining a logical system, amongst other things, we define axioms and inference rules. From the application of the latter to the first, we aim to prove validity of statements in that logical framework, the holy grail of that process, the true goal of that ultimate quest, being the sanctified tautology, a statement true in itself (although bound by the system, but not dependent on any other), a stable result, unquestionable. The parallel between this structure and that of an argument, taken in the sense of a discussion, could not be clearer: speakers argue for certain ideas (their axioms) to be considered, and, through applications of inference rules to that newly found common ground, both sides aim for the tautology, a statement the other cannot refuse, a conclusion going their way. Then, of course, the meat, the heart, of the debate truly is the vivid game of “attacking” and “defending” one’s axioms, done through evocation of counterexamples, meta-proofs of contradiction, so on and so forth. But why is it then that so many debaters focus on the inference rules instead?
 
@@ -17,11 +17,11 @@ Indeed, a great amount of discourse, notably coming from contrarians, seems not 
 
 I present here my (though very surface-level) understanding of that phenomenon, argue for a looser, non-formal, understanding of what a debate is and tell you why I believe such a behaviour to be dangerous to discussions as a whole.
 
-### Logic of debates, the double discourse
+## Logic of debates, the double discourse
 
 First of all, let us consider that formal logic parable once again. I argue this focus on structure misses the point of real debate. In a previous essay (although written in godforsaken French), I considered a list of characteristics any interaction must obtain for them to earn that title. Most of these criteria are irrelevant to our matter, but one of them is essential for us: debaters address a double discourse, directed towards both their opponent, explicitly, and the audience, implicitly, attempting to convince the latter. Notice how the opponent can also themselves be part of the audience, making cases of debates behind closed doors still compatible with that criterion. I have to say, however, that this partial definition is not ideal, but practical: it helps characterise what many debates end up nowadays going for. Listen to any political roundtable, for instance; for people represent parties and ideas, they are not themselves allowed to concede to adverse arguments, and thus often end up playing deaf. Therefore, the debate cannot be happening with the goal for them to change their minds. Crucially, this results in this double discourse being unbalanced, of a split nature. Same words, yet different aim for different ears. Debate between opponents is more akin to a demonstration, a sterile play, rather than an actual discussion, of which the real point is to convince the audience, whom the words will indirectly reach.
 
-### Logic in debates, inferences above all
+## Logic in debates, inferences above all
 
 But convincing the audience of what? Suppose there is an election, with two parties, the “Classicalists” and the “Intuitionists”. Classicalists could either try to convince the audience of accepting its axioms or rejecting the ones Intuitionists argue for. But, there is another more insidious option: presenting the Intuitionists’ narrative, i.e. argumentation, as unreasonable, contradictory, illogical. And, to do so, Classicalists would not aim for the throat of axioms Intuitionists defend anymore. Their goal would instead be to show that the inference rules Intuitionists apply to said axioms are invalid. The double discourse crucially still obtains: the Classicalist obviously are not trying to guide Intuitionists to better talking points. Rather, they are addressing the audience, leading them to be more sceptical and making Intuitionists appear unstable. Soon, questions from the audience will follow: yes, I may agree with their premises, but how can I be sure they will derive the right conclusion from them? What good is there in someone defending what I believe in if they do wrong with it? Do they even truly believe what they say, it doesn’t look like they fully grasp it?
 
@@ -33,7 +33,7 @@ One of the consequences of this meta-ification of debates is that they become fa
 
 All that being said, what possible view, or definition, of debate could help us avoid those issues? Well, a first approach would be to focus on what participants argue for. Notably, in our previous account, there is nothing stopping us from considering a debate between two participants holding the same world view. As long as they argue and try to convince, it would still be a debate, and for they might never criticise the other’s position (as it is their own), no contradiction would blatantly appear. But this intuitively doesn’t feel like “real” debate. Our definition, then at least cannot be complete. I believe it is thus essential to keep in mind what participants defend (even implicitly), and requiring they do actually defend something, not just attack, to grow healthy debates, and, as a plus, avoid unnecessary ones, the likes of which we just mentioned.
 
-### Debate and logic, an attempted conclusion
+## Debate and logic, an attempted conclusion
 
 In the end, sometimes, the better definition is the simplest, the most intuitive one. Even though it might be devoid of a bullet-proof logical structure, it still is what someone might initially believe in. Can those play-like discussions really claim the title of debate? “Language”, “being”, “progress”, “disease”, “the self”, and many more simple notions, all seemingly impossible to define, yet of which we seem to have a never-failing intuition. Why not add “debate” to that list? And why not process them with that same intrinsic feeling?
 
