@@ -2,7 +2,7 @@
 title: "Opinion: logical rhetoric makes illogical debates"
 description: "Illogician 2026i article"
 publishDate: "23 Feb 2026"
-tags: ["english", "logic", "philosophy","social","opinion"]
+tags: ["english", "logic", "philosophy","social","opinion","politics"]
 updatedDate: 20 August 2026
 pinned: false
 ---
