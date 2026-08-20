@@ -11,108 +11,109 @@ const meta = {
 
 <PageLayout meta={meta}>
 	<h1 class="title mb-12">A propos / about</h1>
-	::: {style="background-color: cvblue"}
-:::
-
-::: {style="background-color: cvblue!90"}
-Alexandre **[Mazuir]{.smallcaps}**
-
-![image](photo.png){width="100%"}
-
-[**Profile**]{.smallcaps}
-
-International philosophy student whose main interest is research on
-mathematical formal logic. Passionate and actively engaged in student
-associations.
-
-[**Contact details**]{.smallcaps}
-
- alexandre.mazuir@student.uva.nl\
-\
- +31 6 1121 3797\
- 77 Fraijlemaborg, 1102 CR Amsterdam, Netherlands
-
-[**Personal information**]{.smallcaps}
-
-Citizenship: **Swiss/French**\
-Family: **Single without children**\
-Languages: **French** (Native), **English** (C2), **German** (B2),
-**Dutch** (A1)
-
-May 2026
-:::
-
-[Experience]{.smallcaps}
-
-[Teaching and research auxiliary]{.smallcaps} at *Université de Genève
-(Switzerland)* **2024 - 2025**\
-$\diamond$ Helped co-animate logic bachelor classes at the philosophy
-and computer science departments, answered student questions, corrected
-exercises
-
-[Technical supervisor and trainer]{.smallcaps} at *Fréquence Banane
-(Switzerland)* **2022 - 2025**\
-$\diamond$ Managed the technical infrastructure of the radio, trained
-new members in starting their own shows, getting used to the equipment
-and respecting on air regulations, held voice-training masterclasses,
-hosted podcasts
-
-[Camp monitor]{.smallcaps} at *Ecole Secondaire de Terre-Sainte
-(Switzerland)* **2024**\
-$\diamond$ Accompanied and watched over multiple teen classes on field
-trips, encouraged clear and positive communication
-
-[Usher and customer reception attendant]{.smallcaps} at *Opéra de
-Lausanne (Switzerland)* **2022 - 2023**\
-$\diamond$ Helped, advertised to and informed customers of building
-policies and general attendance rules, handled complaints
-
-[Dishwasher]{.smallcaps} at *Auberge du Lion d'Or (Switzerland)*
-**2022**\
-$\diamond$ Single dishwasher, handled the pressure and supported the
-team, sometimes helped the chefs
-
-[Benevolent teaching aid]{.smallcaps} at *Sheldon School (United
-Kingdom)* **2018**\
-$\diamond$ Assisted teachers in giving GCSE English classes
-
-[Education]{.smallcaps}
-
-[Master of Logic.]{.smallcaps} Institute of Logic, Language and
-Computation. *Universiteit van Amsterdam*. **2025 - current**\
-$\diamond$ Interdisciplinary work between philosophy, linguistics,
-mathematics and computer science focused on clear reasoning
-
-[Bachelor of Arts in Philosophy and Linguistics.]{.smallcaps} Faculté
-des Lettres. *Université de Genève*. **2022 - 2025**\
-$\diamond$ Analytical philosophy and formal linguistics, attended summer
-schools in Serbia (2023) and Germany (2025)
-
-[Student Associations]{.smallcaps}
-
-[Illogician]{.smallcaps} *Universiteit van Amsterdam*
-**2025 - current**\
-$\diamond$ Peer reviews submitted papers
-
-[Fréquence Banane]{.smallcaps} *Université de Genève* **2022-2025**\
-$\diamond$ Managed band interviews, social gatherings and 12h live shows
-
-[Æling]{.smallcaps} *Université de Genève* **2024 - 2025**\
-$\diamond$ President of the association for students of linguistics
-
-[Laituge (& Bouture)]{.smallcaps} *Université de Genève*
-**2024 - "current\"**\
-$\diamond$ Performed improvised theater in Switzerland and France,
-helped and handled spectators otherwise, self-trained subsidiary
-improvisation team
-
-[Hobbies]{.smallcaps}
-
-*Music:* composing, playing guitar, bass, drums, keyboard, singing.
-
-*Writing:* playwriting, poetry, opinion pieces.
-
-*Miscellaneous:* mathematics competitions, improvisation, game design,
-graphic design, cooking, fitness, bouldering.
+	<p class="mb-3">% !TeX spellcheck = en_GB
+% !TeX program = pdflatex
+%
+% LuxSleek-CV 1.1 LaTeX template
+% Author: Andreï V. Kostyrka, University of Luxembourg
+%
+% 1.1: added tracking and letter-spacing for prettier lower caps, added `~` for language levels
+% 1.0: initial release
+%
+% This template fills the gap in the available variety of templates
+% by proposing something that is not a custom class, not using any
+% hard-coded settings deeply hidden in style files, and provides
+% a handful of custom command definitions that are as transparent as it gets.
+% Developed at the University of Luxembourg.
+%
+% *NOTHING IS HARCODED, and never should be.*
+%
+% Target audience: applicants in the IT industry, or business in general
+%
+% The main strength of this template is, it explicitly showcases how
+% to break the flow of text to achieve the most flexible right alignment
+% of dates for multiple configurations.</p><p class="mb-3">     % We are using pdfLaTeX,
+  % hence this preparation</p><p class="mb-3">        % To insert pictures
+          % To add colour to the document
+        % Provides icons for the contact details</p><p class="mb-3">        % To redefine spacing in lists
+\setlist{parsep = 0pt, topsep = 0pt, partopsep = 1pt, itemsep = 1pt, leftmargin = 6mm}</p><p class="mb-3">        % Change this to use any font, but keep it simple
+\renewcommand{\familydefault}{\sfdefault}</p><p class="mb-3">\definecolor{cvblue}{HTML}{964A72}</p><p class="mb-3">%%%%%%% USER COMMAND DEFINITIONS %%%%%%%%%%%%%%%%%%%%%%%%%%%
+% These are the real workhorses of this template
+\newcommand{\dates}[1]{\hfill\mbox{<strong class="font-bold">#1</strong>}} % Bold stuff that doesn’t got broken into lines
+\newcommand{\is}{\par\vskip.5ex plus .4ex} % Item spacing
+\newcommand{\smaller}[1]{{\small<span class="px-1 py-0.5 bg-slate-50 rounded">\(\diamond\)</span>\ #1}}
+\newcommand{\headleft}[1]{\vspace*{3ex}\textsc{<strong class="font-bold">#1</strong>}\par%
+    \vspace*{-1.5ex}\hrulefill\par\vspace*{0.7ex}}
+\newcommand{\headright}[1]{\vspace*{2.5ex}\textsc{\Large\color{cvblue}#1}\par%
+     \vspace*{-2ex}{\color{cvblue}\hrulefill}\par}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%</p><p class="mb-3"><article class="latex-document"></p><p class="mb-3">% Style definitions -- killing the unnecessary space and adding the skips explicitly
+\setlength{\topskip}{0pt}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0pt}
+\setlength{\fboxsep}{0pt}
+\pagestyle{empty}
+\raggedbottom</p><p class="mb-3">\begin{minipage}[t]{0.33\textwidth} %% Left column -- outer definition
+%  Left column -- top dark rectangle
+\colorbox{cvblue}{\begin{minipage}[t][5mm][t]{\textwidth}\null\hfill\null\end{minipage}}</p><p class="mb-3">\vspace{-.2ex} % Eliminates the small gap
+\colorbox{cvblue!90}{\color{white}  %% LEFT BOX
+\kern0.09\textwidth\relax% Left margin provided explicitly
+\begin{minipage}[t][293mm][t]{0.82\textwidth}
+\raggedright
+\vspace*{2.5ex}</p><p class="mb-3">\Large Alexandre <strong class="font-bold">\textsc{Mazuir</strong>} \normalsize </p><p class="mb-3">% Centering without extra vertical spacing
+\null\hfill\includegraphics[width=1\textwidth]{photo.png}\hfill\null</p><p class="mb-3">\vspace*{0.5ex} % Extra space after the picture</p><p class="mb-3">\headleft{Profile}
+International philosophy student whose main interest is research on mathematical formal logic. Passionate and actively engaged in student associations.</p><p class="mb-3">\headleft{Contact details}
+\small % To fit more content
+\MVAt\ {\small alexandre.mazuir@student.uva.nl \\} \\[0.4ex]
+\Mobilefone\ +31\,6\,1121\,3797 \\[0.5ex]
+\Letter\ 77 Fraijlemaborg, 1102 CR Amsterdam, Netherlands
+\normalsize</p><p class="mb-3">\headleft{Personal information}
+%Year of birth: <strong class="font-bold">1861</strong> \\[0.5ex]
+Citizenship: <strong class="font-bold">Swiss/French</strong> \\[0.5ex]
+Family: <strong class="font-bold">Single without children</strong> \\[0.5ex]
+Languages: <strong class="font-bold">French</strong>~(Native), <strong class="font-bold">English</strong>~(C2), <strong class="font-bold">German</strong>~(B2), <strong class="font-bold">Dutch</strong>~(A1)</p><p class="mb-3">%\headleft{Skills}
+%<ul class="mb-4"><li class="mb-1 ml-4 list-disc">%</li><li class="mb-1 ml-4 list-disc">Python, SQL, PySpark
+%</li><li class="mb-1 ml-4 list-disc">R, Matlab, Azure Databricks
+%</li><li class="mb-1 ml-4 list-disc">MS Word, Excel, PowerPoint
+%</li><li class="mb-1 ml-4 list-disc">Communication and team collaboration
+%</li></ul> 
+\vfil
+\vfil
+\vfil
+\vfil
+\vfil
+\vfil
+\vfil
+\vfil
+May 2026</p><p class="mb-3">\end{minipage}%
+\kern0.09\textwidth\relax%%Right margin provided explicitly to stretch the colourbox
+}
+\end{minipage}% Right column
+\hskip2.5em% Left margin for the white area
+\begin{minipage}[t]{0.56\textwidth}
+\setlength{\parskip}{0.8ex}% Adds spaces between paragraphs; use \\ to add new lines without this space. Shrink this amount to fit more data vertically</p><p class="mb-3">\vspace{2ex}</p><p class="mb-3">\headright{Experience}</p><p class="mb-3">\textsc{Teaching and research auxiliary} at <em class="italic">Université de Genève (Switzerland)</em>  \dates{2024 - 2025} \\
+\smaller{Helped co-animate logic bachelor classes at the philosophy and computer science departments, answered student questions, corrected exercises}</p><p class="mb-3">\textsc{Technical supervisor and trainer} at <em class="italic">Fréquence Banane (Switzerland)</em>  \dates{2022 - 2025} \\
+\smaller{Managed the technical infrastructure of the radio, trained new members in starting their own shows, getting used to the equipment and respecting on air regulations, held voice-training masterclasses, hosted podcasts }</p><p class="mb-3">\is % Item spacing -- defined in the preamble
+\textsc{Camp monitor} at <em class="italic">Ecole Secondaire de Terre-Sainte (Switzerland)</em>  \dates{2024} \\
+\smaller{Accompanied and watched over multiple teen classes on field trips, encouraged clear and positive communication}</p><p class="mb-3">\is % Item spacing -- defined in the preamble
+\textsc{Usher and customer reception attendant} at <em class="italic">Opéra de Lausanne (Switzerland)</em>  \dates{2022 - 2023} \\
+\smaller{Helped, advertised to and informed customers of building policies and general attendance rules, handled complaints}</p><p class="mb-3">\is % Item spacing -- defined in the preamble
+\textsc{Dishwasher} at <em class="italic">Auberge du Lion d'Or (Switzerland)</em>  \dates{2022} \\
+\smaller{Single dishwasher, handled the pressure and supported the team, sometimes helped the chefs}</p><p class="mb-3">\is % Item spacing -- defined in the preamble
+\textsc{Benevolent teaching aid} at <em class="italic">Sheldon School (United Kingdom)</em>  \dates{2018} \\
+\smaller{Assisted teachers in giving GCSE English classes}</p><p class="mb-3">\headright{Education}</p><p class="mb-3">\textsc{Master of Logic.} Institute of Logic, Language and Computation. <em class="italic">Universiteit van Amsterdam</em>. \dates{2025 - current} \\
+\smaller{Interdisciplinary work between philosophy, linguistics, mathematics and computer science focused on clear reasoning}</p><p class="mb-3">\is
+\textsc{Bachelor of Arts in Philosophy and Linguistics.} Faculté des Lettres. <em class="italic">Université de Genève</em>.  \dates{2022 - 2025} \\
+\smaller{Analytical philosophy and formal linguistics, attended summer schools in Serbia (2023) and Germany (2025)}</p><p class="mb-3">\headright{Student Associations}</p><p class="mb-3">\textsc{Illogician}
+<em class="italic">Universiteit van Amsterdam</em> \dates{2025 - current} \\
+\smaller{Peer reviews submitted papers}</p><p class="mb-3">\textsc{Fréquence Banane}
+<em class="italic">Université de Genève</em> \dates{2022-2025} \\
+\smaller{Managed band interviews, social gatherings and 12h live shows}</p><p class="mb-3">\is
+\textsc{Æling}
+<em class="italic">Université de Genève</em> \dates{2024 - 2025} \\
+\smaller{President of the association for students of linguistics }</p><p class="mb-3">\is
+\textsc{Laituge (\& Bouture)}
+<em class="italic">Université de Genève</em> \dates{2024 - ``current"} \\
+\smaller{Performed improvised theater in Switzerland and France, helped and handled spectators otherwise, self-trained subsidiary improvisation team}</p><p class="mb-3">\headright{Hobbies}</p><p class="mb-3"><em class="italic">Music:</em> composing, playing guitar, bass, drums, keyboard, singing.</p><p class="mb-3"><em class="italic">Writing:</em> playwriting, poetry, opinion pieces.</p><p class="mb-3"><em class="italic">Miscellaneous:</em> mathematics competitions, improvisation, game design, graphic design, cooking, fitness, bouldering.
+\end{minipage}</p><p class="mb-3"></article></p>
 
 </PageLayout>
