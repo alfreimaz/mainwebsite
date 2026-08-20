@@ -7,6 +7,8 @@ updatedDate: 20 August 2026
 pinned: false
 ---
 
+Publié dans iPhilo 13, printemps.
+
 *Note: la date de parution est approximative.*
 
 On peut parfois se surprendre à croire la philosophie inutile. Ce serait une discipline sans intérêt pratique, qui n’amène à rien, pour de faux intellectuels qui font mine de ne pas être d’accord parmi sur des sujets qu’eux-mêmes n’ont jamais vraiment su comprendre, si tant est que leurs précurseurs aient eu une seule idée explorable pour commencer. Ce serait une perte de temps, d’énergie, de financement, pour des recherches trop occupées à être absurdement précises sur des questions que personne ne se pose et qui ne feraient rien avancer. On peut parfois s’y surprendre. Et puis, un jour, on scroll insta et on réalise par un seul meme(1) ce qui nous a mené ici : au diable l’utilité quand il y a l’intérêt et l’obsession. Aujourd’hui, j’aimerais par ces pages explorer une expérience de pensée qui me traîne dans la tête jours et nuits depuis que j’ai pu la voir, un scénario qui combine éthique, paris, microtrottoirs et tramway : « *Would you kill 1 person or double it and give it to the next person ?* ».
