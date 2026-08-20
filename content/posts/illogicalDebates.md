@@ -1,13 +1,13 @@
 ---
 title: "Opinion: logical rhetoric makes illogical debates"
 description: "Illogician article (edited version)"
-publishDate: "11 Oct 2023"
+publishDate: "23 Feb 2026"
 tags: ["webmentions", "astro", "social"]
-updatedDate: 6 December 2026
+updatedDate: 20 August 2026
 pinned: false
 ---
 
-*Note, for the published version of this article was accidentally its first draft, what follows may slightly differ from the printed text.*
+*Note: for the published version of this article was accidentally its first draft, what follows may slightly differ from the printed text.*
 
 ### Debates as logic, an introduction
 
