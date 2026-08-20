@@ -10,6 +10,7 @@ import { Image } from 'astro:assets';
 import face2cut from '../assets/face2cut.jpg';
 import branch from '../assets/branch.png';
 import eye from '../assets/eye.png';
+import wow from '../assets/wow.png';
 
 // Posts
 const MAX_POSTS = 10;
@@ -36,7 +37,15 @@ const latestNotes = allNotes
 <PageLayout meta={{ title: "Prologue" }}>
 	<section>
 		<div class="heading-row">
-  <h1 class="title">Prologue</h1>
+  <h1 class="title">Prologue
+<Image
+    src={wow}
+    alt="sparkles"
+    width={10}
+    height={23}
+    class="inline-block align-bottom"
+  />
+</h1>
 
   <p id="clickable-text" class="clickable-text">
     <u>fran&ccedil;ais</u> - english
