@@ -51,7 +51,7 @@ const latestNotes = allNotes
 
   text?.addEventListener("click", () => {
     index = (index + 1) % messages.length;
-    text.textContent = messages[index]!;
+    text.innerHTML = messages[index]!;
   });
 </script>
 
