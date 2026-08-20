@@ -53,10 +53,7 @@ const latestNotes = allNotes
 
   text?.addEventListener("click", () => {
     index = (index + 1) % messages.length;
-
-    if (text) {
-      text.textContent = messages[index];
-    }
+    text.textContent = messages[index]!;
   });
 </script>
 
