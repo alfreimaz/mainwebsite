@@ -19,90 +19,92 @@ En pierre philosophale de l’aride incarné, le froid ne sort ni des fioles, ni
 
 Un lourd rayon s’écrase contre la tôle.
 
-JE 
+JE <br>
 J’ai chaud.
 
-L’AUTRE
+L’AUTRE <br>
 En voilà donc une surprise !
 
-JE (tirant du même souffle court)
+JE (tirant du même souffle court) <br>
 Surprise ou pas, j’ai chaud.
 
-L’AUTRE
+L’AUTRE<br>
 Car tu penses que nous non ?
 
 Une tension.
 
-L’HOMME (froid)	
+L’HOMME (froid)	<br>
 Ne me prends pas à partie.
+
 Il se baisse et rentre dans le champ, la main gauche hors du cadre. L’AUTRE écrase sa clope dans le sable et allume la suivante. Le goudron chaud tourne à l’amer.
 
-JE (le col tenu écarté du cou)
+JE (le col tenu écarté du cou)<br>
 Ça je ne l’ai jamais dit…
 
-L’AUTRE
+L’AUTRE<br>
 Oh ! mais mon cher, penser n’est pas dire.
 
 Il bombe la poitrine, gonflée d’une fierté au bitume.
 
-JE
+JE<br>
 D’accord, d’accord. Tu joues sur les mots.
 
-L’HOMME (à voix basse)	
+L’HOMME (à voix basse)<br>	
 Il ne fait que jouer…
 
 Une gorgée.
 
-L’AUTRE
+L’AUTRE<br>
 Et vous, vous les répétez.
 
-JE (la voix fuyante)
+JE (la voix fuyante)<br>
 Certes. (Il marque une pause) Je radote, je sais –
 
-L’AUTRE (exubérant, dramatique)
+L’AUTRE (exubérant, dramatique)<br>
 Radoter ? C’est bien pire ! On crève tous de chaud, mais au moins nous gardons notre salive intacte, sans cracher de nos têtes d’inutiles paroles ! Comment te permets-tu de gaspiller ce don du parler descendu des tiens pour n’en proférer que de courtes évidences et de longs enrayages, dans l’unique plaisir de combler ton manque privatif de confidence emportée ?
 
 La radio cherche à s’exprimer.
 
-L’HOMME
+L’HOMME<br>
 Pitié, écoute-toi un peu…
 
-JE (rieur)
+JE (rieur)<br>
 Tout ça juste pour une bête plainte ?
 
 Une ample respiration.
 
-L’AUTRE
+L’AUTRE<br>
 Bête oui, et je recommencerai ! dès que surviendront tes nouvelles idioties de chimère indécise. Donc monte garde grand et attends moi debout en chien de faïence sans faillir pour mieux défendre ton bout de viande la prochaine fois, car j’aurai les papilles en alerte prêtes à fendre sur ta foi.
 
-L’HOMME (détourné des mots)
+L’HOMME (détourné des mots)<br>
 Je me fatigue de ces joutes.
 
 L’AUTRE expire une bouchée d’air gris qui s’élève hors du cadre. Il esquisse un sourire puis le déforme en une feinte innocence, les yeux écarquillés jusqu’à les perdre, fuyant l’orbite dans le pourtour des lèvres cyniques. Les pupilles inondent.
 
-L’AUTRE
+L’AUTRE<br>
 Eh bien pars ? Prends ton envol !
-L’HOMME (le fumet lui remontant le nez)
+
+L’HOMME (le fumet lui remontant le nez)<br>
 Je reste.
 
-L’AUTRE (trappeur)
+L’AUTRE (trappeur)<br>
 Pas le choix ?
 
-L’HOMME
+L’HOMME<br>
 Que trop peu.
 
 Les sillons noirs gonflent.
 
-L’AUTRE (narquois aux tripes)
+L’AUTRE (narquois aux tripes)<br>
 Il te faudra donc nous supporter mon ami !
 
-L’HOMME
+L’HOMME<br>
 « Te » supporter.
 
-JE (d’un coup de veste)
+JE (d’un coup de veste)<br>
 S’il faut, il fera –
 
-L’AUTRE (l’œil retourné)
+L’AUTRE (l’œil retourné)<br>
 Si faux ! S’y fera qui veut bien m’écouter.
 
 Une heure passe, puis d’autres suivent, non sans leurs entailles. Les palais s’assèchent en répétitions et se raffermissent pour certains en gorgées. La fumée, elle, joue les anti-douleurs. Le début du soir approchant, le Soleil rougi finit enfin de brûler le fond de sa rage, alors que la nuit s’attelle à emplir l’air de ses ombres vacillantes. Le vent déplace les lumières et les lanternes aussi, quand elles pendent de nos doigts, le fer chaud empoigné par la hanse. Des suites de notre après-midi entière prisée de souffrance, à cramer dans un canyon abrasif, genoux à terre, on décide de s’imposer une énième douleur aux jambes : d’aller pousser dans les mollets le reste d’énergie fade que les rations militaires nous ont fournies pour partir en repérage dans les environs, sans espérer voir autre chose que du sable fin. En revanche, pas question de s’imposer un demi-tour pour reprendre nos affaires quand on aura enfin un début d’idée d’où aller. Alors chacun s’en va ramasser ses babioles : des bières chaudes, une valise, des paquets de cartes, de cigarettes encore crues, et tutti quanti. On évide la carcasse de sa prose par grands gestes. Toutefois, je redoute un moment : celui où on ouvrira le coffre. Enfin, « on » … Soyons réalistes ! Plutôt eux. J’aurais beaucoup trop honte pour l’ouvrir moi-même. Déjà qu’il me faudra le tirer au bout d’une corde. Que faire d’autre ? le porter dans mes bras ? et lui taper la discussion ? ou le laisser me porter sinon ? Tout sauf le recracher derrière nous, prématuré. Je dois d’abord choisir, mais comment ? Ils me diraient que j’ai l’habitude, qu’il me suffit de fermer les yeux et de nier.
