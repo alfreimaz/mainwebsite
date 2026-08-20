@@ -1,7 +1,11 @@
 ---
-title: 2nd one
-description: An introduction to using the note feature in Astro Cactus
-publishDate: "2026-10-14T11:23:00Z"
+title: Inauguration
+description: Bienvenue en l'an 1
+publishDate: "2026-08-20T11:56:00Z"
 ---
 
-This one I added myself
+Mon site marche.
+
+Yippie.
+
+>:3
