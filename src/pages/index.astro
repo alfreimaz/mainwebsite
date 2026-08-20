@@ -12,8 +12,6 @@ import branch from '../assets/branch.png';
 import eyeribs from '../assets/eyeribs.png';
 import wow from '../assets/wow.png';
 
-const branchSrc = branch.src;
-
 // Posts
 const MAX_POSTS = 10;
 const allPosts = await getAllPosts();
@@ -55,6 +53,8 @@ const latestNotes = allNotes
 </div>
 
 <script>
+const branchSrc = branch.src;
+
   const messages = [
     "<u>fran&ccedil;ais</u> - english",
     "fran&ccedil;ais - <u>english</u>"
