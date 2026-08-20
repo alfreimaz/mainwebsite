@@ -53,7 +53,7 @@ const latestNotes = allNotes
 </div>
 
 <script>
-const branchSrc = branch.src;
+const branchSrc = otherText?.dataset.branchSrc;
 
   const messages = [
     "<u>fran&ccedil;ais</u> - english",
@@ -144,7 +144,11 @@ if (jokeText) {
 <p id="funny-joke"> pas encore chauve, circa d&eacute;but 2026 <br />&nbsp; &nbsp;&nbsp;</p>
 </center>
 </div>
-		<div id="other-text" class="prose prose-sm prose-cactus max-w-none">
+		<div
+  id="other-text"
+  class="prose prose-sm prose-cactus max-w-none"
+  data-branch-src={branch.src}
+>
     <p>Bienvenue ! Je m'appelle <i>Alexandre Freiburghaus Mazuir</i>, mais appelez-moi juste <b>alex</b> &ccedil;a ira plus vite. Je suis &eacute;tudiant en master de logique (MoL) &agrave; l'universit&eacute; d'Amsterdam (UvA), sp&eacute;cialis&eacute; en logique philosophique, linguistique et/ou math&eacute;matique. Sur ce site, vous retrouverez les diff&eacute;rents articles que j'ai pu &eacute;crire (du moins ceux que je trouve pr&eacute;sentables), ainsi que d'autres projets qui n'ont rien &agrave; voir avec le milieu acad&eacute;mique, qu'ils soient musicaux, litt&eacute;raires, ou autre. Je vous souhaite une bonne visite, et vous invite &agrave; aussi passer voir ce que vous n'&eacute;tiez pas venu.e chercher ! :)) </p>
     <p>Si je devais vous recommander par quoi commencer, je dirais :</p>
 		<ul class="list-inside list-disc" role="list">
