@@ -35,6 +35,37 @@ const latestNotes = allNotes
 	<section>
 		<h1 class="title mb-12">Prologue</h1>
     <SocialList />
+
+<p id="clickable-text" class="clickable-text">
+  Hello World!
+</p>
+
+<script>
+  const messages = [
+    "Hello World!",
+    "Nice to meet you.",
+    "Thanks for clicking.",
+    "Have a great day!"
+  ];
+
+  let index = 0;
+  const text = document.getElementById("clickable-text");
+
+  text?.addEventListener("click", () => {
+    index = (index + 1) % messages.length;
+
+    if (text) {
+      text.textContent = messages[index];
+    }
+  });
+</script>
+
+<style>
+  .clickable-text {
+    cursor: pointer;
+  }
+</style>
+
 		<div class="prose prose-sm prose-cactus max-w-none">
 <center><Image src={face} alt="alex" layout='constrained' width={200} height={300}/>
 <p> pas encore chauve / not yet bald <br />&nbsp; &nbsp;&nbsp;</p>
