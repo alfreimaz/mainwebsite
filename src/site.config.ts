@@ -35,15 +35,15 @@ export const siteConfig: SiteConfig = {
 export const menuLinks: { path: string; title: string }[] = [
 	{
 		path: "/",
-		title: "Home",
+		title: "Prologue",
 	},
 	{
 		path: "/about/",
-		title: "About",
+		title: "CV",
 	},
 	{
 		path: "/posts/",
-		title: "Blog",
+		title: "Publications",
 	},
 	{
 		path: "/notes/",
