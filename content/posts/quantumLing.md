@@ -1,5 +1,5 @@
 ---
-title: "Is the cat dead, dead dead, alive, truly alive, or playing jazz?"
+title: "Is the cat dead, dead dead, alive, truly alive or [...]"
 description: "Quantum course essay"
 publishDate: "23 Feb 2026"
 tags: ["english", "logic", "philosophy","social","opinion"]
@@ -7,6 +7,7 @@ updatedDate: 20 August 2026
 pinned: false
 ---
 
+**Is the cat dead, dead dead, alive, truly alive or playing jazz?**
 or, using the quantum framework to disambiguate language.
 
 # Introduction
