@@ -11,12 +11,35 @@ const meta = {
 
 <PageLayout meta={meta}>
 	<h1 class="title mb-12">CV / r&eacute;sum&eacute;</h1>
+<div class="pdf-container">
 	<iframe
   src={pdfUrl}
   width="100%"
-  height="1000"
+  height="1200"
   style="border: none;"
   title="CV"
 ></iframe>
+</div>
+
+<style>
+  .pdf-container {
+    width: 100%;
+    max-width: 900px;
+    margin: 2rem auto;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 12px;
+    box-shadow: 5px 5px 0px black;
+    background: white;
+  }
+
+  .pdf-container iframe {
+    width: 100%;
+    height: 800px;
+    border: none;
+    display: block;
+    border-radius: 6px;
+  }
+</style>
 
 </PageLayout>
