@@ -132,7 +132,7 @@ example, we consider one of their cases, take the words *coach, boxer,
 lap* and *file*. Each one of those words is ambiguous. We index their
 meanings the way described in Table 1.
 
-| word  | meaning 0       | meaning 1 |
+| word  | meaning **0**       | meaning **1** |
 |-------|------------------|-----------|
 | coach | sports trainer   | bus       |
 | boxer | athlete          | dog breed |
@@ -145,8 +145,8 @@ Now, combine all these words in a subject-verb structure (this is where
 compositionality comes into play) and for each of their respective
 meanings, ask yourself "does this reading make sense?\". Does it make
 sense, for instance, for a dog to drink? does it make sense for a bus to
-document something? If yes, we note the combination with a **1**, and if
-not with a **0**.[^5]. This, according to the authors[^6], gives us the
+document something? If yes, we note the combination with a *1*, and if
+not with a *0*.[^5]. This, according to the authors[^6], gives us the
 results of Table 2. As mentioned previously, one of our goals with this
 framework is to achieve contextuality, but that title alone is not
 specific enough, as we differentiate between three kinds: probabilistic,
@@ -154,12 +154,12 @@ possibilistic and strongly possibilistic. This nomenclature comes from
 Abramsky's work, see [Abramsky], who summarised the criteria each type
 must obtain[^7].
 
-   noun  |  verb  | (0,0) |  (0,1) |  (1,0) |  (1,1)
+   noun  |  verb  | (**0**,**0**) |  (**0**,**1**) |  (**1**,**0**) |  (**1**,**1**)
   -------| ------ |-------| -------| -------| -------
-   coach |  lap   | **1** |  **1** |  **1** |  **0**
-   coach |  file  | **1** |  **1** |  **0** |  **0**
-   boxer |  lap   | **1** |  **1** |  **1** |  **1**
-   boxer |  file  | **1** |  **1** |  **0** |  **0**
+   coach |  lap   | *1* |  *1* |  *1* |  *0*
+   coach |  file  | *1* |  *1* |  *0* |  *0*
+   boxer |  lap   | *1* |  *1* |  *1* |  *1*
+   boxer |  file  | *1* |  *1* |  *0* |  *0*
 
 <p align=center> Table 2 : possibilistic combinations </p>
 
@@ -209,7 +209,7 @@ satisfy that requirement. Suppose the meaning of "coach\" collapses to
 that of "bus\" (this is the equivalent of Alice getting their
 measurement result), then, it is simply impossible for "file\" to
 follow, as none of its meanings would be compatible (see that once we
-fix $coach\rightarrow 1$, both file cases are **0**). This shows the
+fix $coach\rightarrow 1$, both file cases are *0*). This shows the
 system is signalling, and thus does not behave in quantum-like
 ways[^11]. We must then find some other approach.
 
@@ -221,20 +221,20 @@ instance both contextual and non-signalling. This strategy diverges in
 two main aspects from the possibilistic outlook: first, we replace our
 question "Does this make sense?\" with data analysis of linguistic
 corpus. That is, we look for attested occurrences of the word pairs we
-consider, instead of native gut feeling. Secondly, we replace our **1**
-and **0**'s with statistical probabilities[^12]. The result can be seen
+consider, instead of native gut feeling. Secondly, we replace our *1*
+and *0*'s with statistical probabilities[^12]. The result can be seen
 in Table 3, keeping the same words as in our previous example for
 simplicity. This probabilistic approach gives us more information to
 work with. Indeed, instead of simply having the possibility of a certain
 reading, we now know the ratio between interpretations of a single
 pairing[^13].
 
-   noun  |  verb |  (0,0) |  (0,1) |  (1,0) |  (1,1)
+   noun  |  verb |  (**0**,**0**) |  (**0**,**1**) |  (**1**,**0**) |  (**1**,**1**)
   -------| ------| -------| -------| -------| -------
-   coach |  lap  |  2/11  |  7/11  |  2/11  |  **0**
-   coach |  file |  43/44 |  1/44  |  **0** |  **0**
+   coach |  lap  |  2/11  |  7/11  |  2/11  |  *0*
+   coach |  file |  43/44 |  1/44  |  *0* |  *0*
    boxer |  lap  |  11/53 |  22/53 |  8/53  |  12/53
-   boxer |  file |  35/54 |  19/54 |  **0** |  **0**
+   boxer |  file |  35/54 |  19/54 |  *0* |  *0*
 
 <p align=center> Table 3 : probabilistic combinations </p>
 
@@ -466,10 +466,10 @@ to claim the field dead or alive.
     on a same line add up to 1.
 
 [^13]: Note that, once again for readability, unattested interpretations
-    will be marked with a bold **0**.
+    will be marked with a bold *0*.
 
 [^14]: The support is simply the same table as our probabilistic
-    results, with **1** inserted wherever a non-zero statistic has been
+    results, with *1* inserted wherever a non-zero statistic has been
     observed. In short, it is the underlying possibilistic structure of
     a probabilistic model. This explains why probabilistic contextuality
     naturally follows from its possibilistic counterpart
