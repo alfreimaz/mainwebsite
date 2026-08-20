@@ -268,7 +268,7 @@ $\varphi_4 = (boxer\rightarrow 0 \land file\rightarrow 1)
 \vee (boxer\rightarrow 1 \land file\rightarrow 0)$
 
 The inconsistency of those formulas is easy to check. We then assign to every $\varphi_i$ the probability $p_i$ for it to obtain, in our case:
-<br>
+<br><br>
 $p_1 = 2/11 + 7/11 = 9/11 $<br>
 $p_2 = 43/44 + 0 = 43/44 $<br>
 $p_3 = 11/53 + 12/53 = 23/53 $<br>
