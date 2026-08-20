@@ -257,7 +257,7 @@ said propositions. This sum must be equal or below the number of lines
 in table, minus 1, for the system to be classically explainable, given
 any particular set of formulas. Contextuality is ensured when the
 inequality fails. Here, given our example, are the formulas one might
-consider: <br>
+consider: <br><br>
 $\varphi_1 = (coach\rightarrow 1 \land lap\rightarrow 1)
 \vee (coach\rightarrow 0 \land lap\rightarrow 0)$ <br>
 $\varphi_2 = (coach\rightarrow 1 \land file\rightarrow 1)
@@ -270,15 +270,14 @@ $\varphi_4 = (boxer\rightarrow 0 \land file\rightarrow 1)
 
 The inconsistency of those formulas is easy to check. We then assign to every $\varphi_i$ the probability $p_i$ for it to obtain, in our case:
 
-$$
-\begin{aligned}
-p_1 &= 2/11 + 7/11 = 9/11 \\
-p_2 &= 43/44 + 0 = 43/44 \\
-p_3 &= 11/53 + 12/53 = 23/53 \\
-p_4 &= 19/54 + 0 = 19/54
-\end{aligned}
-$$ Our Bell inequality to transgress is then:
-$$\sum_{i=1}^4 p_i\leq 3$$ After adding all $p_i$'s together, we get
+<br>
+$p_1 = 2/11 + 7/11 = 9/11 $<br>
+$p_2 = 43/44 + 0 = 43/44 $<br>
+$p_3 = 11/53 + 12/53 = 23/53 $<br>
+$p_4 = 19/54 + 0 = 19/54 $<br>
+
+Our Bell inequality to transgress is then:<br>
+$\sum_{i=1}^4 p_i\leq 3$<br> After adding all $p_i$'s together, we get
 $\sim 2,58$, which is lower than our assumed threshold of $3$ (the
 number of lines, minus one). This shows that this particular choice of
 formulas does not prove contextuality of the system. However, in our
