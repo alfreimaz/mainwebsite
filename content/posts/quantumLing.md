@@ -274,8 +274,8 @@ $p_2 = 43/44 + 0 = 43/44 $<br>
 $p_3 = 11/53 + 12/53 = 23/53 $<br>
 $p_4 = 19/54 + 0 = 19/54 $<br>
 
-Our Bell inequality to transgress is then:<br>
- $\sum_{i=1}^4 p_i\leq 3$
+Our Bell inequality to transgress is then:<br><br>
+ $\sum_{i=1}^4 p_i\leq 3$<br><br>
 After adding all $p_i$'s together, we get
 $\sim 2,58$, which is lower than our assumed threshold of $3$ (the
 number of lines, minus one). This shows that this particular choice of
