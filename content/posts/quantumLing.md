@@ -132,14 +132,14 @@ example, we consider one of their cases, take the words *coach, boxer,
 lap* and *file*. Each one of those words is ambiguous. We index their
 meanings the way described in Table 1.
 
-   word  |    meaning 0    |  meaning 1
-  -------| ----------------| -----------
-   coach |  sports trainer |     bus
-   boxer |     athlete     |  dog breed
-    lap  |       run       |    drink
-   file  |     document    |  smoothen
+| word  | meaning 0       | meaning 1 |
+|-------|------------------|-----------|
+| coach | sports trainer   | bus       |
+| boxer | athlete          | dog breed |
+| lap   | run              | drink     |
+| file  | document         | smoothen  |
 
-<p align=center> Sample of ambiguities </p>
+<p align=center> Table 1 : Sample of ambiguities </p>
 
 Now, combine all these words in a subject-verb structure (this is where
 compositionality comes into play) and for each of their respective
