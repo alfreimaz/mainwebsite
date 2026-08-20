@@ -139,7 +139,7 @@ meanings the way described in Table 1.
 | lap   | run              | drink     |
 | file  | document         | smoothen  |
 
-<p align=center> Table 1 : Sample of ambiguities </p>
+<p align=center> Table 1 : sample of ambiguities </p>
 
 Now, combine all these words in a subject-verb structure (this is where
 compositionality comes into play) and for each of their respective
@@ -154,7 +154,6 @@ possibilistic and strongly possibilistic. This nomenclature comes from
 Abramsky's work, see [Abramsky], who summarised the criteria each type
 must obtain[^7].
 
-::: {#tab:placeholder}
    noun  |  verb  | (0,0) |  (0,1) |  (1,0) |  (1,1)
   -------| ------ |-------| -------| -------| -------
    coach |  lap   | **1** |  **1** |  **1** |  **0**
@@ -162,8 +161,7 @@ must obtain[^7].
    boxer |  lap   | **1** |  **1** |  **1** |  **1**
    boxer |  file  | **1** |  **1** |  **0** |  **0**
 
-  : Possibilistic combinations
-:::
+<p align=center> Table 2 : possibilistic combinations </p>
 
 For now, we are only concerned by possibilistic contextuality, which
 Table 2 happily satisfies. Results are possibilistically contextual if
@@ -231,7 +229,6 @@ work with. Indeed, instead of simply having the possibility of a certain
 reading, we now know the ratio between interpretations of a single
 pairing[^13].
 
-::: {#tab:placeholder}
    noun  |  verb |  (0,0) |  (0,1) |  (1,0) |  (1,1)
   -------| ------| -------| -------| -------| -------
    coach |  lap  |  2/11  |  7/11  |  2/11  |  **0**
@@ -239,8 +236,7 @@ pairing[^13].
    boxer |  lap  |  11/53 |  22/53 |  8/53  |  12/53
    boxer |  file |  35/54 |  19/54 |  **0** |  **0**
 
-  : Probabilistic combinations
-:::
+<p align=center> Table 3 : probabilistic combinations </p>
 
 A consquence of these alterations is that, now, contextuality of the
 system has to be checked slightly differently. Indeed, we are not
