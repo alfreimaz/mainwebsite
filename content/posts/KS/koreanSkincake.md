@@ -17,4 +17,4 @@ The name is just a funny typo I saw once.
 - Apple Music : https://music.apple.com/us/artist/korean-skincake/1800555790
 - Youtube : https://www.youtube.com/channel/UCHDvqS3p_wD2TFvKXxO8c4A
 
-![cover](./korean skincake album cover 200_(1).png)
+![cover](./cover.png)
