@@ -10,7 +10,7 @@ pinned: false
 **Is the cat dead, dead dead, alive, truly alive or playing jazz?**
 or, using the quantum framework to disambiguate language.
 
-### Introduction
+## Introduction
 
 The goal of this paper is to present if and how notions and strategies
 proper to quantum mechanics can be applied to linguistic analysis, in an
@@ -19,7 +19,7 @@ the works of Wang, Sadrzadeh, Abramsky and Cervantes [1](#main), which
 notably revolve around quantum-like entanglement between multiple words
 and the contextuality of their meaning.
 
-### Linguistic ambiguities
+## Linguistic ambiguities
 
 First of all, let us clarify the matter at hand. There exist two main
 types of linguistic ambiguities. Syntactical and lexical. The first
@@ -83,7 +83,7 @@ which doesn't separate occurrences of words by their meaning, as meaning
 is precisely what we wish to gather, can be used to explain lexical
 ambiguities. This is where quantum theory might help.
 
-### Quantum strategy
+## Quantum strategy
 
 What if ambiguous words were akin to superimposed quantum states? This
 is the main idea behind Wang et al.[1](#main), in continuation to [@hard],
@@ -123,7 +123,7 @@ to handle), the perspective of constructing a method reliant on two
 traditionally divergent approaches is a worthy goal in itself. But, to
 see if it actually works, let us first describe the process.
 
-### Possibilistic contextuality
+## Possibilistic contextuality
 
 Take the typical quantum experiment where Alice and Bob are each given
 entangled particles in superposition. Wang et al.[1](#main) propose an
@@ -218,7 +218,7 @@ fix $coach\rightarrow 1$, both file cases are **0**). This shows the
 system is signalling, and thus does not behave in quantum-like
 ways[^11]. We must then find some other approach.
 
-### Probabilistic contextuality
+## Probabilistic contextuality
 
 As a response to this issue, Wang et al.[1](#main) changed focus and turned
 their heads towards probabilistic contextuality, hoping to find an
@@ -311,7 +311,7 @@ the statistical occurrences of specific combinations, we would still
 keep a possibly non-signalling behaviour. And this is why the authors
 considered the Contextuality by Default framework.
 
-### Contextuality by Default
+## Contextuality by Default
 
 Explaining in detail the Contextuality by Default framework could be the
 work of an entire separate paper. We will therefore be content with
@@ -337,7 +337,7 @@ polysemous and homonymous words, notably through the fact that
 homonymous verbs seem to disambiguate more that polysemous ones, hinting
 at a possibly more theoretical interpretation of the quantum method.
 
-### Critiques and other works
+## Critiques and other works
 
 Though rigorous, a few aspects of Wang et al.[1](#main)'s paper can be
 discussed, and may lead to interesting expansions of the theory. First,
@@ -380,7 +380,7 @@ topics get applied for a quick intersectionality flare. Nevertheless,
 quantum theory appears to be an interesting and vibrant source of
 inspiration for linguistic studies.
 
-### Conclusion
+## Conclusion
 
 In conclusion, the research lead by Wang et al.[1](#main) greatly pushes
 the idea that quantum theories, and in their case more precisely the
@@ -393,7 +393,7 @@ seem as promising, leaving many more research opportunities open, but
 until they have been thoroughly scrutinised, we will not take the risk
 to claim the field dead or alive.
 
-### References
+## References
 
 <a id="main"></a>
 
