@@ -1,8 +1,8 @@
 ---
 title: "Is the cat dead, dead dead, alive, truly alive or [...]"
 description: "Quantum course essay"
-publishDate: "23 Feb 2026"
-tags: ["english", "logic", "philosophy","social","opinion"]
+publishDate: "27 Mar 2026"
+tags: ["english", "linguistics","quantum","essay"]
 updatedDate: 20 August 2026
 pinned: false
 ---
