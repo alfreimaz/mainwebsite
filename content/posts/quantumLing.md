@@ -10,16 +10,16 @@ pinned: false
 **Is the cat dead, dead dead, alive, truly alive or playing jazz?**
 or, using the quantum framework to disambiguate language.
 
-# Introduction
+### Introduction
 
 The goal of this paper is to present if and how notions and strategies
 proper to quantum mechanics can be applied to linguistic analysis, in an
 attempt to quantify and model lexical ambiguities. We mainly focus on
-the works of Wang, Sadrzadeh, Abramsky and Cervantes [@main], which
+the works of Wang, Sadrzadeh, Abramsky and Cervantes (#main), which
 notably revolve around quantum-like entanglement between multiple words
 and the contextuality of their meaning.
 
-# Linguistic ambiguities
+### Linguistic ambiguities
 
 First of all, let us clarify the matter at hand. There exist two main
 types of linguistic ambiguities. Syntactical and lexical. The first
@@ -83,10 +83,10 @@ which doesn't separate occurrences of words by their meaning, as meaning
 is precisely what we wish to gather, can be used to explain lexical
 ambiguities. This is where quantum theory might help.
 
-# Quantum strategy
+### Quantum strategy
 
 What if ambiguous words were akin to superimposed quantum states? This
-is the main idea behind Wang et al.[@main], in continuation to [@hard],
+is the main idea behind Wang et al.(#main), in continuation to [@hard],
 and, indeed, if one could view standard unambiguous words as pure
 states, one might be able to create some understanding of lexical
 ambiguity from there. Namely, homonyms would be perceived as a
@@ -103,7 +103,7 @@ authors resume in the following way: "given that a certain
 interpretation of a word is selected within a certain context, can we
 use this information to deduce how the same word may be interpreted in a
 different context (e.g. in different phrases) in the corpus? Our
-intuition is that this is not the case\"[@main]. This context dependency
+intuition is that this is not the case\"(#main). This context dependency
 is the reason why one of the goals of the method we are about to present
 is to show its quantum contextuality. However, note that both notions
 are fundamentally different, proper to two different fields, the later
@@ -115,7 +115,7 @@ co-occurences, similarly to the distributional work in [@vectors], but
 inside a certain structure, a certain pairing. This allows us to avoid
 the previously encountered "\[\...\] issue with this framework \[\...\]
 that the grammatical structure of phrases and sentences is ignored and
-the focus is mainly on large-scale statistics of data.\"[@main]. Given
+the focus is mainly on large-scale statistics of data.\"(#main). Given
 the known tendency in linguistics to relegate issues in one's approach
 to a different subfield (think of the numerous debates around focus,
 which syntax claims is for semantics to solve and semantics for syntax
@@ -123,10 +123,10 @@ to handle), the perspective of constructing a method reliant on two
 traditionally divergent approaches is a worthy goal in itself. But, to
 see if it actually works, let us first describe the process.
 
-# Possibilistic contextuality
+### Possibilistic contextuality
 
 Take the typical quantum experiment where Alice and Bob are each given
-entangled particles in superposition. Wang et al.[@main] propose an
+entangled particles in superposition. Wang et al.(#main) propose an
 analogous situation in language, where entanglement is a syntactic link,
 superposition is homonymy, and particles are words. For a concrete
 example, we consider one of their cases, take the words *coach, boxer,
@@ -206,7 +206,7 @@ of the consequences of Bell's Theorem is that any quantum system needs
 to be non-signalling to ensure proper behaviour, see [@abramsky]. The
 implications this has on our concerns may be disputable: indeed, no
 equivalent theorem has been proven of language and, furthermore,
-"certainly there is no reason to assume it\"[@main]. This is,
+"certainly there is no reason to assume it\"(#main). This is,
 nevertheless, a requirement of the quantum framework and, as such, using
 said framework on language requires the considered systems to be
 non-signalling[^9]$^{,}$[^10]. Notably, our case in Table 2 does not
@@ -218,9 +218,9 @@ fix $coach\rightarrow 1$, both file cases are **0**). This shows the
 system is signalling, and thus does not behave in quantum-like
 ways[^11]. We must then find some other approach.
 
-# Probabilistic contextuality
+### Probabilistic contextuality
 
-As a response to this issue, Wang et al.[@main] changed focus and turned
+As a response to this issue, Wang et al.(#main) changed focus and turned
 their heads towards probabilistic contextuality, hoping to find an
 instance both contextual and non-signalling. This strategy diverges in
 two main aspects from the possibilistic outlook: first, we replace our
@@ -286,10 +286,10 @@ contextuality of the support[^14] of that system, and as such, we know
 the model is contextual.\
 \
 This approach nonetheless does not solve the none signallity issue we
-faced. Indeed, Wang et al.[@main] observe that it even makes it harder
+faced. Indeed, Wang et al.(#main) observe that it even makes it harder
 to attain. If we previously only had to check for possibility of
 measurement, we now must also verify that statistical distributions are
-shared between interpretations. And, indeed, Wang et al.[@main] observe
+shared between interpretations. And, indeed, Wang et al.(#main) observe
 that many of the considered systems still refuse to abide to
 non-signallity. Considering our example, let us suppose we fix
 $coach\rightarrow 0$, then the sum of probabilities between a
@@ -311,7 +311,7 @@ the statistical occurrences of specific combinations, we would still
 keep a possibly non-signalling behaviour. And this is why the authors
 considered the Contextuality by Default framework.
 
-# Contextuality by Default
+### Contextuality by Default
 
 Explaining in detail the Contextuality by Default framework could be the
 work of an entire separate paper. We will therefore be content with
@@ -321,7 +321,7 @@ falsified by empirical data. However, it provides a sophisticated
 conceptual framework in which one can describe empirical data and
 formulate models that involve random variables.\"[@cbd]. Its main goal
 is to "facilitate\" non-signallity of systems. To simplify (as Wang et
-al.[@main] never use it in a "table shape\"), it can be seen as a hybrid
+al.(#main) never use it in a "table shape\"), it can be seen as a hybrid
 between the possibilistic and probabilistic contextuality models we
 presented, taking the contextuality criteria for probabilistic
 contextuality combined with the ease of possibilistic non-signallity. In
@@ -329,7 +329,7 @@ other words, it is a form of "compression\", ensuring the statistical
 distribution of our probabilistic models do not diverge between
 interpretations, by homogenising them through the minimum we observe.
 Then, it is possible to calculate how close a system may be to being
-contextual. This technique allowed Wang et al.[@main] to identify
+contextual. This technique allowed Wang et al.(#main) to identify
 multiple cases of contextuality in natural language, cases obtaining
 both of our criteria. This is then further expanded upon in [@poly],
 where they mark a difference between the amount of contextuality of
@@ -337,9 +337,9 @@ polysemous and homonymous words, notably through the fact that
 homonymous verbs seem to disambiguate more that polysemous ones, hinting
 at a possibly more theoretical interpretation of the quantum method.
 
-# Critiques and other works
+### Critiques and other works
 
-Though rigorous, a few aspects of Wang et al.[@main]'s paper can be
+Though rigorous, a few aspects of Wang et al.(#main)'s paper can be
 discussed, and may lead to interesting expansions of the theory. First,
 it is unclear why the possibilistic approach initially considered did
 not rely on the same corpus that the probabilistic one did, but instead
@@ -347,7 +347,7 @@ on gut feeling. The reason one could imagine, is that by giving a pass
 or fail themselves, the authors ensured elimination of metaphorical
 interpretations, as they decided to "work with non metaphorical meanings
 in order to keep the hand annotations of interpretations
-manageable.\"[@main]. This choice itself, can however be criticised too.
+manageable.\"(#main). This choice itself, can however be criticised too.
 In fact, given that the framework here described does not make any
 distinctions between polysemous and homonymous words, as the method
 could be applied to both, one can wonder why it would not be the same
@@ -380,9 +380,9 @@ topics get applied for a quick intersectionality flare. Nevertheless,
 quantum theory appears to be an interesting and vibrant source of
 inspiration for linguistic studies.
 
-# Conclusion
+### Conclusion
 
-In conclusion, the research lead by Wang et al.[@main] greatly pushes
+In conclusion, the research lead by Wang et al.(#main) greatly pushes
 the idea that quantum theories, and in their case more precisely the
 notion of quantum contextuality, could have a role to play in linguistic
 analysis. Although not in its traditional possibilistic or probabilistic
@@ -393,7 +393,7 @@ seem as promising, leaving many more research opportunities open, but
 until they have been thoroughly scrutinised, we will not take the risk
 to claim the field dead or alive.
 
-## References
+### References
 
 <a id="main"></a>
 
