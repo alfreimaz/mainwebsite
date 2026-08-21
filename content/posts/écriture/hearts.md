@@ -10,37 +10,37 @@ pinned: false
 
 ### ace of hearts
 
-Spent years learning the rules
-Of a game too complex
+Spent years learning the rules<br>
+Of a game too complex<br>
 No one would ever teach
 
-“Just play the hand you’re dealt,
-Unless that hand of yours
+“Just play the hand you’re dealt,<br>
+Unless that hand of yours<br>
 Has something left missing”
 
-A foreign word on show
-Plastered over the world
+A foreign word on show<br>
+Plastered over the world<br>
 And expected of me
 
-Oh how good it must feel
-To know what others mean
+Oh how good it must feel<br>
+To know what others mean<br>
 When they say
 
 “I love you”
 
 ### Plastic
 
-Made to linger
-For a lifetime
-Or a few more
-In other skin.
-As fake as anything could be.
-So practical,
-So romantic !
-Disintegrate,
-And spread
-Too thin.
-Nobody daring to suspect
+Made to linger<br>
+For a lifetime<br>
+Or a few more<br>
+In other skin.<br>
+As fake as anything could be.<br>
+So practical,<br>
+So romantic !<br>
+Disintegrate,<br>
+And spread<br>
+Too thin.<br>
+Nobody daring to suspect<br>
 That it was already rotting.
 
 
