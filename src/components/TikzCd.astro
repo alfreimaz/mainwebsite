@@ -1,9 +1,10 @@
 ---
 interface Props {
+  code: string;
   ariaLabel?: string;
 }
 
-const { ariaLabel } = Astro.props;
+const { code, ariaLabel } = Astro.props;
 ---
 
 <div class="tikzjax-container">
@@ -11,7 +12,5 @@ const { ariaLabel } = Astro.props;
     type="text/tikz"
     data-tex-packages='{ "tikz-cd": "" }'
     data-aria-label={ariaLabel}
-  >
-    <slot />
-  </script>
+  >{code}</script>
 </div>
