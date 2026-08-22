@@ -402,8 +402,8 @@ any agent[^11]. Therefore, we represent our starting situation as:
 \\begin{tikzcd}
 
 I1 & true                    \\\\
-I2 & true \\arrow[u, no head] \\\\
-A  & true \\arrow[u, no head]
+I2 & true \\arrow[u] \\\\
+A  & true \\arrow[u]
 
 
 \\end{tikzcd}
@@ -445,9 +445,9 @@ assuming dialogue is clearly communicating $\varphi$.
 \\begin{tikzcd}
 
 
-I1 & \\varphi                    & \\neg\\varphi \\arrow[l, Rightarrow] \\arrow[d, no head] \\\\
-I2 & \\varphi \arrow[u, no head] & \\neg\\varphi \\arrow[l, Rightarrow] \\arrow[d, no head] \\\\
-A  & \\varphi \arrow[u, no head] & \\neg\\varphi \\arrow[l, Rightarrow]
+I1 & \\varphi                    & \\neg\\varphi \\arrow[l, Rightarrow] \\arrow[d] \\\\
+I2 & \\varphi \arrow[u] & \\neg\\varphi \\arrow[l, Rightarrow] \\arrow[d] \\\\
+A  & \\varphi \arrow[u] & \\neg\\varphi \\arrow[l, Rightarrow]
 
 \\end{tikzcd}
 `}
@@ -461,8 +461,8 @@ A  & \\varphi \arrow[u, no head] & \\neg\\varphi \\arrow[l, Rightarrow]
 
 
 I1 & \\varphi                    \\\\
-I2 & \\varphi \\arrow[u, no head] \\\\
-A  & \\varphi \\arrow[u, no head]
+I2 & \\varphi \\arrow[u] \\\\
+A  & \\varphi \\arrow[u]
 
 \\end{tikzcd}
 `}
@@ -492,9 +492,9 @@ much the same way as in-character dialogue, that being:
   code={`
 \\begin{tikzcd}
 
-I1 & \\varphi                    & \\neg\\varphi \\arrow[l, Rightarrow] \\arrow[d, no head] \\\\
-I2 & \\varphi \arrow[u, no head] & \\neg\\varphi \\arrow[l, Rightarrow] \\arrow[d, no head] \\\\
-A  & \\varphi \arrow[u, no head] & \\neg\\varphi \\arrow[l, Rightarrow]            
+I1 & \\varphi                    & \\neg\\varphi \\arrow[l, Rightarrow] \\arrow[d] \\\\
+I2 & \\varphi \arrow[u] & \\neg\\varphi \\arrow[l, Rightarrow] \\arrow[d] \\\\
+A  & \\varphi \arrow[u] & \\neg\\varphi \\arrow[l, Rightarrow]            
 
 
 \\end{tikzcd}
@@ -517,8 +517,8 @@ out-of-character dialogue, that being:
 \\begin{tikzcd}
 
 I1 & \\varphi                    \\\\
-I2 & \\varphi \\arrow[u, no head] \\\\
-A  & \\varphi \\arrow[u, no head]
+I2 & \\varphi \\arrow[u] \\\\
+A  & \\varphi \\arrow[u]
 
 
 \\end{tikzcd}
@@ -551,9 +551,9 @@ account for this. Therefore, we model caucus of $\varphi$ as:
 \\begin{tikzcd}
 
 
-I1 & \\varphi                    & \\neg\\varphi \\arrow[l, Rightarrow] \\arrow[d, no head]   \\\\
-I2 & \\varphi \\arrow[u, no head] & \\neg\\varphi \\arrow[l, Rightarrow] \\arrow[d, no head]   \\\\
-A  & \\varphi \\arrow[u, no head] & \\neg\\varphi \\arrow[l, no head]
+I1 & \\varphi                    & \\neg\\varphi \\arrow[l, Rightarrow] \\arrow[d]   \\\\
+I2 & \\varphi \\arrow[u] & \\neg\\varphi \\arrow[l, Rightarrow] \\arrow[d]   \\\\
+A  & \\varphi \\arrow[u] & \\neg\\varphi \\arrow[l]
 
 \\end{tikzcd}
 `}
@@ -578,10 +578,10 @@ would result in:
 \\begin{tikzcd}
 
 
-I1 & \\varphi                                       & \\neg\\varphi \\arrow[l, Rightarrow] \\arrow[d, no head] \\\\
-I2 & \\varphi \\arrow[u, no head]                    & \\neg\\varphi \\arrow[l, Rightarrow] \\arrow[d, no head] \\\\
-I3 & \\varphi \\arrow[u, no head]                    & \\neg\\varphi \\arrow[l, no head]           \\\\
-A  & \\varphi \\arrow[u, no head] \\arrow[r, no head] & \\neg\\varphi \\arrow[u, no head]    
+I1 & \\varphi                                       & \\neg\\varphi \\arrow[l, Rightarrow] \\arrow[d] \\\\
+I2 & \\varphi \\arrow[u]                    & \\neg\\varphi \\arrow[l, Rightarrow] \\arrow[d] \\\\
+I3 & \\varphi \\arrow[u]                    & \\neg\\varphi \\arrow[l]           \\\\
+A  & \\varphi \\arrow[u] \\arrow[r] & \\neg\\varphi \\arrow[u]    
 
 \\end{tikzcd}
 `}
@@ -603,9 +603,9 @@ then we model it as such:
   code={`
 \\begin{tikzcd}
 
-I1 & \\varphi                    & \\neg\\varphi \\arrow[l, Rightarrow] \\arrow[d, no head]          \\\\
-I2 & \\varphi \\arrow[u, no head] & \\neg\\varphi \\arrow[d, no head] \\arrow[l, no head] \\\\
-A  & \\varphi \\arrow[u, no head] & \\neg\\varphi \\arrow[l, no head]   
+I1 & \\varphi                    & \\neg\\varphi \\arrow[l, Rightarrow] \\arrow[d]          \\\\
+I2 & \\varphi \\arrow[u] & \\neg\\varphi \\arrow[d] \\arrow[l] \\\\
+A  & \\varphi \\arrow[u] & \\neg\\varphi \\arrow[l]   
 
 
 \\end{tikzcd}
@@ -627,9 +627,9 @@ habits of doing $\varphi$, we represent the situation as:
   code={`
 \\begin{tikzcd}
 
-I1 & \\varphi                    & \\neg\\varphi \\arrow[l, Rightarrow] \\arrow[d, no head]          \\\\
-I2 & \\varphi \\arrow[u, no head] & \\neg\\varphi \\arrow[d, no head] \\arrow[l, no head] \\\\
-A  & \\varphi \\arrow[u, no head] & \\neg\\varphi \\arrow[l, no head]   
+I1 & \\varphi                    & \\neg\\varphi \\arrow[l, Rightarrow] \\arrow[d]          \\\\
+I2 & \\varphi \\arrow[u] & \\neg\\varphi \\arrow[d] \\arrow[l] \\\\
+A  & \\varphi \\arrow[u] & \\neg\\varphi \\arrow[l]   
 
 
 \\end{tikzcd}
@@ -653,8 +653,8 @@ improvisers. Supposing only I1 sees the signs, we model it as:
 \\begin{tikzcd}
 
 I1 & \\varphi                    &                                                   \\\\
-I2 & \\varphi \\arrow[u, no head] & \\neg\\varphi \\arrow[d, no head] \\arrow[l, no head] \\\\
-A  & \\varphi \\arrow[u, no head] & \\neg\\varphi \\arrow[l, no head]         
+I2 & \\varphi \\arrow[u] & \\neg\\varphi \\arrow[d] \\arrow[l] \\\\
+A  & \\varphi \\arrow[u] & \\neg\\varphi \\arrow[l]         
 
 
 \\end{tikzcd}
