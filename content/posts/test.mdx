@@ -8,11 +8,11 @@ pinned: true
 ---
 import TikzCd from "../../src/components/TikzCd.astro";
 
-<TikzCd>
-code={`
+<TikzCd
+  code={`
 \begin{tikzcd}
 A \arrow[r,"f"] \arrow[d,"g"'] & B \arrow[d,"h"] \\
 C \arrow[r,"k"'] & D
 \end{tikzcd}
 `}
-</TikzCd>
+/>
