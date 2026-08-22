@@ -437,7 +437,7 @@ to claim the field dead or alive.
     example, as the other reading is jargon, or in-group slang the agent
     might not be aware of. The point, however, still holds.
 
-[^5]: To avoid confusion with the indexes of meanings, we embolden those
+[^5]: To avoid confusion with the indexes of meanings, we italicise those
     numbers.
 
 [^6]: We will see later that this method induces confusion, as some
