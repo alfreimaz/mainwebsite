@@ -13,6 +13,7 @@ const { code, ariaLabel } = Astro.props;
     type="text/tikz"
     data-tex-packages='{ "tikz-cd": "" }'
     data-aria-label={ariaLabel}
+    data-show-console="true"
     set:html={code}
   ></script>
 </div>
