@@ -18,7 +18,6 @@ import {
 	satteriUnwrapImagesPlugin,
 } from "./src/plugins/satteri";
 import { expressiveCodeOptions, siteConfig } from "./src/site.config";
-import { katex } from '@nullpinter/satteri-katex';
 
 // https://astro.build/config
 export default defineConfig({
@@ -74,7 +73,6 @@ export default defineConfig({
 				satteriReadingTimePlugin(),
 				satteriGithubCardPlugin(),
 				satteriAdmonitionsPlugin(),
-        katex(),
 			],
 			hastPlugins: [
 				satteriHeadingIdsPlugin(),
