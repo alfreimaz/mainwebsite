@@ -7,7 +7,7 @@ updatedDate: 20 August 2026
 pinned: false
 ---
 
-Publié dans iPhilo 13, printemps.
+*Publié dans iPhilo 13, printemps.*
 
 *Note: la date de parution est approximative.*
 
