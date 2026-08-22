@@ -7,7 +7,7 @@ updatedDate: 20 August 2026
 pinned: false
 ---
 
-Chronique radio chez Fréquence Banane.
+*Chronique radio chez Fréquence Banane.*
 
 Aux armes citoyens ! Ils nous envahissent ! Je parle bien sûr de ces anglicismes, qui tels un cheval de Troie en la langue française, parasitent nos murs et s’attaquent à nos enfants, eux qui dès le berceau sont déviés, emportés loin du droit chemin de la langue de Molière et finissent par apprendre des mots – étrangers. Vous vous en rendez compte ? Mais n’ayez crainte ! Car une bande d’irrésistibles gaulois résiste encore et toujours aux envahisseurs : j’ai nommé l’Académie Française, dernier rempart de notre beau parlé. Ou simplement des beaux parleurs ?
 
