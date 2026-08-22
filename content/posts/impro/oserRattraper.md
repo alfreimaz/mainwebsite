@@ -7,7 +7,7 @@ updatedDate: 22 August 2026
 pinned: false
 ---
 
-Donné au sein de la Boutûre.
+Entraînement d'improvisation théâtrale donné au sein de la Boutûre.
 
 **Objectif** : aider à oser faire des propositions plus complexes et dédramatiser les erreurs en montrant comment les autres peuvent les légitimer/leur donner du sens.  
 
