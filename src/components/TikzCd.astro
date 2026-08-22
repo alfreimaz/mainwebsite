@@ -1,0 +1,17 @@
+---
+interface Props {
+  ariaLabel?: string;
+}
+
+const { ariaLabel } = Astro.props;
+---
+
+<div class="tikzjax-container">
+  <script
+    type="text/tikz"
+    data-tex-packages='{ "tikz-cd": "" }'
+    data-aria-label={ariaLabel}
+  >
+    <slot />
+  </script>
+</div>
