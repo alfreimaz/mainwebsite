@@ -67,7 +67,7 @@ export default defineConfig({
 	],
 	markdown: {
 		processor: satteri({
-			features: { directive: true },
+			features: { math: true, directive: true },
 			mdastPlugins: [
 				satteriUnwrapImagesPlugin(),
 				satteriReadingTimePlugin(),
