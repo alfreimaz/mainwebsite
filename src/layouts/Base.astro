@@ -25,6 +25,20 @@ const {
   href="https://cdn.jsdelivr.net/npm/@planktimerr/tikzjax@1.0.7/dist/fonts.css"
 />
 	</head>
+
+<script
+  is:inline
+  src="https://cdn.jsdelivr.net/npm/@planktimerr/tikzjax@1.0.7/dist/tikzjax.js"
+></script>
+
+<script is:inline>
+  document.addEventListener("astro:page-load", () => {
+    if (window.TikZJax) {
+      window.TikZJax(document);
+    }
+  });
+</script>
+
 	<body
 		class="bg-global-bg text-global-text mx-auto flex min-h-screen max-w-3xl flex-col px-4 pt-16 font-mono text-sm font-normal antialiased sm:px-8"
 	>
