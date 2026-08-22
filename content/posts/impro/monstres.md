@@ -2,7 +2,7 @@
 title: "De vrais monstres de scène"
 description: "Entraînement Boutûre"
 publishDate: "26 May 2025"
-tags: ["french","impro","course"]
+tags: ["french","improvisation","course","theater"]
 updatedDate: 22 August 2026
 pinned: false
 ---
