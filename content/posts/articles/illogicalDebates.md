@@ -7,7 +7,7 @@ updatedDate: 20 August 2026
 pinned: false
 ---
 
-Published in the Illogician, 2026i.
+*Published in the Illogician, 2026i.*
 
 *Note: for the published version of this article was accidentally its first draft, what follows may slightly differ from the printed text.*
 
