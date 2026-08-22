@@ -114,7 +114,14 @@ and habit. We order those in Table 1
 |                         dialogue                        |        time         |        habit |
 |                          acting                         |                     | |
 
-<p align="center">Table 1: means of communication</p>
+<p align=center>Table 1: means of communication</p>
+
+
+
+
+
+
+
 
 [^2]. Constraints can be ignored for simplification, but they are
 crucial in the sense they allow or forbid some of these canals[^3]. The
