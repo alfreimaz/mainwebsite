@@ -397,8 +397,18 @@ an audience, respectively named I1, I2 and A. Each action will be
 considered in a vacuum, that is without any pre-established beliefs from
 any agent[^11]. Therefore, we represent our starting situation as:
 
-::: center
-:::
+<TikzCd
+  code={`
+\\begin{tikzcd}
+
+I1 & true                    \\\\
+I2 & true \\arrow[u, no head] \\\\
+A  & true \\arrow[u, no head]
+
+
+\\end{tikzcd}
+`}
+/>
 
 ### Dialogue
 
@@ -430,13 +440,33 @@ assuming dialogue is clearly communicating $\varphi$.
 
 -   In-character:
 
-    ::: center
-    :::
+<TikzCd
+  code={`
+\\begin{tikzcd}
+
+
+I1 & \\varphi                    & \\neg\\varphi \\arrow[l, Rightarrow] \\arrow[d, no head] \\\\
+I2 & \\varphi \arrow[u, no head] & \\neg\\varphi \\arrow[l, Rightarrow] \\arrow[d, no head] \\\\
+A  & \\varphi \arrow[u, no head] & \\neg\\varphi \\arrow[l, Rightarrow]
+
+\\end{tikzcd}
+`}
+/>
 
 -   Out-of-character:
 
-    ::: center
-    :::
+<TikzCd
+  code={`
+\\begin{tikzcd}
+
+
+I1 & \\varphi                    \\\\
+I2 & \\varphi \\arrow[u, no head] \\\\
+A  & \\varphi \\arrow[u, no head]
+
+\\end{tikzcd}
+`}
+/>
 
 Interestingly, note that knowing which improviser said $\varphi$ is
 irrelevant for our system. Indeed, it is only useful when treating cases
@@ -458,8 +488,18 @@ like dialogue, directed towards both the audience and all improvisers,
 making it another symmetrical revision. It can therefore be modeled in
 much the same way as in-character dialogue, that being:
 
-::: center
-:::
+<TikzCd
+  code={`
+\\begin{tikzcd}
+
+I1 & \\varphi                    & \\neg\\varphi \\arrow[l, Rightarrow] \\arrow[d, no head] \\\\
+I2 & \\varphi \arrow[u, no head] & \\neg\\varphi \\arrow[l, Rightarrow] \\arrow[d, no head] \\\\
+A  & \\varphi \arrow[u, no head] & \\neg\\varphi \\arrow[l, Rightarrow]            
+
+
+\\end{tikzcd}
+`}
+/>
 
 ### Theme
 
@@ -472,8 +512,18 @@ theme. It can thus be safely considered a belief update. As it is
 clearly announced and known of everyone, we treat it similarly to
 out-of-character dialogue, that being:
 
-::: center
-:::
+<TikzCd
+  code={`
+\\begin{tikzcd}
+
+I1 & \\varphi                    \\\\
+I2 & \\varphi \\arrow[u, no head] \\\\
+A  & \\varphi \\arrow[u, no head]
+
+
+\\end{tikzcd}
+`}
+/>
 
 ### Caucus
 
@@ -496,8 +546,18 @@ we could model the difference between belief in the caucus and belief in
 dialogue as of different magnitude, but our current system cannot
 account for this. Therefore, we model caucus of $\varphi$ as:
 
-::: center
-:::
+<TikzCd
+  code={`
+\\begin{tikzcd}
+
+
+I1 & \\varphi                    & \\neg\\varphi \\arrow[l, Rightarrow] \\arrow[d, no head]   \\\\
+I2 & \\varphi \\arrow[u, no head] & \\neg\\varphi \\arrow[l, Rightarrow] \\arrow[d, no head]   \\\\
+A  & \\varphi \\arrow[u, no head] & \\neg\\varphi \\arrow[l, no head]
+
+\\end{tikzcd}
+`}
+/>
 
 ### Bench-planning
 
@@ -513,8 +573,19 @@ Therefore, we must treat bench-planning similarly to caucus, with a
 subset of all improvisers being concerned. In our expanded example, this
 would result in:
 
-::: center
-:::
+<TikzCd
+  code={`
+\\begin{tikzcd}
+
+
+I1 & \\varphi                                       & \\neg\\varphi \\arrow[l, Rightarrow] \\arrow[d, no head] \\\\
+I2 & \\varphi \\arrow[u, no head]                    & \\neg\\varphi \\arrow[l, Rightarrow] \\arrow[d, no head] \\\\
+I3 & \\varphi \\arrow[u, no head]                    & \\neg\\varphi \\arrow[l, no head]           \\\\
+A  & \\varphi \\arrow[u, no head] \\arrow[r, no head] & \\neg\\varphi \\arrow[u, no head]    
+
+\\end{tikzcd}
+`}
+/>
 
 ### Thoughts
 
@@ -528,8 +599,18 @@ themselves come to a conclusion. This however escapes the scope of this
 particular essay. Let us suppose that I1 is the one having a thought,
 then we model it as such:
 
-::: center
-:::
+<TikzCd
+  code={`
+\\begin{tikzcd}
+
+I1 & \\varphi                    & \\neg\\varphi \\arrow[l, Rightarrow] \\arrow[d, no head]          \\\\
+I2 & \\varphi \\arrow[u, no head] & \\neg\\varphi \\arrow[d, no head] \\arrow[l, no head] \\\\
+A  & \\varphi \\arrow[u, no head] & \\neg\\varphi \\arrow[l, no head]   
+
+
+\\end{tikzcd}
+`}
+/>
 
 ### Habit
 
@@ -542,8 +623,18 @@ precise speaker was irrelevant to the dialogue case (for only the result
 here matters[^15]), and, supposing I1 knows I2 well and predicts their
 habits of doing $\varphi$, we represent the situation as:
 
-::: center
-:::
+<TikzCd
+  code={`
+\\begin{tikzcd}
+
+I1 & \\varphi                    & \\neg\\varphi \\arrow[l, Rightarrow] \\arrow[d, no head]          \\\\
+I2 & \\varphi \\arrow[u, no head] & \\neg\\varphi \\arrow[d, no head] \\arrow[l, no head] \\\\
+A  & \\varphi \\arrow[u, no head] & \\neg\\varphi \\arrow[l, no head]   
+
+
+\\end{tikzcd}
+`}
+/>
 
 ### Time
 
@@ -557,8 +648,18 @@ those who saw it. Similarly to how bench planning was an upgrade to a
 subset of the improvisers, time is instead an update to a subset of the
 improvisers. Supposing only I1 sees the signs, we model it as:
 
-::: center
-:::
+<TikzCd
+  code={`
+\\begin{tikzcd}
+
+I1 & \\varphi                    &                                                   \\\\
+I2 & \\varphi \\arrow[u, no head] & \\neg\\varphi \\arrow[d, no head] \\arrow[l, no head] \\\\
+A  & \\varphi \\arrow[u, no head] & \\neg\\varphi \\arrow[l, no head]         
+
+
+\\end{tikzcd}
+`}
+/>
 
 ### Ending
 
