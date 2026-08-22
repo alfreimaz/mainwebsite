@@ -2,7 +2,7 @@
 title: "Double Trolley"
 description: "article iPhilo 13"
 publishDate: "01 Mar 2025"
-tags: ["french", "philosophy","social","opinion"]
+tags: ["french", "philosophy","social","opinion","essay"]
 updatedDate: 20 August 2026
 pinned: false
 ---
