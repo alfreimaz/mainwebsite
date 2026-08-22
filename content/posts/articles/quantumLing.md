@@ -34,7 +34,7 @@ crucially the result of the compositional approach to meaning, which
 claims meaning of sentences or words can be derived from the smaller
 fragments they are made of (in the case of sentences, those fragments
 being words, and in the case of words, those fragments being morphemes).
-One key aspect to identify here, is that this framework fundamentally
+One key aspect to identify here is that this framework fundamentally
 struggles with giving meaning to those more basic elements. If a
 linguistic atom cannot be split further, how can we derive its meaning
 without simply imposing it? To avoid this call to fundamentalism,
@@ -44,13 +44,13 @@ through composition, the distributional approach stems from the idea
 that "words that often occur in the same context have similar meanings
 and that one can know a word by the company that it keeps\"[Wang, 2021:7]. As
 such, the meaning of a word, although less tangible, turns to a web of
-interconnections to other ones that seam to occur simultaneously in
+interconnections to other ones that seem to occur simultaneously in
 certain contexts. One easy way to visualise this, is to think of meaning
 as the ensemble of words you would use to describe something. A tiger is
 a "big cat, orange, dangerous, found in jungles\". The distributional
 framework, although this is a simplification, would then assign the web
 of all words, with stronger links to the aforementioned commonly
-occurring words as the meaning of "tiger\". This makes distributional
+occurring words, as the meaning of "tiger\". This makes distributional
 analysis particularly unfit to understand sentences, as entire sentences
 rarely appear multiple times, and even more rarely to a statistical
 significant degree. However, there is one crucial thing to notice here.
@@ -59,7 +59,7 @@ ambiguities.\
 \
 Indeed, lexical ambiguity is more subtle than its syntactical
 counterpart, and traditionally harder to explicitate formally[^1].
-Furthermore, it is of multiple nature, since "\[at\] the lexical level,
+Furthermore, it is of multiple natures, since "\[at\] the lexical level,
 one can distinguish between two broad types of ambiguity: homonymy
 refers to cases in which, due to some historical accident, words that
 share exactly the same spelling and pronunciation are used to describe
@@ -98,7 +98,7 @@ true at once. Instead, we select one, based on the context. If I say I
 saw a cat on the street, you would more likely than not imagine the
 animal. If I say I saw a cat in a jazz club, that reading might not be
 your preferred one[^4]. This apparent "contextuality\" of language the
-authors resume in the following way: "given that a certain
+authors sum up in the following way: "given that a certain
 interpretation of a word is selected within a certain context, can we
 use this information to deduce how the same word may be interpreted in a
 different context (e.g. in different phrases) in the corpus? Our
@@ -163,7 +163,7 @@ must obtain[^7].
 
 <p align=center> Table 2 : possibilistic combinations </p>
 
-For now, we are only concerned by possibilistic contextuality, which
+For now, we are only concerned with possibilistic contextuality, which
 Table 2 happily satisfies. Results are possibilistically contextual if
 "\[there\] exists a local assignment \[\...\] which cannot be extended
 to a compatible family of local assignments\"[^8][Abramsky]. A local
@@ -185,7 +185,7 @@ contrary, what makes this array contextual is the impossibility of
 creating such a family containing certain attested combinations. One can
 check that the combination $(coach\rightarrow 0, lap\rightarrow1)$,
 despite being considered possible, cannot be contained in any family
-without said family to be inconsistent. This is precisely possibilistic
+without said family being inconsistent. This is precisely possibilistic
 contextuality, which in our linguistic case can be reduced to the
 impossibility of assuming a certain set meaning for every ambiguous word
 without running into any impossible phrasings. Then, should we simply
@@ -196,7 +196,7 @@ behaviour, we might need to take a small detour to another key concept:
 non-signallity. Take the original instance of Alice and Bob's
 experiment. We would call the setup non-signalling if one key criterion
 obtains: no matter what Alice observes, this should not impact what
-measurements Bob can conduct, and inversely. And, as it turns our, one
+measurements Bob can conduct, and inversely. And, as it turns out, one
 of the consequences of Bell's Theorem is that any quantum system needs
 to be non-signalling to ensure proper behaviour, see [Abramsky]. The
 implications this has on our concerns may be disputable: indeed, no
@@ -279,7 +279,7 @@ Our Bell inequality to transgress is then:<br><br>
 After adding all $p_i$'s together, we get
 $\sim 2,58$, which is lower than our assumed threshold of $3$ (the
 number of lines, minus one). This shows that this particular choice of
-formulas does not prove contextuality of the system. However, in our
+formulas does **not** prove contextuality of the system. However, in our
 case, that is not needed, as we have already proven possibilistic
 contextuality of the support[^14] of that system, and as such, we know
 the model is contextual.\
@@ -294,12 +294,12 @@ non-signallity. Considering our example, let us suppose we fix
 $coach\rightarrow 0$, then the sum of probabilities between a
 measurement with "lap\" ($2/11 + 7/11 = 9/11$) is not the same as with a
 measurement through "file\" ($43/44 + 1/44 = 1$). But an identical
-distribution is what defines possibilistc non-signallity, showing it
+distribution is what defines possibilistic non-signallity, showing it
 still does not hold in our case. And as such, one major issue arises:
 the instability of the corpus. It is extremely unlikely for
 probabilities to magically show patterns in their repeated sums.
 Furthermore, suppose, fixing a corpus, that we find a non-signalling
-system. Adding or removing a single word could break the harmony between
+system. Adding or removing a single word to that corpus could break the harmony between
 the distributions, making it signalling. Even more problematic, what
 would happen if we did it all again, with a much smaller sample? Well,
 things might not change, but some attested combinations might
@@ -346,7 +346,7 @@ on gut feeling. The reason one could imagine, is that by giving a pass
 or fail themselves, the authors ensured elimination of metaphorical
 interpretations, as they decided to "work with non metaphorical meanings
 in order to keep the hand annotations of interpretations
-manageable.\"[Wang, 2021:3]. This choice itself, can however be criticised too.
+manageable.\"[Wang, 2021:3]. This choice itself can however be criticised too.
 In fact, given that the framework here described does not make any
 distinctions between polysemous and homonymous words, as the method
 could be applied to both, one can wonder why it would not be the same
@@ -390,12 +390,12 @@ framework, it allows for a proper formalisation of lexical ambiguity and
 the context dependency of language. Other applications of the theory
 seem as promising, leaving many more research opportunities open, but
 until they have been thoroughly scrutinised, we will not take the risk
-to claim the field dead or alive.
+to claim the field *dead* or *alive*.
 
 ## References
 
 - Wang, Daphne, Mehrnoosh Sadrzadeh, Samson Abramsky, and Víctor H. Cervantes. **“On the Quantum-like Contextuality of Ambiguous Phrases.”** *CoRR*, 2021. [arXiv:2107.14589](https://arxiv.org/abs/2107.14589).
-- 
+
 - Abramsky, Samson. **“Contextuality: At the Borders of Paradox.”** 2020. [arXiv:2011.04899](https://arxiv.org/abs/2011.04899).
 
 - Schütze, Hinrich. **“Automatic Word Sense Discrimination.”** *Computational Linguistics* 24, no. 1 (1998): 97–123.
@@ -472,7 +472,7 @@ to claim the field dead or alive.
     on a same line add up to 1.
 
 [^13]: Note that, once again for readability, unattested interpretations
-    will be marked with a bold *0*.
+    will be marked with an italicised *0*.
 
 [^14]: The support is simply the same table as our probabilistic
     results, with *1* inserted wherever a non-zero statistic has been
