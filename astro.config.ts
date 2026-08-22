@@ -18,7 +18,7 @@ import {
 	satteriUnwrapImagesPlugin,
 } from "./src/plugins/satteri";
 import { expressiveCodeOptions, siteConfig } from "./src/site.config";
-import { katex } from 'satteri-katex';
+import katex from 'satteri-katex';
 
 // https://astro.build/config
 export default defineConfig({
