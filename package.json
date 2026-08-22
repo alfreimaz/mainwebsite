@@ -35,6 +35,7 @@
 		"satori-html": "^0.3.2",
 		"satteri": "^0.9.4",
 		"sharp": "^0.34.5",
+    "satteri-katex": "^0.1.0",
 		"tailwindcss": "^4.3.2"
     
 	},
