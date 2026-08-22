@@ -7,6 +7,7 @@ updatedDate: 20 August 2026
 pinned: false
 ---
 
+*Chronique radio chez Fréquence Banane.*
 
 Mille sabords, moussaillons !
  
