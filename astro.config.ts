@@ -75,7 +75,6 @@ export default defineConfig({
 				satteriReadingTimePlugin(),
 				satteriGithubCardPlugin(),
 				satteriAdmonitionsPlugin(),
-        satteriTikzCdPlugin(),
         katex(),
 			],
 			hastPlugins: [
@@ -83,6 +82,7 @@ export default defineConfig({
 				satteriAutolinkHeadingsPlugin(),
 				satteriFootnoteLabelPlugin(),
 				satteriExternalLinksPlugin(),
+        satteriTikzCdPlugin(),
 			],
 		}),
 	},
