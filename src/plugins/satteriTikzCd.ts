@@ -1,49 +1,14 @@
-import type { HastPluginDefinition } from "satteri";
+import type { MdastPluginDefinition } from "satteri";
 
-export function satteriTikzCdPlugin(): HastPluginDefinition {
+export function satteriTikzCdPlugin(): MdastPluginDefinition {
 	return {
 		name: "cactus-tikz-cd",
-		element: {
-			filter: ["pre"],
-			visit(node) {
-				const code = node.children[0];
 
-				if (
-					code?.type !== "element" ||
-					code.tagName !== "code"
-				) {
-					return;
-				}
+		code(node) {
+			if (node.lang !== "tikzcd") return;
 
-				const className = code.properties?.className;
-
-				if (
-					!Array.isArray(className) ||
-					!className.includes("language-tikzcd")
-				) {
-					return;
-				}
-
-				const source = code.children
-					.filter((child) => child.type === "text")
-					.map((child) => child.value)
-					.join("");
-
-				return {
-					type: "element",
-					tagName: "script",
-					properties: {
-						type: "text/tikz",
-						dataTikzcd: "true",
-					},
-					children: [
-						{
-							type: "text",
-							value: source,
-						},
-					],
-				};
-			},
+			node.lang = "tikz";
+			node.meta = "tikzcd";
 		},
 	};
 }
