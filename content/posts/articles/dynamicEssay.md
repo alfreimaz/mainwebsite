@@ -688,12 +688,12 @@ To conclude, let us order the belief changing actions depending on their
 type of revision, as seen in Table 2, in which we can observe a general tendency for updates to reach as far
 as possible, and for upgrades to be more lenient with smaller groups.
 
-|    Update to all   |  Update to some |  Upgrade to all |  Upgrade to some
-|  ------------------| ----------------| ---------------- -----------------
-|    dialogue (out)  |       time      |  dialogue (in)  |  bench-planning
-|        theme       |                 |      acting     |       habit
-|   end (individual) |                 |                 |      thought
-|                     |                  |               |      caucus
+|    Update to all   |  Update to some |  Upgrade to all |  Upgrade to some |
+|  ------------------| ----------------| ----------------|----------------- |
+|    dialogue (out)  |       time      |  dialogue (in)  |  bench-planning  |
+|        theme       |                 |      acting     |       habit      |
+|   end (individual) |                 |                 |      thought     |
+|                    |                 |                 |      caucus      |
 
 Table 2 : Belief revision types
 
