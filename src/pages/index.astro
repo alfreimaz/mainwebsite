@@ -21,8 +21,9 @@ const allPostsByDate = allPosts.sort(collectionDateSort) as CollectionEntry<"pos
 const latestPosts = allPostsByDate.slice(0, MAX_POSTS);
 
 // Tags
-const uniqueTags = getUniqueTags(allPosts).slice(0, MAX_TAGS);
 const MAX_TAGS = 7;
+const uniqueTags = getUniqueTags(allPosts).slice(0, MAX_TAGS);
+
 
 // Pinned Posts, set to a max of 3;
 const MAX_PINNED_POSTS = 3;
