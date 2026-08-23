@@ -106,7 +106,7 @@ inferred about what they are about to play from the simple fact that
 To sum it all up, here follow the different means of communication
 (which we will often call "actions\", to gamify) players have access to
 while performing: theme, dialogue, acting, caucus, bench-planning, time
-and habit. We order those in Table 1
+and habit. We order those in Table 1 [^2].
 
 |   Available to the audience |  to all improvisers |  to some improvisers |
 |  ---------------------------| --------------------| ---------------------|
@@ -116,7 +116,7 @@ and habit. We order those in Table 1
 
 <p align=center> Table 1 : means of communication </p>
 
-[^2]. Constraints can be ignored for simplification, but they are
+Constraints can be ignored for simplification, but they are
 crucial in the sense they allow or forbid some of these canals[^3]. The
 ultimate goal of this essay is both to formalise each of these aspects
 into a relevant DEL framework, finding an appropriate system for us to
@@ -438,9 +438,9 @@ assuming dialogue is clearly communicating $\varphi$.
 
 ```tikzcd
 \begin{tikzcd}
-I1 & \varphi & \neg\varphi \arrow[l, Rightarrow] \arrow[d, no head] \\
-I2 & \varphi \arrow[u, no head] & \neg\varphi \arrow[l, Rightarrow] \arrow[d, no head] \\
-A  & \varphi \arrow[u, no head] & \neg\varphi \arrow[l, Rightarrow]
+I1 & \varphi & \neg\varphi \arrow[l] \arrow[d, no head] \\
+I2 & \varphi \arrow[u, no head] & \neg\varphi \arrow[l] \arrow[d, no head] \\
+A  & \varphi \arrow[u, no head] & \neg\varphi \arrow[l]
 \end{tikzcd}
 ```
 
@@ -476,9 +476,9 @@ much the same way as in-character dialogue, that being:
 
 ```tikzcd
 \begin{tikzcd}
-I1 & \varphi & \neg\varphi \arrow[l, Rightarrow] \arrow[d, no head] \\
-I2 & \varphi \arrow[u, no head] & \neg\varphi \arrow[l, Rightarrow] \arrow[d, no head] \\
-A  & \varphi \arrow[u, no head] & \neg\varphi \arrow[l, Rightarrow]            
+I1 & \varphi & \neg\varphi \arrow[l] \arrow[d, no head] \\
+I2 & \varphi \arrow[u, no head] & \neg\varphi \arrow[l] \arrow[d, no head] \\
+A  & \varphi \arrow[u, no head] & \neg\varphi \arrow[l]            
 \end{tikzcd}
 ```
 
@@ -524,8 +524,8 @@ account for this. Therefore, we model caucus of $\varphi$ as:
 
 ```tikzcd
 \begin{tikzcd}
-I1 & \varphi & \neg\varphi \arrow[l, Rightarrow] \arrow[d, no head]   \\
-I2 & \varphi \arrow[u, no head] & \neg\varphi \arrow[l, Rightarrow] \arrow[d, no head]   \\
+I1 & \varphi & \neg\varphi \arrow[l] \arrow[d, no head]   \\
+I2 & \varphi \arrow[u, no head] & \neg\varphi \arrow[l] \arrow[d, no head]   \\
 A  & \varphi \arrow[u, no head] & \neg\varphi \arrow[l, no head]
 \end{tikzcd}
 ```
@@ -546,8 +546,8 @@ would result in:
 
 ```tikzcd
 \begin{tikzcd}
-I1 & \varphi & \neg\varphi \arrow[l, Rightarrow] \arrow[d, no head] \\
-I2 & \varphi \arrow[u, no head] & \neg\varphi \arrow[l, Rightarrow] \arrow[d, no head] \\
+I1 & \varphi & \neg\varphi \arrow[l] \arrow[d, no head] \\
+I2 & \varphi \arrow[u, no head] & \neg\varphi \arrow[l] \arrow[d, no head] \\
 I3 & \varphi \arrow[u, no head] & \neg\varphi \arrow[l, no head] \\
 A  & \varphi \arrow[u, no head] \arrow[r, no head] & \neg\varphi \arrow[u, no head]
 \end{tikzcd}
@@ -567,7 +567,7 @@ then we model it as such:
 
 ```tikzcd
 \begin{tikzcd}
-I1 & \varphi & \neg\varphi \arrow[l, Rightarrow] \arrow[d, no head] \\
+I1 & \varphi & \neg\varphi \arrow[l] \arrow[d, no head] \\
 I2 & \varphi \arrow[u, no head] & \neg\varphi \arrow[d, no head] \arrow[l, no head] \\
 A  & \varphi \arrow[u, no head] & \neg\varphi \arrow[l, no head]
 \end{tikzcd}
@@ -586,7 +586,7 @@ habits of doing $\varphi$, we represent the situation as:
 
 ```tikzcd
 \begin{tikzcd}
-I1 & \varphi & \neg\varphi \arrow[l, Rightarrow] \arrow[d, no head] \\
+I1 & \varphi & \neg\varphi \arrow[l] \arrow[d, no head] \\
 I2 & \varphi \arrow[u, no head] & \neg\varphi \arrow[d, no head] \arrow[l, no head] \\
 A  & \varphi \arrow[u, no head] & \neg\varphi \arrow[l, no head]
 \end{tikzcd}
