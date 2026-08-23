@@ -142,7 +142,14 @@
 }
 
 
+.tikz-diagram {
+  color: inherit;
+}
+
+.tikz-diagram svg {
+  color: inherit;
+}
+
 .tikz-diagram svg text {
   fill: currentColor !important;
 }
-
