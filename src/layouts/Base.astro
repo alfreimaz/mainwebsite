@@ -28,6 +28,22 @@ const {
 	/>
 </head>
 
+<script is:inline>
+  document.addEventListener("tikzjax-load-finished", (event) => {
+    const svg = event.target;
+
+    if (!(svg instanceof SVGElement)) return;
+
+    svg.querySelectorAll('[stroke="#000"], [stroke="#000000"]').forEach((el) => {
+      el.setAttribute("stroke", "currentColor");
+    });
+
+    svg.querySelectorAll('[fill="#000"], [fill="#000000"]').forEach((el) => {
+      el.setAttribute("fill", "currentColor");
+    });
+  });
+</script>
+
 
 <script
   is:inline
