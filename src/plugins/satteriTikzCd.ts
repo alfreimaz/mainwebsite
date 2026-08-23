@@ -1,14 +1,17 @@
+import type { Code, Html, Parent } from "mdast";
 import type { MdastPluginDefinition } from "satteri";
 
 export function satteriTikzCdPlugin(): MdastPluginDefinition {
 	return {
 		name: "cactus-tikz-cd",
 
-		code(node) {
+		code(node: Readonly<Code>): Html | undefined {
 			if (node.lang !== "tikzcd") return;
 
-			node.lang = "tikz";
-			node.meta = "tikzcd";
+			return {
+				type: "html",
+				value: `<script type="text/tikz" data-tikzcd>${node.value}</script>`,
+			};
 		},
 	};
 }
