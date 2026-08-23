@@ -396,15 +396,16 @@ an audience, respectively named I1, I2 and A. Each action will be
 considered in a vacuum, that is without any pre-established beliefs from
 any agent[^11]. Therefore, we represent our starting situation as:
 
-<p align=center>
+
 ```tikzcd
+$$
 \begin{tikzcd}
 I1 & true \\
 I2 & true \arrow[u, no head] \\
 A  & true \arrow[u, no head]
 \end{tikzcd}
+$$
 ```
-</p>
 
 ### Dialogue
 
