@@ -113,7 +113,7 @@ and habit. We order those in Table 1
 |           dialogue          |         time        |         habit |
 |            acting           |                      | |
 
-Table 1 : means of communication
+<p align=center> Table 1 : means of communication </p>
 
 [^2]. Constraints can be ignored for simplification, but they are
 crucial in the sense they allow or forbid some of these canals[^3]. The
@@ -396,6 +396,7 @@ an audience, respectively named I1, I2 and A. Each action will be
 considered in a vacuum, that is without any pre-established beliefs from
 any agent[^11]. Therefore, we represent our starting situation as:
 
+<p align=center>
 ```tikzcd
 \begin{tikzcd}
 I1 & true \\
@@ -403,6 +404,7 @@ I2 & true \arrow[u, no head] \\
 A  & true \arrow[u, no head]
 \end{tikzcd}
 ```
+</p>
 
 ### Dialogue
 
@@ -695,7 +697,7 @@ as possible, and for upgrades to be more lenient with smaller groups.
 |   end (individual) |                 |                 |      thought     |
 |                    |                 |                 |      caucus      |
 
-Table 2 : Belief revision types
+<p align=center> Table 2 : Belief revision types </p>
 
 Overall, the study of creation, and a fortiori improvisation, is very
 new to being studied under the epistemic light, as seems to indicate the
@@ -706,8 +708,6 @@ if deemed worthy enough, it will join other fields of study on the main
 *stage*.
 
 ## References
-
-### References
 
 - Fédération d'Improvisation Genevoise / Geneva Improvisation Federation. **Official Website**. [https://www.impro-geneve.ch/limpro/](https://www.impro-geneve.ch/limpro/)
 
