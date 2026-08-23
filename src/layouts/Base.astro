@@ -26,8 +26,21 @@ const {
 		rel="stylesheet"
 		href="https://cdn.jsdelivr.net/npm/@planktimerr/tikzjax@1.0.7/dist/fonts.css"
 	/>
-	<script src="https://cdn.jsdelivr.net/npm/@planktimerr/tikzjax@1.0.7/dist/tikzjax.js"></script>
 </head>
+
+
+<script
+  is:inline
+  src="https://cdn.jsdelivr.net/npm/@planktimerr/tikzjax@1.0.7/dist/tikzjax.js"
+></script>
+
+<script is:inline>
+  document.addEventListener("astro:page-load", () => {
+    if (window.TikZJax) {
+      window.TikZJax(document);
+    }
+  });
+</script>
 
 
 
