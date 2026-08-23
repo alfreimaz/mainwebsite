@@ -13,11 +13,12 @@ pinned: true
 Quand l’ombre rétrécit les heures s’allongent. Les secondes tombent avec fracas en pluie torrentielle, déchirant sans remord la peau de nos membres à vif, exposant notre chair à la chaleur impartiale du jour. On brûle sous le Soleil, on souffre sous le Soleil, on crève sous le Soleil. Et en l’occurrence, là, c’est le pneu qui est crevé. Des heures que nous sommes assis sur le sable, pile au beau milieu du désert, à chercher la froideur d’une portière que les rayons auraient laissée de marbre ; malheureusement, une portière pour trois ça fait peu. Alors, on s’improvise alchimistes, en quête du parfait (osons même dire du juste) équilibre entre partage et écart, afin de s’éviter la chaleur humaine inutile dans cet air entaillé sans pour autant commettre la lourde erreur de s’en débarrasser. Certes, on a l’air con le visage collé au fer, réclamant du pied ce qu’un camarade ambitieux cherche à conquérir, mais au moins ça garde au frais un carré de peau en plus, laissé intact.
 
 Seulement voilà, admettons qu’on tienne la journée, la nuit, voire même plus, ça ne changerait en rien la situation : on a lâché l’ancre, perdu dans une mer de sable, en hors piste, sans une âme charitable à l’horizon. Aucune autre solution pour nous que de continuer à pied, à la marche, à la traîne. Avec nos bagages à traîner. Je me répète, oui, j’en suis conscient, cependant ça occupe de rallonger les phrases ; et peut être bien qu’en radotant inlassablement les mêmes idées, on finit par se forger les nôtres. 
-JE marmonne, la tête tournée vers la dernière dune passée et le regard baissé sous le poids du soleil. L’AUTRE fume adossé à la voiture, assis sur le sable les genoux levés. On voit les jambes suspendues d’une troisième personne.
+
+*JE marmonne, la tête tournée vers la dernière dune passée et le regard baissé sous le poids du soleil. L’AUTRE fume adossé à la voiture, assis sur le sable les genoux levés. On voit les jambes suspendues d’une troisième personne.*
 
 En pierre philosophale de l’aride incarné, le froid ne sort ni des fioles, ni des distilleurs, mais de la bouche des gens : un vrai gaspillage, animé en mots qui immole les langues. Chaque souffle réchauffe, décante, transforme le peu de vie contenue en brûlures intenses. Parler semble donc une perte de temps comme d’air dans ces conditions, mais qu’est ce qu’on s’emmerderait sinon.
 
-Un lourd rayon s’écrase contre la tôle.
+*Un lourd rayon s’écrase contre la tôle.*
 
 JE <br>
 J’ai chaud.
@@ -25,7 +26,7 @@ J’ai chaud.
 L’AUTRE <br>
 En voilà donc une surprise !
 
-JE (tirant du même souffle court) <br>
+JE (*tirant du même souffle court*) <br>
 Surprise ou pas, j’ai chaud.
 
 L’AUTRE<br>
@@ -33,78 +34,78 @@ Car tu penses que nous non ?
 
 Une tension.
 
-L’HOMME (froid)	<br>
+L’HOMME (*froid*)	<br>
 Ne me prends pas à partie.
 
-Il se baisse et rentre dans le champ, la main gauche hors du cadre. L’AUTRE écrase sa clope dans le sable et allume la suivante. Le goudron chaud tourne à l’amer.
+*Il se baisse et rentre dans le champ, la main gauche hors du cadre. L’AUTRE écrase sa clope dans le sable et allume la suivante. Le goudron chaud tourne à l’amer.*
 
-JE (le col tenu écarté du cou)<br>
+JE (*le col tenu écarté du cou*)<br>
 Ça je ne l’ai jamais dit…
 
 L’AUTRE<br>
 Oh ! mais mon cher, penser n’est pas dire.
 
-Il bombe la poitrine, gonflée d’une fierté au bitume.
+*Il bombe la poitrine, gonflée d’une fierté au bitume.*
 
 JE<br>
 D’accord, d’accord. Tu joues sur les mots.
 
-L’HOMME (à voix basse)<br>	
+L’HOMME (*à voix basse*)<br>	
 Il ne fait que jouer…
 
-Une gorgée.
+*Une gorgée.*
 
 L’AUTRE<br>
 Et vous, vous les répétez.
 
-JE (la voix fuyante)<br>
-Certes. (Il marque une pause) Je radote, je sais –
+JE (*la voix fuyante*)<br>
+Certes. (*Il marque une pause*) Je radote, je sais –
 
-L’AUTRE (exubérant, dramatique)<br>
+L’AUTRE (*exubérant, dramatique*)<br>
 Radoter ? C’est bien pire ! On crève tous de chaud, mais au moins nous gardons notre salive intacte, sans cracher de nos têtes d’inutiles paroles ! Comment te permets-tu de gaspiller ce don du parler descendu des tiens pour n’en proférer que de courtes évidences et de longs enrayages, dans l’unique plaisir de combler ton manque privatif de confidence emportée ?
 
-La radio cherche à s’exprimer.
+*La radio cherche à s’exprimer.*
 
 L’HOMME<br>
 Pitié, écoute-toi un peu…
 
-JE (rieur)<br>
+JE (*rieur*)<br>
 Tout ça juste pour une bête plainte ?
 
-Une ample respiration.
+*Une ample respiration.*
 
 L’AUTRE<br>
 Bête oui, et je recommencerai ! dès que surviendront tes nouvelles idioties de chimère indécise. Donc monte garde grand et attends moi debout en chien de faïence sans faillir pour mieux défendre ton bout de viande la prochaine fois, car j’aurai les papilles en alerte prêtes à fendre sur ta foi.
 
-L’HOMME (détourné des mots)<br>
+L’HOMME (*détourné des mots*)<br>
 Je me fatigue de ces joutes.
 
-L’AUTRE expire une bouchée d’air gris qui s’élève hors du cadre. Il esquisse un sourire puis le déforme en une feinte innocence, les yeux écarquillés jusqu’à les perdre, fuyant l’orbite dans le pourtour des lèvres cyniques. Les pupilles inondent.
+*L’AUTRE expire une bouchée d’air gris qui s’élève hors du cadre. Il esquisse un sourire puis le déforme en une feinte innocence, les yeux écarquillés jusqu’à les perdre, fuyant l’orbite dans le pourtour des lèvres cyniques. Les pupilles inondent.*
 
 L’AUTRE<br>
 Eh bien pars ? Prends ton envol !
 
-L’HOMME (le fumet lui remontant le nez)<br>
+L’HOMME (*le fumet lui remontant le nez*)<br>
 Je reste.
 
-L’AUTRE (trappeur)<br>
+L’AUTRE (*trappeur*)<br>
 Pas le choix ?
 
 L’HOMME<br>
 Que trop peu.
 
-Les sillons noirs gonflent.
+*Les sillons noirs gonflent.*
 
-L’AUTRE (narquois aux tripes)<br>
+L’AUTRE (*narquois aux tripes*)<br>
 Il te faudra donc nous supporter mon ami !
 
 L’HOMME<br>
 « Te » supporter.
 
-JE (d’un coup de veste)<br>
+JE (*d’un coup de veste*)<br>
 S’il faut, il fera –
 
-L’AUTRE (l’œil retourné)<br>
+L’AUTRE (*l’œil retourné*)<br>
 Si faux ! S’y fera qui veut bien m’écouter.
 
 Une heure passe, puis d’autres suivent, non sans leurs entailles. Les palais s’assèchent en répétitions et se raffermissent pour certains en gorgées. La fumée, elle, joue les anti-douleurs. Le début du soir approchant, le Soleil rougi finit enfin de brûler le fond de sa rage, alors que la nuit s’attelle à emplir l’air de ses ombres vacillantes. Le vent déplace les lumières et les lanternes aussi, quand elles pendent de nos doigts, le fer chaud empoigné par la hanse. Des suites de notre après-midi entière prisée de souffrance, à cramer dans un canyon abrasif, genoux à terre, on décide de s’imposer une énième douleur aux jambes : d’aller pousser dans les mollets le reste d’énergie fade que les rations militaires nous ont fournies pour partir en repérage dans les environs, sans espérer voir autre chose que du sable fin. En revanche, pas question de s’imposer un demi-tour pour reprendre nos affaires quand on aura enfin un début d’idée d’où aller. Alors chacun s’en va ramasser ses babioles : des bières chaudes, une valise, des paquets de cartes, de cigarettes encore crues, et tutti quanti. On évide la carcasse de sa prose par grands gestes. Toutefois, je redoute un moment : celui où on ouvrira le coffre. Enfin, « on » … Soyons réalistes ! Plutôt eux. J’aurais beaucoup trop honte pour l’ouvrir moi-même. Déjà qu’il me faudra le tirer au bout d’une corde. Que faire d’autre ? le porter dans mes bras ? et lui taper la discussion ? ou le laisser me porter sinon ? Tout sauf le recracher derrière nous, prématuré. Je dois d’abord choisir, mais comment ? Ils me diraient que j’ai l’habitude, qu’il me suffit de fermer les yeux et de nier.
