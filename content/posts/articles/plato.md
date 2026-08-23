@@ -31,11 +31,11 @@ D’abord, il cherche à prouver l’existence d’un « mouvement générateur 
 
 ---
 
-- (c 1.1) Rmv ∧ Rvm, soit il existe un mouvement de la mort à la vie et de la vie à la mort
+- (c 1.1) Rmv ∧ Rvm, soit il existe un mouvement de la mort à la vie et de la vie à la mort[^1]
 
 
 
-L’argument lui-même ne sera pas questionné ici, seul ses prémisses le seront.
+
 
 
 Puis, usant de cette première conclusion, il en déduit
@@ -122,3 +122,6 @@ Pour résumer, la compréhension de Platon des contraires peut nous sembler cont
 - Platon, “Phédon”, édition du cours
 - White, F. C. “The Compresence of Opposites in Phaedo 102.” The Classical Quarterly, vol. 27, no. 2, 1977, pp. 303–11. JSTOR, [http://[www.jstor.org/stable/638425.](http://www.jstor.org/stable/638425.](https://www.jstor.org/stable/638425.](http://www.jstor.org/stable/638425.)) Consulté le 19 May 2023.
 - Philosophie magazine, “Forme”, [https://[www.philomag.com/lexique/forme.](https://www.philomag.com/lexique/forme.](https://www.philomag.com/lexique/forme.](https://www.philomag.com/lexique/forme.)) Consulté le 22.05.2023,
+
+
+[^1]: L’argument lui-même ne sera pas questionné ici, seul ses prémisses le seront.
