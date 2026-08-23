@@ -27,8 +27,7 @@ Voici maintenant un tableau résumant les quatre différentes positions que nous
 	
 | | Option du sacrifice| Option passive|
 | -| -------- | ------- |
-| **Le choix d'un autre** | Tirer pour éviter une possible plus grande perte si quelqu’un d’autre décidait de tirer lui-même.| Préférer que quelqu’un d’autre se décide pour ne pas en assumer l’entière/la responsabilité.
-|
+| **Le choix d'un autre** | Tirer pour éviter une possible plus grande perte si quelqu’un d’autre décidait de tirer lui-même.| Préférer que quelqu’un d’autre se décide pour ne pas en assumer l’entière/la responsabilité. |
 | **La longueur du dilemme**| Tirer pour arrêter l’expérience et libérer les humains, prisonniers des rails.| Préférer que l’expérience ne se termine jamais afin que personne ne périsse à cause d’elle.|
 
 En conclusion, si vous cherchez des sujets de papier, ne vous flagellez pas trop pendant vos sessions de doomscroll, car elles peuvent parfois vous apporter l’illumination justement espérée. Sur-ce, voilà mon article, alors qui voudra bien peut en écrire deux en réponse. *Double it and give it to the next person* après tout. Voyons quand ça s’arrête. (Et si jamais, P.S., je vous rassure, je ne pense pas vraiment la philosophie inutile.)
