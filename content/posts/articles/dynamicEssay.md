@@ -397,15 +397,13 @@ an audience, respectively named I1, I2 and A. Each action will be
 considered in a vacuum, that is without any pre-established beliefs from
 any agent[^11]. Therefore, we represent our starting situation as:
 
-<TikzCd
-  code={`
-\\begin{tikzcd}
-I1 & true \\\\
-I2 & true \\arrow[u] \\\\
-A  & true \\arrow[u]
-\\end{tikzcd}
-`}
-/>
+```tikzcd
+\begin{tikzcd}
+I1 & true \\
+I2 & true \arrow[u] \\
+A  & true \arrow[u]
+\end{tikzcd}
+```
 
 ### Dialogue
 
@@ -436,28 +434,24 @@ and all other players. This leaves us with the two following cases,
 assuming dialogue is clearly communicating $\varphi$.
 
 -   In-character:
-
-<TikzCd
-  code={`
-\\begin{tikzcd}
-I1 & \\varphi & \\neg\\varphi \\arrow[l, Rightarrow] \\arrow[d] \\\\
-I2 & \\varphi \\arrow[u] & \\neg\\varphi \\arrow[l, Rightarrow] \\arrow[d] \\\\
-A  & \\varphi \\arrow[u] & \\neg\\varphi \\arrow[l, Rightarrow]
-\\end{tikzcd}
-`}
-/>
+-   
+```tikzcd
+\begin{tikzcd}
+I1 & \varphi & \neg\varphi \arrow[l, Rightarrow] \arrow[d] \\
+I2 & \varphi \arrow[u] & \neg\varphi \arrow[l, Rightarrow] \arrow[d] \\
+A  & \varphi \arrow[u] & \neg\varphi \arrow[l, Rightarrow]
+\end{tikzcd}
+```
 
 -   Out-of-character:
 
-<TikzCd
-  code={`
-\\begin{tikzcd}
-I1 & \\varphi \\\\
-I2 & \\varphi \\arrow[u] \\\\
-A  & \\varphi \\arrow[u]
-\\end{tikzcd}
-`}
-/>
+```tikzcd
+\begin{tikzcd}
+I1 & \varphi \\
+I2 & \varphi \arrow[u] \\
+A  & \varphi \arrow[u]
+\end{tikzcd}
+```
 
 Interestingly, note that knowing which improviser said $\varphi$ is
 irrelevant for our system. Indeed, it is only useful when treating cases
@@ -479,15 +473,13 @@ like dialogue, directed towards both the audience and all improvisers,
 making it another symmetrical revision. It can therefore be modeled in
 much the same way as in-character dialogue, that being:
 
-<TikzCd
-  code={`
-\\begin{tikzcd}
-I1 & \\varphi & \\neg\\varphi \\arrow[l, Rightarrow] \\arrow[d] \\\\
-I2 & \\varphi \\arrow[u] & \\neg\\varphi \\arrow[l, Rightarrow] \\arrow[d] \\\\
-A  & \\varphi \\arrow[u] & \\neg\\varphi \\arrow[l, Rightarrow]            
-\\end{tikzcd}
-`}
-/>
+```tikzcd
+\begin{tikzcd}
+I1 & \varphi & \neg\varphi \arrow[l, Rightarrow] \arrow[d] \\
+I2 & \varphi \arrow[u] & \neg\varphi \arrow[l, Rightarrow] \arrow[d] \\
+A  & \varphi \arrow[u] & \neg\varphi \arrow[l, Rightarrow]            
+\end{tikzcd}
+```
 
 ### Theme
 
@@ -500,15 +492,13 @@ theme. It can thus be safely considered a belief update. As it is
 clearly announced and known of everyone, we treat it similarly to
 out-of-character dialogue, that being:
 
-<TikzCd
-  code={`
-\\begin{tikzcd}
-I1 & \\varphi \\\\
-I2 & \\varphi \\arrow[u] \\\\
-A  & \\varphi \\arrow[u]
-\\end{tikzcd}
-`}
-/>
+```tikzcd
+\begin{tikzcd}
+I1 & \varphi \\
+I2 & \varphi \arrow[u] \\
+A  & \varphi \arrow[u]
+\end{tikzcd}
+```
 
 ### Caucus
 
@@ -531,15 +521,13 @@ we could model the difference between belief in the caucus and belief in
 dialogue as of different magnitude, but our current system cannot
 account for this. Therefore, we model caucus of $\varphi$ as:
 
-<TikzCd
-  code={`
-\\begin{tikzcd}
-I1 & \\varphi & \\neg\\varphi \\arrow[l, Rightarrow] \\arrow[d]   \\\\
-I2 & \\varphi \\arrow[u] & \\neg\\varphi \\arrow[l, Rightarrow] \\arrow[d]   \\\\
-A  & \\varphi \\arrow[u] & \\neg\\varphi \\arrow[l]
-\\end{tikzcd}
-`}
-/>
+```tikzcd
+\begin{tikzcd}
+I1 & \varphi & \neg\varphi \arrow[l, Rightarrow] \arrow[d]   \\
+I2 & \varphi \arrow[u] & \neg\varphi \arrow[l, Rightarrow] \arrow[d]   \\
+A  & \varphi \arrow[u] & \neg\varphi \arrow[l]
+\end{tikzcd}
+```
 
 ### Bench-planning
 
@@ -555,16 +543,14 @@ Therefore, we must treat bench-planning similarly to caucus, with a
 subset of all improvisers being concerned. In our expanded example, this
 would result in:
 
-<TikzCd
-  code={`
-\\begin{tikzcd}
-I1 & \\varphi & \\neg\\varphi \\arrow[l, Rightarrow] \\arrow[d] \\\\
-I2 & \\varphi \\arrow[u] & \\neg\\varphi \\arrow[l, Rightarrow] \\arrow[d] \\\\
-I3 & \\varphi \\arrow[u] & \\neg\\varphi \\arrow[l] \\\\
-A  & \\varphi \\arrow[u] \\arrow[r] & \\neg\\varphi \\arrow[u]
-\\end{tikzcd}
-`}
-/>
+```tikzcd
+\begin{tikzcd}
+I1 & \varphi & \neg\varphi \arrow[l, Rightarrow] \arrow[d] \\
+I2 & \varphi \arrow[u] & \neg\varphi \arrow[l, Rightarrow] \arrow[d] \\
+I3 & \varphi \arrow[u] & \neg\varphi \arrow[l] \\
+A  & \varphi \arrow[u] \arrow[r] & \neg\\varphi \arrow[u]
+\end{tikzcd}
+```
 
 ### Thoughts
 
@@ -578,15 +564,13 @@ themselves come to a conclusion. This however escapes the scope of this
 particular essay. Let us suppose that I1 is the one having a thought,
 then we model it as such:
 
-<TikzCd
-  code={`
-\\begin{tikzcd}
-I1 & \\varphi & \\neg\\varphi \\arrow[l, Rightarrow] \\arrow[d] \\\\
-I2 & \\varphi \\arrow[u] & \\neg\\varphi \\arrow[d] \\arrow[l] \\\\
-A  & \\varphi \\arrow[u] & \\neg\\varphi \\arrow[l]
-\\end{tikzcd}
-`}
-/>
+```tikzcd
+\begin{tikzcd}
+I1 & \varphi & \neg\varphi \arrow[l, Rightarrow] \arrow[d] \\
+I2 & \varphi \arrow[u] & \neg\varphi \arrow[d] \arrow[l] \\
+A  & \varphi \arrow[u] & \neg\varphi \arrow[l]
+\end{tikzcd}
+```
 
 ### Habit
 
@@ -599,15 +583,13 @@ precise speaker was irrelevant to the dialogue case (for only the result
 here matters[^15]), and, supposing I1 knows I2 well and predicts their
 habits of doing $\varphi$, we represent the situation as:
 
-<TikzCd
-  code={`
-\\begin{tikzcd}
-I1 & \\varphi & \\neg\\varphi \\arrow[l, Rightarrow] \\arrow[d] \\\\
-I2 & \\varphi \\arrow[u] & \\neg\\varphi \\arrow[d] \\arrow[l] \\\\
-A  & \\varphi \\arrow[u] & \\neg\\varphi \\arrow[l]
-\\end{tikzcd}
-`}
-/>
+```tikzcd
+\begin{tikzcd}
+I1 & \varphi & \neg\varphi \arrow[l, Rightarrow] \arrow[d] \\
+I2 & \varphi \arrow[u] & \neg\varphi \arrow[d] \arrow[l] \\
+A  & \varphi \arrow[u] & \neg\varphi \arrow[l]
+\end{tikzcd}
+```
 
 ### Time
 
@@ -621,15 +603,13 @@ those who saw it. Similarly to how bench planning was an upgrade to a
 subset of the improvisers, time is instead an update to a subset of the
 improvisers. Supposing only I1 sees the signs, we model it as:
 
-<TikzCd
-  code={`
-\\begin{tikzcd}
-I1 & \\varphi & \\\\
-I2 & \\varphi \\arrow[u] & \\neg\\varphi \\arrow[d] \\arrow[l] \\\\
-A  & \\varphi \\arrow[u] & \\neg\\varphi \\arrow[l]
-\\end{tikzcd}
-`}
-/>
+```tikzcd
+\begin{tikzcd}
+I1 & \varphi & \\
+I2 & \varphi \arrow[u] & \neg\varphi \arrow[d] \arrow[l] \\
+A  & \varphi \arrow[u] & \neg\varphi \arrow[l]
+\end{tikzcd}
+```
 
 ### Ending
 
