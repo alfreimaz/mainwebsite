@@ -1,12 +1,13 @@
 ---
-title: "Double Trolley"
-description: "article iPhilo 13"
-publishDate: "01 Mar 2025"
-tags: ["french", "philosophy","social","opinion","essay"]
-updatedDate: 20 August 2026
+title: "Quel sens Platon donne-t-il au terme 'contraire'?"
+description: "Premier essai de philo"
+publishDate: "23 May 2025"
+tags: ["french", "philosophy", "logic","essay"]
+updatedDate: 23 August 2026
 pinned: false
 ---
 
+*Voici le tout premier essai que j'ai eu à écrire. Point 0 de l'écriture, pour référence.*
 
 ## Problématique et ressources
 
@@ -16,7 +17,7 @@ Cet essai cherchera à répondre à la question suivante « Quel sens Platon don
 
 La question peut sembler futile, mais quand vous découvrez pour la première fois le monde de la logique (philosophique comme mathématique d’ailleurs) avec ses réflexes méthodologiques et théories appliquées, il est une notion qui est sûr de vous surprendre, au moins de vous intriguer : celle de la négation. Comment faut-il la percevoir ? Prenons pour exemple la phrase « Jean est grand », que nous essaierons de passer en sa forme négative. Dans un usage courant, langagier, sa négation sera « Jean est petit ». Mais d’un point de vue formel, c’est dire plus qu’on ne le pense, car en logique classique, la négation de « Jean est grand » sera en réalité « il n’est pas le cas que Jean est grand ». Et pourquoi faire la différence ? Simplement car dans le premier cas, on suppose à la fois une exclusion mutuelle de « grand » et « petit », tout en sous entendant la complémentarité de ces deux propriétés. On peut facilement visualiser cela avec un spectre. Une ligne partant de « moyen » dans les deux directions jusqu’à l’infini, passant par « grand » et « petit », comme dans le schéma suivant :
 
-Dans une telle situation, on entend la négation comme mathématique : le contraire de 1 est ¬ 1, de 2, -2, etc. Alors, le contraire de « grand » est « petit », de « très grand », « très petit ». Or en logique, ce n’est pas ce qu’on cherche à dire. Dire de Jean qu’il n’est pas grand revient à dire qu’il n’en a pas la propriété, sans chercher à combler cette dernière par une autre. « Il n’est pas le cas que Jean est grand » et « Jean est petit » sont donc deux phrases aux caractères propositionnels différents. Et si cette distinction est la source de difficultés chez de nombreuses personnes, au risque de paraître blasphématoire, il est intéressant de se pencher sur la compréhension qu’ont pu en avoir de grands penseurs qui ont marqué leur époque comme la nôtre. Aujourd’hui, Platon, plus particulièrement dans les « Arguments tirés de la nature de l’âme » du « Phédon ».
+Dans une telle situation, on entend la négation comme mathématique : le contraire de 1 est -1, de 2, -2, etc. Alors, le contraire de « grand » est « petit », de « très grand », « très petit ». Or en logique, ce n’est pas ce qu’on cherche à dire. Dire de Jean qu’il n’est pas grand revient à dire qu’il n’en a pas la propriété, sans chercher à combler cette dernière par une autre. « Il n’est pas le cas que Jean est grand » et « Jean est petit » sont donc deux phrases aux caractères propositionnels différents. Et si cette distinction est la source de difficultés chez de nombreuses personnes, au risque de paraître blasphématoire, il est intéressant de se pencher sur la compréhension qu’ont pu en avoir de grands penseurs qui ont marqué leur époque comme la nôtre. Aujourd’hui, Platon, plus particulièrement dans les « Arguments tirés de la nature de l’âme » du « Phédon ».
 
 ## Contextualisation
 
