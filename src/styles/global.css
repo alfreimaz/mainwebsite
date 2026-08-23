@@ -140,3 +140,9 @@
 	--tw-prose-quotes: var(--color-quote);
 	--tw-prose-th-borders: #666;
 }
+
+
+.tikz-diagram svg text {
+  fill: currentColor !important;
+}
+
