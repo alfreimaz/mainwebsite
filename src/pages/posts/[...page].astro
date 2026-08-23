@@ -9,9 +9,9 @@ import PageLayout from "@/layouts/Base.astro";
 import { collectionDateSort } from "@/utils/date";
 
 export const getStaticPaths = (async ({ paginate }) => {
-	const MAX_POSTS_PER_PAGE = 10;
-	const MAX_TAGS = 7;
-	const MAX_PINNED_POSTS = 3;
+	const MAX_POSTS_PER_PAGE = 20;
+	const MAX_TAGS = 15;
+	const MAX_PINNED_POSTS = 5;
 	const allPosts = await getAllPosts();
 	const allPostsByDate = allPosts.sort(collectionDateSort);
 	const uniqueTags = getUniqueTags(allPosts).slice(0, MAX_TAGS);
