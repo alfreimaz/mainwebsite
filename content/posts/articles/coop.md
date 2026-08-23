@@ -19,62 +19,62 @@ Sont dans cette section retranscrites les différentes répliques présentes dan
 
 **P.24**
 
-1. F Ma première recette connue en Suisse a été publiée en 1699. <br>
+1. F : Ma première recette connue en Suisse a été publiée en 1699. <br>
 R	Je fête cette année mes 450 ans d’histoire en Valais. On m’a baptisée « raclette » en 1874, en référence au fait de racler la meule de fromage fondant près du feu.
 
-2.	F	Comme le fameux slogan l’affirme, je crée la bonne humeur.
+2.	F :	Comme le fameux slogan l’affirme, je crée la bonne humeur.
 <br> R	Pur mensonge... ce n’est pas toi qui la crées, c’est le fromage fondu en général !
 
 
-3.	R	On me fait fondre et on me racle avec amour, grâce au four traditionnel valaisan. On	prend le temps de me savourer, dedans ou dehors.<br>
-F	On me concocte avec soin, me brassant patiemment, à la maison ou en pleine nature !
+3.	R :	On me fait fondre et on me racle avec amour, grâce au four traditionnel valaisan. On	prend le temps de me savourer, dedans ou dehors.<br>
+F :	On me concocte avec soin, me brassant patiemment, à la maison ou en pleine nature !
 
 **P.25**
 
-4.	F	Je contribue à la diversité de la Suisse : on ne me préfère pas de la même façon selon	les régions où l’on me déguste.<br>
-R	Certes, mais il n’y a qu’un caquelon dans lequel on te fait fondre. J’ai droit à un four traditionnel à la valaisanne ainsi qu’à divers fours réservés à la raclonette : électrique ou... à la bougie.
-5.	R	On a jugé la qualité de mes fromages lors d’un premier Championnat du monde de la	raclette, l’an dernier en Valais.<br>
-F	J’ai déjà été célébrée quatre fois lors d’un Mondial de fondue, dans le canton de Vaud.
+4.	F :	Je contribue à la diversité de la Suisse : on ne me préfère pas de la même façon selon	les régions où l’on me déguste.<br>
+R :	Certes, mais il n’y a qu’un caquelon dans lequel on te fait fondre. J’ai droit à un four traditionnel à la valaisanne ainsi qu’à divers fours réservés à la raclonette : électrique ou... à la bougie.
+5.	R :	On a jugé la qualité de mes fromages lors d’un premier Championnat du monde de la	raclette, l’an dernier en Valais.<br>
+F :	J’ai déjà été célébrée quatre fois lors d’un Mondial de fondue, dans le canton de Vaud.
 
-6.	F	On peut me préparer avec des ingrédients végétaux, la preuve avec la recette de fondue	végane signée Fooby (lire en page 37) !<br>
-R	Comme toi, j’existe aussi en mode végane sur le marché !
+6.	F :	On peut me préparer avec des ingrédients végétaux, la preuve avec la recette de fondue	végane signée Fooby (lire en page 37) !<br>
+R :	Comme toi, j’existe aussi en mode végane sur le marché !
 
-7.	F	Je permets aux clubs de foot et de hockey de gagner des sous et aux derbys d’être plus	gourmands.<br>
-R	Prétentieuse que tu es, les clubs de sport organisent aussi des soirées raclette !
+7.	F :	Je permets aux clubs de foot et de hockey de gagner des sous et aux derbys d’être plus	gourmands.<br>
+R :	Prétentieuse que tu es, les clubs de sport organisent aussi des soirées raclette !
 
-8.	R	On me déguste sans échanger ses microbes potentiels, si tu vois ce que je veux dire...<br>
-F	Rabat-joie. D’accord, un point pour toi. Avec moi, on partage tout !
+8.	R :	On me déguste sans échanger ses microbes potentiels, si tu vois ce que je veux dire...<br>
+F :	Rabat-joie. D’accord, un point pour toi. Avec moi, on partage tout !
 
 **P.26**
 
-9.	F	Envie de me déguster en solo ? J’existe aussi en portion individuelle, prête en un éclair	au four à micro-ondes ! <br>
-R	Tu n’as pas le monopole du choix du nombre de convives. On peut me savourer à 1, 2, 3 ou 10 personnes...
+9.	F :	Envie de me déguster en solo ? J’existe aussi en portion individuelle, prête en un éclair	au four à micro-ondes ! <br>
+R :	Tu n’as pas le monopole du choix du nombre de convives. On peut me savourer à 1, 2, 3 ou 10 personnes...
 
-10.	F	Il n’y a pas que préparée avec du vin blanc que je suis bonne : on peut par exemple me	concocter avec de la bière, avec ou sans alcool. Par ailleurs, la fondue au Vacherin	Fribourgeois AOP s’élabore avec de l’eau.<br>
-R	Pas besoin de m’ajouter quelque liquide que ce soit. Je me suffis à moi-même.
+10.	F :	Il n’y a pas que préparée avec du vin blanc que je suis bonne : on peut par exemple me	concocter avec de la bière, avec ou sans alcool. Par ailleurs, la fondue au Vacherin	Fribourgeois AOP s’élabore avec de l’eau.<br>
+R :	Pas besoin de m’ajouter quelque liquide que ce soit. Je me suffis à moi-même.
 
-11.	F	Au-delà du Gruyère AOP et du Vacherin Fribourgeois AOP, on peut me préparer avec	de nombreux fromages, y compris une touche de bleu, de Tilsiter, d’Appenzeller (voire	la recette de fondue à la poire Williams en page 36), de Schabziger ou de Tête de Moine	AOP. On m’élabore même avec... du fromage à raclette ! <br>
-R	Tu n’es pas la seule, je suis certes célèbre préparée avec du fromage à raclette, à l’instar du Raclette du Valais AOP, mais j’excelle aussi avec du raclette de chèvre ou du Vacherin Fribourgeois AOP.
+11.	F :	Au-delà du Gruyère AOP et du Vacherin Fribourgeois AOP, on peut me préparer avec	de nombreux fromages, y compris une touche de bleu, de Tilsiter, d’Appenzeller (voire	la recette de fondue à la poire Williams en page 36), de Schabziger ou de Tête de Moine	AOP. On m’élabore même avec... du fromage à raclette ! <br>
+R :	Tu n’es pas la seule, je suis certes célèbre préparée avec du fromage à raclette, à l’instar du Raclette du Valais AOP, mais j’excelle aussi avec du raclette de chèvre ou du Vacherin Fribourgeois AOP.
 
 **P.27**
 
-12.	F	Autour de la table je suscite toujours le débat : moitié-moitié ou pas, prête à l’emploi	en sachet ou à concocter soi-même en râpant le fromage...<br>
-R	Ce sont plutôt les accompagnements qui animent les discussions avec moi. Les puristes ne jurent que par les pommes de terre en robe des champs, les cornichons et les petits oignons. Ils crient au scandale quand d’autres me dégustent avec des fruits secs, des poires, du romarin, du gingembre ou du lard grillé !
+12.	F :	Autour de la table je suscite toujours le débat : moitié-moitié ou pas, prête à l’emploi	en sachet ou à concocter soi-même en râpant le fromage...<br>
+R :	Ce sont plutôt les accompagnements qui animent les discussions avec moi. Les puristes ne jurent que par les pommes de terre en robe des champs, les cornichons et les petits oignons. Ils crient au scandale quand d’autres me dégustent avec des fruits secs, des poires, du romarin, du gingembre ou du lard grillé !
 
-13.	F	Je peux me présenter colorée, rouge avec de la sauce tomate ou teintée de vert avec	des herbettes séchées par exemple.<br>
-R	Curry, paprika, abricots secs... Avec toutes les épices et accompagnements avec lesquels on me savoure, tu fais pâle figure. Un point pour moi !
+13.	F :	Je peux me présenter colorée, rouge avec de la sauce tomate ou teintée de vert avec	des herbettes séchées par exemple.<br>
+R :	Curry, paprika, abricots secs... Avec toutes les épices et accompagnements avec lesquels on me savoure, tu fais pâle figure. Un point pour moi !
 
-14.	R	On ne te déguste le plus souvent qu’avec du pain, ce n’est pas très élaboré...<br>
-F	Ne fais pas la maligne, Madame pommes de terre-cornichons.
+14.	R	: On ne te déguste le plus souvent qu’avec du pain, ce n’est pas très élaboré...<br>
+F :	Ne fais pas la maligne, Madame pommes de terre-cornichons.
 
-15.	R	Pas de rythme imposé avec moi. On me fait fondre quand on est en appétit.<br>
-F	Un point pour toi, c’est plus compliqué avec moi de faire des pauses. Mais on m’associe à la tradition du coup du milieu, qui consiste à déguster une larme d’eau-de-vie entre deux bouchées.
+15.	R :	Pas de rythme imposé avec moi. On me fait fondre quand on est en appétit.<br>
+F :	Un point pour toi, c’est plus compliqué avec moi de faire des pauses. Mais on m’associe à la tradition du coup du milieu, qui consiste à déguster une larme d’eau-de-vie entre deux bouchées.
 
-16.	F	Je suis synonyme de gage potentiel : qui perd son morceau de pain dans le caquelon a	une dette !<br>
-R	Et tu trouves ça glorieux ?
+16.	F :	Je suis synonyme de gage potentiel : qui perd son morceau de pain dans le caquelon a	une dette !<br>
+R :	Et tu trouves ça glorieux ?
 
-17.	F	Quand on a fini de me déguster, je réserve un délice irrésistible aux convives, au fond	de mon caquelon : il se nomme religieuse.<br>
-R	Le bord croustillant de ma meule de fromage se nomme également ainsi, et il est bien meilleur que ta religieuse coriace !
+17.	F :	Quand on a fini de me déguster, je réserve un délice irrésistible aux convives, au fond	de mon caquelon : il se nomme religieuse.<br>
+R :	Le bord croustillant de ma meule de fromage se nomme également ainsi, et il est bien meilleur que ta religieuse coriace !
 
 ## Destinateur et destinataire
 
@@ -135,15 +135,15 @@ Le match est une discipline à deux niveaux, et c’est là une caractéristique
 
 Cependant, il serait intéressant de revenir un instant sur la solidité de l’échange-même entre la fondue et la raclette, qui peut parfois sembler désarticulé. Penchons-nous sur les phrases en 1, 3 et 5 qui, certes, sont toujours liées par une même thématique (l’origine d’un plat comme de l’autre pour la 1 par exemple), mais paraissent néanmoins mal emboîtées, sans suite réelle, laissant une impression de deux participants qui ne se répondent pas réellement mais parlent des mêmes sujets :
 
-1.	F	Ma première recette connue en Suisse a été publiée en 1699 <br>
-R	Je fête cette année mes 450 ans d’histoire en Valais. On m’a baptisée « raclette » en
+1.	F :	Ma première recette connue en Suisse a été publiée en 1699 <br>
+R :	Je fête cette année mes 450 ans d’histoire en Valais. On m’a baptisée « raclette » en
 1874, en référence au fait de racler la meule de fromage fondant près du feu.
 
-2.	R	On me fait fondre et on me racle avec amour, grâce au four traditionnel valaisan. On	prend le temps de me savourer, dedans ou dehors.<br>
-F	On me concocte avec soin, me brassant patiemment, à la maison ou en pleine nature !
+2.	R :	On me fait fondre et on me racle avec amour, grâce au four traditionnel valaisan. On	prend le temps de me savourer, dedans ou dehors.<br>
+F :	On me concocte avec soin, me brassant patiemment, à la maison ou en pleine nature !
 
-5.	R	On a jugé la qualité de mes fromages lors d’un premier Championnat du monde de la	raclette, l’an dernier en Valais.<br>
-F	J’ai déjà été célébrée quatre fois lors d’un Mondial de fondue, dans le canton de Vaud.
+5.	R :	On a jugé la qualité de mes fromages lors d’un premier Championnat du monde de la	raclette, l’an dernier en Valais.<br>
+F :	J’ai déjà été célébrée quatre fois lors d’un Mondial de fondue, dans le canton de Vaud.
 
 L’ordre entre les répliques pourrait très bien ici être inversé sans aucune perte de sens : il n’y a donc pas de connexion directe, pas de reprise d’un élément de l’une par l’autre, pas de terme en amorce qui nous en empêche. En somme, ce ne sont réellement ni des questions, ni des réponses. Et cette impression légitime peut être expliquée par un facteur lui plus linguistique : l’absence frappante des fonctions phatiques et conatives au sein des dialogues. En effet, celles-ci ne sont, à travers les 34 répliques, trouvables que dans 5 d’entre elles (4.R, 6.R et 12.R pour la fonction phatique, 8R et 14R pour la fonction conative ; notons qu’il n’est ici pris en compte que les expressions à fonction conative dirigée vers l’interlocuteur du débat, en effet, 6.R, 9.R et 11.R en contiennent également, mais seulement dirigée vers le consommateur), ce qui explique l’impression laissée sur le lecteur. De plus, notons le schéma des échanges, systématiquement binaire : il n’y a aucun élément d’un échange repris dans un autre (hormis l’allocation de points, qui se trouve être un problème pour d’autres raisons à venir), aucune tirade, ni aucune contre-réponse, en bref, le format est très scolaire, très stérile. Remarquons cependant, en aparté, que nombres de débats notamment politiques se transforment rapidement en expositions individuelles d’idées et de faits. Alors, bien que la connexion semble manquer entre les participants eux-mêmes, nous considérerons malgré tout que le critère obtient, car de nombreux débats réels souffrent des mêmes manquements. Il serait curieux de s’intéresser à la converse en analysant ces mêmes débats pour voir s’ils méritent d’être qualifiés comme tels, mais ce serait là le travail d’un autre essai.
 
@@ -161,11 +161,11 @@ Néanmoins, malgré l’étrangeté survenant de ces anomalies, il ne nous est p
 
 Enfin, il parait essentiel à tout débat que ses participants se critiquent, à coup d’arguments comme de rhétorique, en bref : que ses participants cherchent chacun à gagner. En effet, un débat où l’un des camps présent joue en faveur de son opposition sera vite qualifié de « faux débat », ou de manière générale sera rejeté au vu de son illégitimité. On chercherait donc à minimiser les éléments inutiles, les discussions sur ce qui ne peut avantager ni l’un ni l’autre. Cependant, on observe que nombre de dialogues tiennent sur des sujets non-pertinents : par exemples, les phrases en 1, 3, 5, 10 ou 12. Aussi, il est important de remarquer le grand nombre de terme à fonction expressive ramenant un air de positivité au débat, et ce même lors de critiques. On prendra notamment pour exemple la 14.R : « On ne te déguste le plus souvent qu’avec du pain, ce n’est pas très élaboré... » qui allie critique et éloge en une même phrase. Malgré tout, certains arguments sont présentés, mais, et c’est sûrement sur ce point que la forme pêche, ils semblent trop peu nombreux pour réellement qualifier de débat ce qui, de prime abord, ressemble avant tout à un alignement de faits historiques ou de recommandations culinaires à tester aux prochaines fêtes. Prenez la phrase 7.F par exemple « Je permets aux clubs de foot et de hockey de gagner des sous et aux derbys d’être plus gourmands. », quelques simples éléments auraient pu la transformer en argument marquant. « Moi, je permets aux clubs de foot et de hockey de gagner des sous et aux derbys d’être plus gourmands. » pour montrer que la fondue estime que ce n’est pas le cas de la raclette. De telles modifications rendraient le dialogue plus naturel, évitant ainsi que la raclette ne réponde à une affirmation de la phrase (que seules les soirées fondue existent) qui n’est pas explicitée. En d’autres termes, les critiques sont trop peu assumées. Les seuls échanges structurés comme de vrais arguments sont les suivants :
 
-8.	R	On me déguste sans échanger ses microbes potentiels, si tu vois ce que je veux dire...<br>
-F	Rabat-joie. D’accord, un point pour toi. Avec moi, on partage tout !
+8.	R :	On me déguste sans échanger ses microbes potentiels, si tu vois ce que je veux dire...<br>
+F :	Rabat-joie. D’accord, un point pour toi. Avec moi, on partage tout !
 
-14.	R	On ne te déguste le plus souvent qu’avec du pain, ce n’est pas très élaboré...<br>
-F	Ne fais pas la maligne, Madame pommes de terre-cornichons.
+14.	R :	On ne te déguste le plus souvent qu’avec du pain, ce n’est pas très élaboré...<br>
+F :	Ne fais pas la maligne, Madame pommes de terre-cornichons.
 
 En somme, il semble que seule la raclette présente des arguments forts, ce qui, pour revenir au critère précédent, jure une fois de plus avec l’égalité en résultat. C’est l’intention de l’auteure qui vient régulièrement contredire ce que le débat devrait amener : des positions tranchées et critiques. En surdosant sur la quantité de terme positifs à fonction expressives du point de vue de cette dernière, les répliques s’émoussent et perdent leurs crocs, pour autant qu’il y ait eu crocs pour commencer. Alors, pour ces diverses raisons ce critère n’obtiendra pas.
 
