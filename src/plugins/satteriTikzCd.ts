@@ -10,7 +10,7 @@ export function satteriTikzCdPlugin(): MdastPluginDefinition {
 
 			return {
 				type: "html",
-				value: `<script type="text/tikz" data-tikzcd data-tex-packages='{"tikz-cd":""}'>${node.value}</script>`,
+				value: `<div class="tikz-diagram"><script type="text/tikz" data-tikzcd data-tex-packages='{"tikz-cd":""}'>${node.value}</script></div>`,
 			};
 		},
 	};
