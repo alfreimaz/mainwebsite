@@ -82,9 +82,9 @@ Cependant, rappelons qu’il s’agit bien là d’un échange publicitaire et f
 
 ```tikzcd
 \begin{tikzcd}
-Auteure \arrow[dd, "écrit" description] \arrow[rrdd, "écrit" description] \arrow[rr, "s'adresse\:à", dashed] &  & Lecteur                                                   \\
-                                                                                                             &  &                                                           \\
-Fondue \arrow[rr, "parle\:à" description, shift left]                                                        &  & Raclette \arrow[ll, "parle\:à" description, shift left=2]
+Auteure \arrow[dd, "écrit" description] \arrow[rrdd, "écrit" description] \arrow[rr, "s'adresse\:à", dashed] & \: & Lecteur \\
+\: & \: & \: \\
+Fondue \arrow[rr, "parle\:à" description, shift left] & \: & Raclette \arrow[ll, "parle\:à" description, shift left=2]
 \end{tikzcd}
 ```
 
@@ -96,9 +96,9 @@ Il nous faudra alors, notamment pour les morceaux de phrases aux fonctions expre
 Il revient donc de garder en tête le carré de relations suivant :
 ```tikzcd
 \begin{tikzcd}
-Auteure \arrow[dd, "écrit" description] \arrow[rrdd, "écrit" description, bend right] \arrow[rr, "s'adresse\:à", dashed] &  & Lecteur                                                   \\
-                                                                                                                         &  &                                                           \\
-Fondue \arrow[rr, "parle\:à" description, shift left] \arrow[rruu, "parle\:à" description, bend right, shift left]       &  & Raclette \arrow[ll, "parle\:à" description, shift left=2]
+Auteure \arrow[dd, "écrit" description] \arrow[rrdd, "écrit" description, bend right] \arrow[rr, "s'adresse\:à", dashed] & \: & Lecteur \\
+\: & \: & \: \\
+Fondue \arrow[rr, "parle\:à" description, shift left] \arrow[rruu, "parle\:à" description, bend right, shift left] & \: & Raclette \arrow[ll, "parle\:à" description, shift left=2]
 \end{tikzcd}
 ```
 
