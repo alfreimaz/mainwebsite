@@ -2,7 +2,7 @@
 title: "Stage beliefs and the dynamics of performance"
 description: "DEL course essay"
 publishDate: "30 Jun 2026"
-tags: ["english", "logic", "fiction","philosophy","essay","improvisation"]
+tags: ["english", "logic", "fiction","philosophy","essay","improvisation","theater"]
 updatedDate: 22 August 2026
 pinned: false
 ---
