@@ -33,7 +33,8 @@ Voici maintenant un tableau résumant les quatre différentes positions que nous
 
 En conclusion, si vous cherchez des sujets de papier, ne vous flagellez pas trop pendant vos sessions de doomscroll, car elles peuvent parfois vous apporter l’illumination justement espérée. Sur-ce, voilà mon article, alors qui voudra bien peut en écrire deux en réponse. *Double it and give it to the next person* après tout. Voyons quand ça s’arrête. (Et si jamais, P.S., je vous rassure, je ne pense pas vraiment la philosophie inutile.)
 
-**SOURCES** :
+## Sources
+
 - [https://[www.instagram.com/reel/DBuApg3q9KV/?igsh=MXc1NGhnajFiNGUyMA==](https://www.instagram.com/reel/DBuApg3q9KV/?igsh=MXc1NGhnajFiNGUyMA==](https://www.instagram.com/reel/DBuApg3q9KV/?igsh=MXc1NGhnajFiNGUyMA==](https://www.instagram.com/reel/DBuApg3q9KV/?igsh=MXc1NGhnajFiNGUyMA==))
 - Hacker-Wright, J., *Philippa Foot*, The Stanford Encyclopedia of Philosophy (Winter **2021** Edition), Edward N. Zalta (ed.), **URL** = <[https://plato.stanford.edu/archives/win2021/entries/philippa-foot/>.](https://plato.stanford.edu/archives/win2021/entries/philippa-foot/>.)
 - [https://[www.reddit.com/r/trolleyproblem/comments/149sh6x/after_the_33rd_split_in_the_tracks_the_trolley/](https://www.reddit.com/r/trolleyproblem/comments/149sh6x/after_the_33rd_split_in_the_tracks_the_trolley/](https://www.reddit.com/r/trolleyproblem/comments/149sh6x/after_the_33rd_split_in_the_tracks_the_trolley/](https://www.reddit.com/r/trolleyproblem/comments/149sh6x/after_the_33rd_split_in_the_tracks_the_trolley/))
