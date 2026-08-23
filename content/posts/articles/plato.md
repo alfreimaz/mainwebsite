@@ -26,12 +26,12 @@ En premier lieu, replaçons l’extrait dans son contexte. Platon met en scène 
 D’abord, il cherche à prouver l’existence d’un « mouvement générateur » de la mort à la vie. À noter que par « mouvement générateur », ou de génération, il entend l’engendrement d’une chose par une autre, dans ce cas précis, la vie qui engendre la mort et la mort qui engendrerait la vie.
 
 
-- (p 1.1) ∀x∀y (Cxy ⊃ (Rxy ∧ Ryx)), où R signifie « _ engendre _ » et C « _ est le contraire de _ », soit toute chose ayant un contraire est engendrée par celui-ci, et l’engendre en retour également.
+- (p 1.1) $\forall$x$\forall$y (Cxy $\subseteq$ (Rxy $\land$ Ryx)), où R signifie « _ engendre _ » et C « _ est le contraire de _ », soit toute chose ayant un contraire est engendrée par celui-ci, et l’engendre en retour également.
 - (p 1.2) Cmv, où m est la mort et v la vie, soit la mort est le contraire de la vie
 
 ---
 
-- (c 1.1) Rmv ∧ Rvm, soit il existe un mouvement de la mort à la vie et de la vie à la mort[^1]
+- (c 1.1) Rmv $\land$ Rvm, soit il existe un mouvement de la mort à la vie et de la vie à la mort[^1]
 
 
 
