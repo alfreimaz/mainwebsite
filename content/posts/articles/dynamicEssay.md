@@ -606,7 +606,7 @@ improvisers. Supposing only I1 sees the signs, we model it as:
 
 ```tikzcd
 \begin{tikzcd}
-I1 & \varphi & \\
+I1 & \varphi & a \\
 I2 & \varphi \arrow[u, no head] & \neg\varphi \arrow[d] \arrow[l] \\
 A  & \varphi \arrow[u, no head] & \neg\varphi \arrow[l]
 \end{tikzcd}
