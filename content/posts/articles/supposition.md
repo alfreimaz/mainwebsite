@@ -124,9 +124,9 @@ Nous avons alors montré bien des raisons de croire que la supposition et l'imag
 
 
 
-[^1] : On pourrait questionner le fait que l'état mental de l'individu soit le seul facteur de l'input. Le monde en  lui-même n'influe-t-il pas l'imagination ? Certes, mais seulement au travers de la perception que l'individu  conscient en a. On ne peut imaginer en s'inspirant de quelque chose que si on croit que ce quelque chose  existe. Or, la croyance est un état mental, donc l'imagination est construite sur les états mentaux. 
+[^1]: On pourrait questionner le fait que l'état mental de l'individu soit le seul facteur de l'input. Le monde en  lui-même n'influe-t-il pas l'imagination ? Certes, mais seulement au travers de la perception que l'individu  conscient en a. On ne peut imaginer en s'inspirant de quelque chose que si on croit que ce quelque chose  existe. Or, la croyance est un état mental, donc l'imagination est construite sur les états mentaux. 
 
-[^2] : Comme semble l'indiquer la possibilité d'imaginer autre chose que des énoncés propositionnels.
+[^2]: Comme semble l'indiquer la possibilité d'imaginer autre chose que des énoncés propositionnels.
 
 
 
