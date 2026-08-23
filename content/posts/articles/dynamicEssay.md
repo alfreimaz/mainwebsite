@@ -7,7 +7,6 @@ updatedDate: 22 August 2026
 pinned: false
 ---
 
-import TikzCd from "../../../src/components/TikzCd.astro";
 
 ## Introduction
 
@@ -122,7 +121,7 @@ ultimate goal of this essay is both to formalise each of these aspects
 into a relevant DEL framework, finding an appropriate system for us to
 do so, and to question the metaphysics behind the statements
 communicated themselves. So, first we must discuss the stance the
-remaining pages will assume on the place of knowledge in fiction.\
+remaining pages will assume on the place of knowledge in fiction.
 
 ## Knowledge in fiction
 
@@ -400,8 +399,8 @@ any agent[^11]. Therefore, we represent our starting situation as:
 ```tikzcd
 \begin{tikzcd}
 I1 & true \\
-I2 & true \arrow[u] \\
-A  & true \arrow[u]
+I2 & true \arrow[u, no head] \\
+A  & true \arrow[u, no head]
 \end{tikzcd}
 ```
 
@@ -434,12 +433,12 @@ and all other players. This leaves us with the two following cases,
 assuming dialogue is clearly communicating $\varphi$.
 
 -   In-character:
--   
+
 ```tikzcd
 \begin{tikzcd}
-I1 & \varphi & \neg\varphi \arrow[l, Rightarrow] \arrow[d] \\
-I2 & \varphi \arrow[u] & \neg\varphi \arrow[l, Rightarrow] \arrow[d] \\
-A  & \varphi \arrow[u] & \neg\varphi \arrow[l, Rightarrow]
+I1 & \varphi & \neg\varphi \arrow[l, Rightarrow] \arrow[d, no head] \\
+I2 & \varphi \arrow[u, no head] & \neg\varphi \arrow[l, Rightarrow] \arrow[d, no head] \\
+A  & \varphi \arrow[u, no head] & \neg\varphi \arrow[l, Rightarrow]
 \end{tikzcd}
 ```
 
@@ -448,8 +447,8 @@ A  & \varphi \arrow[u] & \neg\varphi \arrow[l, Rightarrow]
 ```tikzcd
 \begin{tikzcd}
 I1 & \varphi \\
-I2 & \varphi \arrow[u] \\
-A  & \varphi \arrow[u]
+I2 & \varphi \arrow[u, no head] \\
+A  & \varphi \arrow[u, no head]
 \end{tikzcd}
 ```
 
@@ -475,9 +474,9 @@ much the same way as in-character dialogue, that being:
 
 ```tikzcd
 \begin{tikzcd}
-I1 & \varphi & \neg\varphi \arrow[l, Rightarrow] \arrow[d] \\
-I2 & \varphi \arrow[u] & \neg\varphi \arrow[l, Rightarrow] \arrow[d] \\
-A  & \varphi \arrow[u] & \neg\varphi \arrow[l, Rightarrow]            
+I1 & \varphi & \neg\varphi \arrow[l, Rightarrow] \arrow[d, no head] \\
+I2 & \varphi \arrow[u, no head] & \neg\varphi \arrow[l, Rightarrow] \arrow[d, no head] \\
+A  & \varphi \arrow[u, no head] & \neg\varphi \arrow[l, Rightarrow]            
 \end{tikzcd}
 ```
 
@@ -495,8 +494,8 @@ out-of-character dialogue, that being:
 ```tikzcd
 \begin{tikzcd}
 I1 & \varphi \\
-I2 & \varphi \arrow[u] \\
-A  & \varphi \arrow[u]
+I2 & \varphi \arrow[u, no head] \\
+A  & \varphi \arrow[u, no head]
 \end{tikzcd}
 ```
 
@@ -523,9 +522,9 @@ account for this. Therefore, we model caucus of $\varphi$ as:
 
 ```tikzcd
 \begin{tikzcd}
-I1 & \varphi & \neg\varphi \arrow[l, Rightarrow] \arrow[d]   \\
-I2 & \varphi \arrow[u] & \neg\varphi \arrow[l, Rightarrow] \arrow[d]   \\
-A  & \varphi \arrow[u] & \neg\varphi \arrow[l]
+I1 & \varphi & \neg\varphi \arrow[l, Rightarrow] \arrow[d, no head]   \\
+I2 & \varphi \arrow[u, no head] & \neg\varphi \arrow[l, Rightarrow] \arrow[d, no head]   \\
+A  & \varphi \arrow[u, no head] & \neg\varphi \arrow[l, no head]
 \end{tikzcd}
 ```
 
@@ -545,10 +544,10 @@ would result in:
 
 ```tikzcd
 \begin{tikzcd}
-I1 & \varphi & \neg\varphi \arrow[l, Rightarrow] \arrow[d] \\
-I2 & \varphi \arrow[u] & \neg\varphi \arrow[l, Rightarrow] \arrow[d] \\
-I3 & \varphi \arrow[u] & \neg\varphi \arrow[l] \\
-A  & \varphi \arrow[u] \arrow[r] & \neg\\varphi \arrow[u]
+I1 & \varphi & \neg\varphi \arrow[l, Rightarrow] \arrow[d, no head] \\
+I2 & \varphi \arrow[u, no head] & \neg\varphi \arrow[l, Rightarrow] \arrow[d, no head] \\
+I3 & \varphi \arrow[u, no head] & \neg\varphi \arrow[l, no head] \\
+A  & \varphi \arrow[u, no head] \arrow[r, no head] & \neg\varphi \arrow[u, no head]
 \end{tikzcd}
 ```
 
@@ -566,9 +565,9 @@ then we model it as such:
 
 ```tikzcd
 \begin{tikzcd}
-I1 & \varphi & \neg\varphi \arrow[l, Rightarrow] \arrow[d] \\
-I2 & \varphi \arrow[u] & \neg\varphi \arrow[d] \arrow[l] \\
-A  & \varphi \arrow[u] & \neg\varphi \arrow[l]
+I1 & \varphi & \neg\varphi \arrow[l, Rightarrow] \arrow[d, no head] \\
+I2 & \varphi \arrow[u, no head] & \neg\varphi \arrow[d, no head] \arrow[l, no head] \\
+A  & \varphi \arrow[u, no head] & \neg\varphi \arrow[l, no head]
 \end{tikzcd}
 ```
 
@@ -585,9 +584,9 @@ habits of doing $\varphi$, we represent the situation as:
 
 ```tikzcd
 \begin{tikzcd}
-I1 & \varphi & \neg\varphi \arrow[l, Rightarrow] \arrow[d] \\
-I2 & \varphi \arrow[u] & \neg\varphi \arrow[d] \arrow[l] \\
-A  & \varphi \arrow[u] & \neg\varphi \arrow[l]
+I1 & \varphi & \neg\varphi \arrow[l, Rightarrow] \arrow[d, no head] \\
+I2 & \varphi \arrow[u, no head] & \neg\varphi \arrow[d, no head] \arrow[l, no head] \\
+A  & \varphi \arrow[u, no head] & \neg\varphi \arrow[l, no head]
 \end{tikzcd}
 ```
 
@@ -606,8 +605,8 @@ improvisers. Supposing only I1 sees the signs, we model it as:
 ```tikzcd
 \begin{tikzcd}
 I1 & \varphi & \\
-I2 & \varphi \arrow[u] & \neg\varphi \arrow[d] \arrow[l] \\
-A  & \varphi \arrow[u] & \neg\varphi \arrow[l]
+I2 & \varphi \arrow[u, no head] & \neg\varphi \arrow[d] \arrow[l] \\
+A  & \varphi \arrow[u, no head] & \neg\varphi \arrow[l]
 \end{tikzcd}
 ```
 
@@ -689,12 +688,12 @@ To conclude, let us order the belief changing actions depending on their
 type of revision, as seen in Table 2, in which we can observe a general tendency for updates to reach as far
 as possible, and for upgrades to be more lenient with smaller groups.
 
-|    Update to all   |  Update to some |  Upgrade to all |  Upgrade to some |
-|  ------------------| ----------------| ---------------- ----------------- |
-|    dialogue (out)  |       time      |  dialogue (in)  |  bench-planning |
-|        theme       |                 |      acting     |       habit |
-|   end (individual) |                 |                 |      thought |
-|                     |                  |               |      caucus |
+|    Update to all   |  Update to some |  Upgrade to all |  Upgrade to some
+|  ------------------| ----------------| ---------------- -----------------
+|    dialogue (out)  |       time      |  dialogue (in)  |  bench-planning
+|        theme       |                 |      acting     |       habit
+|   end (individual) |                 |                 |      thought
+|                     |                  |               |      caucus
 
 Table 2 : Belief revision types
 
@@ -704,7 +703,7 @@ extremely narrow scope of relevant papers. It feels however promising,
 appearing as an interesting entry way into the study of potential
 factive beliefs and fiction pragmatics. One can only hope that, one day,
 if deemed worthy enough, it will join other fields of study on the main
-*stage*.\
+*stage*.
 
 ## References
 
