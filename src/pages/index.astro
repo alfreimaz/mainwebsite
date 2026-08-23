@@ -21,7 +21,7 @@ const allPostsByDate = allPosts.sort(collectionDateSort) as CollectionEntry<"pos
 const latestPosts = allPostsByDate.slice(0, MAX_POSTS);
 
 // Tags
-const MAX_TAGS = 15;
+const MAX_TAGS = 50;
 const uniqueTags = getUniqueTags(allPosts).slice(0, MAX_TAGS);
 
 
