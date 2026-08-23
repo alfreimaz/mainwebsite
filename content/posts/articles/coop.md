@@ -20,10 +20,10 @@ Sont dans cette section retranscrites les différentes répliques présentes dan
 **P.24**
 
 1. F : Ma première recette connue en Suisse a été publiée en 1699. <br>
-R	Je fête cette année mes 450 ans d’histoire en Valais. On m’a baptisée « raclette » en 1874, en référence au fait de racler la meule de fromage fondant près du feu.
+R :	Je fête cette année mes 450 ans d’histoire en Valais. On m’a baptisée « raclette » en 1874, en référence au fait de racler la meule de fromage fondant près du feu.
 
 2.	F :	Comme le fameux slogan l’affirme, je crée la bonne humeur.
-<br> R	Pur mensonge... ce n’est pas toi qui la crées, c’est le fromage fondu en général !
+<br> R :	Pur mensonge... ce n’est pas toi qui la crées, c’est le fromage fondu en général !
 
 
 3.	R :	On me fait fondre et on me racle avec amour, grâce au four traditionnel valaisan. On	prend le temps de me savourer, dedans ou dehors.<br>
@@ -98,7 +98,7 @@ Revenant sur chaque dialogue, nous expliciterons dans cette section les rôles q
 - La fonction métalinguistique : permet de discuter de la langue et du dialogue lui-même, en l’analysant.
 - La fonction poétique : permet la mise en valeur d’un sens par la structure, sonorité ou syntaxe même de la phrase.
 
-Nous mettons maintenant en évidence quelle fonctions se retrouvent dans le débat :
+Nous mettons maintenant en évidence quelles fonctions se retrouvent dans le débat :
 1.	La réplique 1F est entièrement référentielle, à cause de l’expression « ma première recette connue en Suisse » qui désigne bien un élément externe au discours. Notons que le « on » ici présent, ne désignant pas précisément un ou plusieurs individus du contexte, ne peut que difficilement être vu comme un élément à fonction référentielle lui aussi. Rappelons aussi qu’ici, comme pour la totalité des dialogues de l’article, les répliques sont adressées à la fois à la raclette ou à la fondue, respectivement dans le cadre du débat, mais aussi au lecteur, d’une manière non-explicite dans les mots eux-mêmes (le lecteur n’est pas désigné par un pronom « tu » ou quoi que ce soit d’autre), mais bien présente et même centrale dans l’objectif de l’article : faire connaître et vendre. C’est typiquement ce rôle-là qui est d’ailleurs privilégié dans cet échange, puisque les faits historiques évoqués servent avant tout à informer le lecteur.
 2.	Bien qu’elle soit centrée sur une phrase, et donc le langage, il serait trop aventureux de donner à la réplique 2F une fonction métalinguistique. En effet, s’il est ici fait référence à l’idiome « la fondue crée la bonne humeur », c’est uniquement pour la dire de manière détournée plutôt que pour en analyser la forme. C’est donc en réalité un cas de fonction référentielle plus que métalinguistique, qu’on observe bien par la phrase « le fameux slogan », qui désigne une phrase jusqu’alors non prononcée dans le dialogue, mais présente dans le contexte du lecteur. La réplique 2R, en revanche, commence par un cas paradigmatique de fonction expressive, avec « Pur mensonge », qui clarifie l’état mental de son destinateur. Similairement au « on » en 1, la mention ici de « le fromage » désigne plus un concept abstrait qu’un réel élément du contexte, ce qui ne permet pas de lui assigner une quelconque fonction référentielle.
 3.	Les phrases en 3.R et 3.F semblent porter une fonction expressive. Les expressions « avec amour », « on prend le temps de me savourer » ou « concocte avec soin » sont toutes chargées positivement et mettent en lumière d’une part le fait que la raclette et la fondue, dans le cadre de ce débat, cherchent chacune à se mettre en valeur, mais aussi, d’autre part que l’auteure vise bien à donner une lueur positive aux deux. Ces phrases exercent donc une fonction expressive à la fois pour les actrices du débat mais aussi pour l’auteure, en lui donnant une fenêtre d’expression et de vente des produits.
