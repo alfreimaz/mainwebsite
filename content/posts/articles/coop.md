@@ -7,6 +7,8 @@ updatedDate: 23 August 2026
 pinned: false
 ---
 
+*Probablement le sujet le plus étrange que j'ai jamais traité. Difficile d'en parler tout en paraissant sérieux...*
+
 ## Introduction
 
 La publicité n’a jamais été, et ne sera jamais, à court d’idées, et si nombre agences et publicitaires préfèrent rester dans les formules traditionnelles, en faisant jouer des slogans ou en présentant le produit comme la seule solution à un problème jusqu’alors inconnu du futur consommateur, certains s’essayent à de nouveaux formats. Et c’est ainsi que dans le journal publicitaire de la Coop, dit « Coopération », du 8 octobre 2024 pouvait être lu un match de rhétorique entre la fondue et la raclette personnifiées. Evidemment, la Coop, étant un magasin de distribution, a tout intérêt à ce que les lecteurs achètent les deux. Mais alors, pourquoi son autrice, Joëlle Challandes, a-t-elle choisi ce format de joute verbale ? au lieu d’un simple article ventant les bienfaits de l’un comme de l’autre ? Dans cette analyse, nous étudierons, en utilisant les approches pragmatiques de Jakobson, d’Austin et de Grice, comment l’article, malgré sa présentation, n’est en réalité pas si différent d’un simple encart publicitaire et aussi bien loin d’un débat classique.
