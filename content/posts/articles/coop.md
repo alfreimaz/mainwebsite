@@ -88,6 +88,14 @@ Fondue \arrow[rr, "parle\:à" description, shift left] & \: & Raclette \arrow[ll
 \end{tikzcd}
 ```
 
+```tikzcd
+\begin{tikzcd}
+Auteure \arrow[dd] \arrow[rrdd, bend right] \arrow[rr]             &  & Lecteur                         \\
+                                                                   &  &                                 \\
+Fondue \arrow[rr, shift left] \arrow[rruu, bend right, shift left] &  & Raclette \arrow[ll, shift left]
+\end{tikzcd}
+```
+
 Il nous faudra alors, notamment pour les morceaux de phrases aux fonctions expressives et conatives (qui seront définie dans la section suivante), préciser qui exactement les dit et à qui elles sont adressées, car on ne traitera pas de la même manière une phrase prononcée par un personnage pour gagner un débat fictif qu’une phrase qui vise à pousser le lecteur à la consommation. On peut alors remarquer plusieurs choses :
 - Premièrement, notons que l’auteure s’adresse bien au lecteur, mais de manière non-explicite. En effet, Joëlle Challandes ne prend à aucun moment le parti d’écrire en son propre nom ; c’est uniquement par le discours de la raclette et de la fondue qu’elle intervient et qu’elle nous vante les mérites des produits de la Coop ou nous présente de futurs achats possibles.
 - Deuxièmement, on pourrait aussi raisonnablement ajouter au carré l’entité de la Coop, en ce qu’elle est représentée, qu’elle s’exprime, par l’auteure qui elle-même fait partie d’un ensemble de personnes en permettant la publicité. Cependant, cela nous demanderait de tordre les théories linguistiques (développées avant tout pour exprimer les interactions humaines) plus qu’elles ne le permettent réellement. La piste est donc évoquée mais ne sera pas plus discutée.
