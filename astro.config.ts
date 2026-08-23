@@ -19,6 +19,7 @@ import {
 } from "./src/plugins/satteri";
 import { expressiveCodeOptions, siteConfig } from "./src/site.config";
 import katex from 'satteri-katex';
+import { satteriTikzCdPlugin } from "./src/plugins/satteriTikzCd";
 
 // https://astro.build/config
 export default defineConfig({
@@ -74,6 +75,7 @@ export default defineConfig({
 				satteriReadingTimePlugin(),
 				satteriGithubCardPlugin(),
 				satteriAdmonitionsPlugin(),
+        satteriTikzCdPlugin(),
         katex(),
 			],
 			hastPlugins: [
