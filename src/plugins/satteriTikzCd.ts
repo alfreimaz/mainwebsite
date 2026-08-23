@@ -1,4 +1,4 @@
-import type { Code, Html, Parent } from "mdast";
+import type { Code, Html } from "mdast";
 import type { MdastPluginDefinition } from "satteri";
 
 export function satteriTikzCdPlugin(): MdastPluginDefinition {
