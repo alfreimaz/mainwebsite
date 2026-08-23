@@ -7,6 +7,7 @@ updatedDate: 22 August 2026
 pinned: false
 ---
 
+or, the place of knowledge in spontaneous fiction.
 
 ## Introduction
 
@@ -398,13 +399,13 @@ any agent[^11]. Therefore, we represent our starting situation as:
 
 
 ```tikzcd
-$$
+\begin{center}
 \begin{tikzcd}
 I1 & true \\
 I2 & true \arrow[u, no head] \\
 A  & true \arrow[u, no head]
 \end{tikzcd}
-$$
+\end{center}
 ```
 
 ### Dialogue
