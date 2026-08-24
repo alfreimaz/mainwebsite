@@ -15,10 +15,8 @@ import wow from '../assets/wow.png';
 import { getUniqueTags } from "@/data/post";
 
 // Posts
-const MAX_POSTS = 10;
 const allPosts = await getAllPosts();
 const allPostsByDate = allPosts.sort(collectionDateSort) as CollectionEntry<"post">[];
-const latestPosts = allPostsByDate.slice(0, MAX_POSTS);
 
 // Tags
 const MAX_TAGS = 50;
@@ -39,7 +37,7 @@ const MAX_ESSAY_POSTS = 5;
 const essayPosts = allPostsByDate
 	.values()
 	// à faire pour rubrique misc: .filter((p) => (p.data.tags.includes("essay")==false && p.data.tags.includes("music")==false && p.data.tags.includes("literature")==false ))
-  .filter((p) => p.data.includes("essay")
+  .filter((p) => p.data.tags.includes("essay"))
 	.take(MAX_ESSAY_POSTS)
 	.toArray();
 
@@ -48,7 +46,7 @@ const MAX_MUSIC_POSTS = 5;
 const musicPosts = allPostsByDate
 	.values()
 	// à faire pour rubrique misc: .filter((p) => (p.data.tags.includes("essay")==false && p.data.tags.includes("music")==false && p.data.tags.includes("literature")==false ))
-  .filter((p) => p.data.includes("music")
+  .filter((p) => p.data.tags.includes("music"))
 	.take(MAX_MUSIC_POSTS)
 	.toArray();
 
@@ -57,7 +55,7 @@ const MAX_LITERATURE_POSTS = 5;
 const literaturePosts = allPostsByDate
 	.values()
 	// à faire pour rubrique misc: .filter((p) => (p.data.tags.includes("essay")==false && p.data.tags.includes("music")==false && p.data.tags.includes("literature")==false ))
-  .filter((p) => p.data.includes("literature")
+  .filter((p) => p.data.tags.includes("literature"))
 	.take(MAX_LITERATURE_POSTS)
 	.toArray();
 
