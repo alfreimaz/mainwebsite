@@ -101,7 +101,6 @@ const plusText1 = document.getElementById("plus-text1");
 const plusText2 = document.getElementById("plus-text2");
 const plusText3 = document.getElementById("plus-text3");
 const plusText4 = document.getElementById("plus-text4");
-// const plusText5 = document.getElementById("plus-text5");
 const essayText = document.getElementById("essay-text");
 const literatureText = document.getElementById("literature-text");
 const musicText = document.getElementById("music-text");
@@ -221,9 +220,6 @@ if (plusText3) {
 if (plusText4) {
       plusText4.innerHTML = allMessages[index]!;
     }
-// if (plusText5) {
-//      plusText5.innerHTML = plusMessages[index]!;
-//    }
 
 // titles
 if (essayText) {
@@ -413,12 +409,6 @@ allPostsByDate.filter((p) => p.data.tags.includes("music")).length > MAX_MUSIC_P
 							</li>
 						))}
 					</ul>
-					// <span class="mt-4 block sm:text-end">
-					//	<a class="hover:text-link" href="/tags/">
-					//		<span id="plus-text5">voir plus</span> <span aria-hidden="true">→</span>
-					//		<span class="sr-only">blog tags</span>
-					//	</a>
-					// </span>
 				</section>
 
 
