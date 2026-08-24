@@ -314,10 +314,15 @@ if (bigonesText) {
 					))}
 				</ul>
 <span class="mt-4 block sm:text-end">
+&nbsp;
+{
+essayPosts.length > MAX_ESSAY_POSTS && (
 						<a class="hover:text-link" href="/tags/essay/">
 							<span id="plus-text1">voir plus</span> <span aria-hidden="true">→</span>
 							<span class="sr-only">blog tags</span>
 						</a>
+)
+}
 					</span>
 	</section>
 
@@ -332,10 +337,15 @@ if (bigonesText) {
 					))}
 				</ul>
 <span class="mt-4 block sm:text-end">
+&nbsp;
+{
+literaturePosts.length > MAX_LITERATURE_POSTS && (
 						<a class="hover:text-link" href="/tags/literature/">
 							<span id="plus-text2">voir plus</span> <span aria-hidden="true">→</span>
 							<span class="sr-only">blog tags</span>
 						</a>
+)
+}
 					</span>
 	</section>
 
@@ -352,7 +362,7 @@ if (bigonesText) {
 <span class="mt-4 block sm:text-end">
 &nbsp;
 {
-musicPosts.length > 5 && (
+musicPosts.length > MAX_MUSIC_POSTS && (
 						<a class="hover:text-link" href="/tags/music/">
 							<span id="plus-text3">voir plus</span> <span aria-hidden="true">→</span>
 							<span class="sr-only">blog tags</span>
