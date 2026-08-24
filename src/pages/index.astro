@@ -321,7 +321,7 @@ if (bigonesText) {
 <span class="mt-4 block sm:text-end">
 &nbsp;
 {
-essayPosts.length > MAX_ESSAY_POSTS && (
+allPostsByDate.filter((p) => p.data.tags.includes("essay")).length > MAX_ESSAY_POSTS && (
 						<a class="hover:text-link" href="/tags/essay/">
 							<span id="plus-text1">voir plus</span> <span aria-hidden="true">→</span>
 							<span class="sr-only">blog tags</span>
@@ -344,7 +344,7 @@ essayPosts.length > MAX_ESSAY_POSTS && (
 <span class="mt-4 block sm:text-end">
 &nbsp;
 {
-literaturePosts.length > MAX_LITERATURE_POSTS && (
+allPostsByDate.filter((p) => p.data.tags.includes("literature")).length > MAX_LITERATURE_POSTS && (
 						<a class="hover:text-link" href="/tags/literature/">
 							<span id="plus-text2">voir plus</span> <span aria-hidden="true">→</span>
 							<span class="sr-only">blog tags</span>
@@ -367,7 +367,7 @@ literaturePosts.length > MAX_LITERATURE_POSTS && (
 <span class="mt-4 block sm:text-end">
 &nbsp;
 {
-musicPosts.length > MAX_MUSIC_POSTS && (
+allPostsByDate.filter((p) => p.data.tags.includes("music")).length > MAX_MUSIC_POSTS && (
 						<a class="hover:text-link" href="/tags/music/">
 							<span id="plus-text3">voir plus</span> <span aria-hidden="true">→</span>
 							<span class="sr-only">blog tags</span>
@@ -389,7 +389,7 @@ musicPosts.length > MAX_MUSIC_POSTS && (
 				</ul>
 <span class="mt-4 block sm:text-end">
 						<a class="hover:text-link" href="/posts/">
-							<span id="plus-text4">voir plus</span> <span aria-hidden="true">→</span>
+							<span id="plus-text4">voir tout</span> <span aria-hidden="true">→</span>
 							<span class="sr-only">blog tags</span>
 						</a>
 					</span>
