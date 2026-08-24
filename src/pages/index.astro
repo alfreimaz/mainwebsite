@@ -29,7 +29,7 @@ const uniqueTags = getUniqueTags(allPosts).slice(0, MAX_TAGS);
 const MAX_PINNED_POSTS = 3;
 const pinnedPosts = allPostsByDate
 	.values()
-	.filter((p) => p.data.tags.includes("essay","french"))
+	.filter((p) => p.data.tags.includes("essay")==false)
 	.take(MAX_PINNED_POSTS)
 	.toArray();
 
