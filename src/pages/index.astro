@@ -109,10 +109,8 @@ const branchSrc = otherText?.dataset.branchSrc;
     "fran&ccedil;ais - <u>english</u>"
   ];
 const plusMessages = [
-    "plus <span aria-hidden="true">→</span>
-							<span class="sr-only">blog tags</span>",
-    "more <span aria-hidden="true">→</span>
-							<span class="sr-only">blog tags</span>"
+    "plus",
+    "more"
   ];
 
 
@@ -339,7 +337,7 @@ if (plusText) {
 					</ul>
 					<span class="mt-4 block sm:text-end">
 						<a class="hover:text-link" href="/tags/">
-							plus / more <span aria-hidden="true">→</span>
+							<span id=plusText> plus / more <span><span aria-hidden="true">→</span>
 							<span class="sr-only">blog tags</span>
 						</a>
 					</span>
