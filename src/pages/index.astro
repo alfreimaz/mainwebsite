@@ -95,6 +95,10 @@ const latestNotes = allNotes
 
 <script>
 const otherText = document.getElementById("other-text");
+const clickableText = document.getElementById("clickable-text");
+const jokeText = document.getElementById("funny-joke");
+const plusText = document.getElementById("plus-text");
+
 const branchSrc = otherText?.dataset.branchSrc;
 
 
@@ -104,6 +108,16 @@ const branchSrc = otherText?.dataset.branchSrc;
     "<u>fran&ccedil;ais</u> - english",
     "fran&ccedil;ais - <u>english</u>"
   ];
+const plusMessage = [
+    "plus",
+    "more"
+  ];
+
+
+
+
+
+
 const jokeMessages = [
     "pas encore chauve, circa d&eacute;but 2026 <br />&nbsp; &nbsp;&nbsp;",
     "not yet bald, circa early 2026 <br />&nbsp; &nbsp;&nbsp;"
@@ -145,8 +159,7 @@ const otherMessages = [
 
   let index = 0;
 
-  const clickableText = document.getElementById("clickable-text");
-  const jokeText = document.getElementById("funny-joke");
+
 
   clickableText?.addEventListener("click", () => {
     index = (index + 1) % messages.length;
@@ -160,6 +173,12 @@ const otherMessages = [
 if (jokeText) {
       jokeText.innerHTML = jokeMessages[index]!;
     }
+
+if (plusText) {
+      plusText.innerHTML = plusMessages[index]!;
+    }
+
+
   });
 </script>
 
@@ -237,7 +256,7 @@ if (jokeText) {
 				</ul>
 <span class="mt-4 block sm:text-end">
 						<a class="hover:text-link" href="/tags/essay/">
-							plus / more <span aria-hidden="true">→</span>
+							<p id = "plus-text">plus / more</p> <span aria-hidden="true">→</span>
 							<span class="sr-only">blog tags</span>
 						</a>
 					</span>
