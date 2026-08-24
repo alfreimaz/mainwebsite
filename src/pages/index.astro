@@ -102,6 +102,11 @@ const plusText2 = document.getElementById("plus-text2");
 const plusText3 = document.getElementById("plus-text3");
 const plusText4 = document.getElementById("plus-text4");
 const plusText5 = document.getElementById("plus-text5");
+const essayText = document.getElementById("essay-text");
+const literatureText = document.getElementById("literature-text");
+const musicText = document.getElementById("music-text");
+const miscText = document.getElementById("misc-text");
+const bigonesText = document.getElementById("bigones-text5");
 
 const branchSrc = otherText?.dataset.branchSrc;
 
@@ -115,6 +120,26 @@ const branchSrc = otherText?.dataset.branchSrc;
 const plusMessages = [
     "voir plus",
     "view more"
+  ];
+const essayMessages = [
+    "Essais",
+    "Essays"
+  ];
+const literatureMessages = [
+    "Littérature",
+    "Literature"
+  ];
+const musicMessages = [
+    "Musique",
+    "Music"
+  ];
+const miscMessages = [
+    "Autres",
+    "Misc"
+  ];
+const bigonesMessages = [
+    "Les immanquables",
+    "The big ones"
   ];
 
 
@@ -178,6 +203,7 @@ if (jokeText) {
       jokeText.innerHTML = jokeMessages[index]!;
     }
 
+// plus more
 if (plusText1) {
       plusText1.innerHTML = plusMessages[index]!;
     }
@@ -192,6 +218,23 @@ if (plusText4) {
     }
 if (plusText5) {
       plusText5.innerHTML = plusMessages[index]!;
+    }
+
+// titles
+if (essayText) {
+      essayText.innerHTML = essayMessages[index]!;
+    }
+if (literatureText) {
+      literatureText.innerHTML = literatureMessages[index]!;
+    }
+if (musicText) {
+      musicText.innerHTML = musicMessages[index]!;
+    }
+if (miscText) {
+      miscText.innerHTML = miscMessages[index]!;
+    }
+if (bigonesText) {
+      bigonesText.innerHTML = bigonesMessages[index]!;
     }
 
 
@@ -250,7 +293,7 @@ if (plusText5) {
 	{
 		pinnedPosts.length > 0 && (
 			<section class="mt-16">
-				<h2 class="title mb-6 text-xl">Les immanquables / the big ones</h2>
+				<h2 class="title mb-6 text-xl" id="bigones-text">Les immanquables / the big ones</h2>
 				<ul class="space-y-4" role="list">
 					{pinnedPosts.map((p) => (
 						<li class="grid gap-1 sm:grid-cols-[auto_1fr]">
@@ -262,7 +305,7 @@ if (plusText5) {
 		)
 	}
 	<section class="mt-16">
-		<h2 class="title text-accent mb-6 text-xl"><a href="/tags/essay">Essay</a></h2>
+		<h2 class="title text-accent mb-6 text-xl" id="essay-text"><a href="/tags/essay">Essay</a></h2>
 		<ul class="space-y-4" role="list">
 					{essayPosts.map((p) => (
 						<li class="grid gap-1 sm:grid-cols-[auto_1fr]">
@@ -280,7 +323,7 @@ if (plusText5) {
 
 
 <section class="mt-16">
-		<h2 class="title text-accent mb-6 text-xl"><a href="/tags/literature">Literature</a></h2>
+		<h2 class="title text-accent mb-6 text-xl" id="literature-text"><a href="/tags/literature">Literature</a></h2>
 		<ul class="space-y-4" role="list">
 					{literaturePosts.map((p) => (
 						<li class="grid gap-1 sm:grid-cols-[auto_1fr]">
@@ -298,7 +341,7 @@ if (plusText5) {
 
 
 <section class="mt-16">
-		<h2 class="title text-accent mb-6 text-xl"><a href="/tags/music">Music</a></h2>
+		<h2 class="title text-accent mb-6 text-xl" id="music-text"><a href="/tags/music">Music</a></h2>
 		<ul class="space-y-4" role="list">
 					{musicPosts.map((p) => (
 						<li class="grid gap-1 sm:grid-cols-[auto_1fr]">
@@ -317,7 +360,7 @@ if (plusText5) {
 
 
 <section class="mt-16">
-		<h2 class="title text-accent mb-6 text-xl"><a href="/posts/">Misc</a></h2>
+		<h2 class="title text-accent mb-6 text-xl" id="misc-text"><a href="/posts/">Misc</a></h2>
 		<ul class="space-y-4" role="list">
 					{miscPosts.map((p) => (
 						<li class="grid gap-1 sm:grid-cols-[auto_1fr]">
