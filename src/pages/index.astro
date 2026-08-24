@@ -97,7 +97,11 @@ const latestNotes = allNotes
 const otherText = document.getElementById("other-text");
 const clickableText = document.getElementById("clickable-text");
 const jokeText = document.getElementById("funny-joke");
-const plusText = document.getElementById("plus-text");
+const plusText1 = document.getElementById("plus-text1");
+const plusText2 = document.getElementById("plus-text2");
+const plusText3 = document.getElementById("plus-text3");
+const plusText4 = document.getElementById("plus-text4");
+const plusText5 = document.getElementById("plus-text5");
 
 const branchSrc = otherText?.dataset.branchSrc;
 
@@ -174,8 +178,20 @@ if (jokeText) {
       jokeText.innerHTML = jokeMessages[index]!;
     }
 
-if (plusText) {
-      plusText.innerHTML = plusMessages[index]!;
+if (plusText1) {
+      plusText1.innerHTML = plusMessages[index]!;
+    }
+if (plusText2) {
+      plusText2.innerHTML = plusMessages[index]!;
+    }
+if (plusText3) {
+      plusText3.innerHTML = plusMessages[index]!;
+    }
+if (plusText4) {
+      plusText4.innerHTML = plusMessages[index]!;
+    }
+if (plusText5) {
+      plusText5.innerHTML = plusMessages[index]!;
     }
 
 
@@ -256,7 +272,7 @@ if (plusText) {
 				</ul>
 <span class="mt-4 block sm:text-end">
 						<a class="hover:text-link" href="/tags/essay/">
-							<span id="plus-text">plus</span> <span aria-hidden="true">→</span>
+							<span id="plus-text1">plus</span> <span aria-hidden="true">→</span>
 							<span class="sr-only">blog tags</span>
 						</a>
 					</span>
@@ -274,7 +290,7 @@ if (plusText) {
 				</ul>
 <span class="mt-4 block sm:text-end">
 						<a class="hover:text-link" href="/tags/literature/">
-							<span id="plus-text">plus</span> <span aria-hidden="true">→</span>
+							<span id="plus-text2">plus</span> <span aria-hidden="true">→</span>
 							<span class="sr-only">blog tags</span>
 						</a>
 					</span>
@@ -292,7 +308,7 @@ if (plusText) {
 				</ul>
 <span class="mt-4 block sm:text-end">
 						<a class="hover:text-link" href="/tags/music/">
-							<span id="plus-text">plus</span> <span aria-hidden="true">→</span>
+							<span id="plus-text3">plus</span> <span aria-hidden="true">→</span>
 							<span class="sr-only">blog tags</span>
 						</a>
 					</span>
@@ -311,7 +327,7 @@ if (plusText) {
 				</ul>
 <span class="mt-4 block sm:text-end">
 						<a class="hover:text-link" href="/posts/">
-							<span id="plus-text">plus</span> <span aria-hidden="true">→</span>
+							<span id="plus-text4">plus</span> <span aria-hidden="true">→</span>
 							<span class="sr-only">blog tags</span>
 						</a>
 					</span>
@@ -337,7 +353,7 @@ if (plusText) {
 					</ul>
 					<span class="mt-4 block sm:text-end">
 						<a class="hover:text-link" href="/tags/">
-							<span id="plus-text">plus</span> <span aria-hidden="true">→</span>
+							<span id="plus-text5">plus</span> <span aria-hidden="true">→</span>
 							<span class="sr-only">blog tags</span>
 						</a>
 					</span>
@@ -357,12 +373,6 @@ if (plusText) {
 						</li>
 					))}
 				</ul>
-<span class="mt-4 block sm:text-end">
-						<a class="hover:text-link" href="/notes/">
-							<span id="plus-text">plus</span> <span aria-hidden="true">→</span>
-							<span class="sr-only">blog tags</span>
-						</a>
-					</span>
 			</section>
 		)
 	}
