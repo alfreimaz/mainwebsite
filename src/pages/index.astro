@@ -33,7 +33,7 @@ const pinnedPosts = allPostsByDate
 	.toArray();
 
 // Essay, set to a max of 5;
-const MAX_ESSAY_POSTS = 5;
+const MAX_ESSAY_POSTS = 10;
 const essayPosts = allPostsByDate
 	.values()
 	// à faire pour rubrique misc: .filter((p) => (p.data.tags.includes("essay")==false && p.data.tags.includes("music")==false && p.data.tags.includes("literature")==false ))
@@ -51,7 +51,7 @@ const musicPosts = allPostsByDate
 	.toArray();
 
 // Literature Posts, set to a max of 5;
-const MAX_LITERATURE_POSTS = 5;
+const MAX_LITERATURE_POSTS = 2;
 const literaturePosts = allPostsByDate
 	.values()
 	// à faire pour rubrique misc: .filter((p) => (p.data.tags.includes("essay")==false && p.data.tags.includes("music")==false && p.data.tags.includes("literature")==false ))
