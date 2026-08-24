@@ -293,7 +293,7 @@ if (bigonesText) {
 	{
 		pinnedPosts.length > 0 && (
 			<section class="mt-16">
-				<h2 class="title mb-6 text-xl" id="bigones-text">Les immanquables / the big ones</h2>
+				<h2 class="title mb-6 text-xl"><span id="bigones-text">Les immanquables</span></h2>
 				<ul class="space-y-4" role="list">
 					{pinnedPosts.map((p) => (
 						<li class="grid gap-1 sm:grid-cols-[auto_1fr]">
@@ -305,7 +305,7 @@ if (bigonesText) {
 		)
 	}
 	<section class="mt-16">
-		<h2 class="title text-accent mb-6 text-xl" id="essay-text"><a href="/tags/essay">Essay</a></h2>
+		<h2 class="title text-accent mb-6 text-xl"><a href="/tags/essay"><span id="essay-text">Essais</span></a></h2>
 		<ul class="space-y-4" role="list">
 					{essayPosts.map((p) => (
 						<li class="grid gap-1 sm:grid-cols-[auto_1fr]">
@@ -323,7 +323,7 @@ if (bigonesText) {
 
 
 <section class="mt-16">
-		<h2 class="title text-accent mb-6 text-xl" id="literature-text"><a href="/tags/literature">Literature</a></h2>
+		<h2 class="title text-accent mb-6 text-xl"><a href="/tags/literature"><span id="literature-text">Littérature</span></a></h2>
 		<ul class="space-y-4" role="list">
 					{literaturePosts.map((p) => (
 						<li class="grid gap-1 sm:grid-cols-[auto_1fr]">
@@ -341,7 +341,7 @@ if (bigonesText) {
 
 
 <section class="mt-16">
-		<h2 class="title text-accent mb-6 text-xl" id="music-text"><a href="/tags/music">Music</a></h2>
+		<h2 class="title text-accent mb-6 text-xl"><a href="/tags/music"><span id="music">Musique</span></a></h2>
 		<ul class="space-y-4" role="list">
 					{musicPosts.map((p) => (
 						<li class="grid gap-1 sm:grid-cols-[auto_1fr]">
@@ -360,7 +360,7 @@ if (bigonesText) {
 
 
 <section class="mt-16">
-		<h2 class="title text-accent mb-6 text-xl" id="misc-text"><a href="/posts/">Misc</a></h2>
+		<h2 class="title text-accent mb-6 text-xl"><a href="/posts/"><span id="misc-text">Autres</span></a></h2>
 		<ul class="space-y-4" role="list">
 					{miscPosts.map((p) => (
 						<li class="grid gap-1 sm:grid-cols-[auto_1fr]">
