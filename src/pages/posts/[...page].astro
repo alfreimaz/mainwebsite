@@ -82,8 +82,26 @@ const descYearKeys = Object.keys(groupedByYear).sort((a, b) => +b - +a);
 					</section>
 				)
 			}
-
-{
+			{
+				descYearKeys.map((yearKey) => (
+					<section class="mb-8">
+						<h2 id={`year-${yearKey}`} class="title text-lg">
+							<span class="sr-only">Posts in</span>
+							{yearKey}
+						</h2>
+						<ul class="mt-5 space-y-4 text-start">
+							{groupedByYear[yearKey]?.map((p) => (
+								<li class="grid gap-1 sm:grid-cols-[auto_1fr] sm:[&_q]:col-start-2">
+									<PostPreview post={p} />
+								</li>
+							))}
+						</ul>
+					</section>
+				))
+			}
+			<Pagination {...paginationProps} />
+		</div>
+		{
 			!!uniqueTags.length && (
 				<aside>
 					<h2 class="title mb-4 flex items-center gap-1 text-lg">
@@ -116,7 +134,7 @@ const descYearKeys = Object.keys(groupedByYear).sort((a, b) => +b - +a);
 							</li>
 						))}
 					</ul>
-					<span class="mt-12 block sm:text-end">
+					<span class="mt-4 block sm:text-end">
 						<a class="hover:text-link" href="/tags/">
 							plus / more <span aria-hidden="true">→</span>
 							<span class="sr-only">blog tags</span>
@@ -125,26 +143,5 @@ const descYearKeys = Object.keys(groupedByYear).sort((a, b) => +b - +a);
 				</aside>
 			)
 		}
-
-			{
-				descYearKeys.map((yearKey) => (
-					<section class="mb-8">
-						<h2 id={`year-${yearKey}`} class="title text-lg">
-							<span class="sr-only">Posts in</span>
-							{yearKey}
-						</h2>
-						<ul class="mt-5 space-y-4 text-start">
-							{groupedByYear[yearKey]?.map((p) => (
-								<li class="grid gap-1 sm:grid-cols-[auto_1fr] sm:[&_q]:col-start-2">
-									<PostPreview post={p} />
-								</li>
-							))}
-						</ul>
-					</section>
-				))
-			}
-			<Pagination {...paginationProps} />
-		</div>
-		
 	</div>
 </PageLayout>
