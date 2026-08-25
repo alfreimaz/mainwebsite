@@ -1,147 +1,468 @@
 ---
+
 import type { CollectionEntry } from "astro:content";
-import type { GetStaticPaths, Page } from "astro";
 import { Icon } from "astro-icon/components";
 import PostPreview from "@/components/blog/PostPreview.astro";
-import Pagination from "@/components/Paginator.astro";
 import { getAllPosts, getUniqueTags, groupPostsByYear } from "@/data/post";
 import PageLayout from "@/layouts/Base.astro";
 import { collectionDateSort } from "@/utils/date";
 
-export const getStaticPaths = (async ({ paginate }) => {
-	const MAX_POSTS_PER_PAGE = 20;
-	const MAX_TAGS = 50;
-	const MAX_PINNED_POSTS = 5;
-	const allPosts = await getAllPosts();
-	const allPostsByDate = allPosts.sort(collectionDateSort);
-	const uniqueTags = getUniqueTags(allPosts).slice(0, MAX_TAGS);
-	const pinnedPosts = allPostsByDate
-		.values()
-		.filter((p) => p.data.pinned)
-		.take(MAX_PINNED_POSTS)
-		.toArray();
-	return paginate(allPostsByDate, {
-		pageSize: MAX_POSTS_PER_PAGE,
-		props: { uniqueTags, pinnedPosts },
-	});
-}) satisfies GetStaticPaths;
+const MAX_TAGS = 50;
+const MAX_PINNED_POSTS = 5;
+
+export const getStaticPaths = (async () => {
+const allPosts = await getAllPosts();
+const allPostsByDate = allPosts.sort(collectionDateSort);
+
+```
+const uniqueTags = getUniqueTags(allPosts).slice(0, MAX_TAGS);
+
+const pinnedPosts = allPostsByDate
+	.values()
+	.filter((p) => p.data.pinned)
+	.take(MAX_PINNED_POSTS)
+	.toArray();
+
+return [
+	{
+		params: { page: undefined },
+		props: {
+			allPosts: allPostsByDate,
+			uniqueTags,
+			pinnedPosts,
+		},
+	},
+];
+```
+
+}) satisfies import("astro").GetStaticPaths;
 
 interface Props {
-	page: Page<CollectionEntry<"post">>;
-	uniqueTags: string[];
-	pinnedPosts: CollectionEntry<"post">[];
+allPosts: CollectionEntry<"post">[];
+uniqueTags: string[];
+pinnedPosts: CollectionEntry<"post">[];
 }
 
-const { page, uniqueTags, pinnedPosts } = Astro.props;
+const { allPosts, uniqueTags, pinnedPosts } = Astro.props;
 
 const meta = {
-	description: "Read my collection of posts and the things that interest me",
-	title: "Publications",
+description: "Read my collection of posts and the things that interest me",
+title: "Publications",
 };
 
-const paginationProps = {
-	...(page.url.prev && {
-		prevUrl: {
-			text: "← Précédent / previous",
-			url: page.url.prev,
-		},
-	}),
-	...(page.url.next && {
-		nextUrl: {
-			text: "Suivant / next →",
-			url: page.url.next,
-		},
-	}),
-};
-
-const groupedByYear = groupPostsByYear(page.data);
+const groupedByYear = groupPostsByYear(allPosts);
 const descYearKeys = Object.keys(groupedByYear).sort((a, b) => +b - +a);
----
+------------------------------------------------------------------------
 
 <PageLayout meta={meta}>
 	<div class="mb-12 flex items-center gap-3">
 		<h1 class="title">Publications</h1>
-		<a class="text-accent" href="/rss.xml" target="_blank">
-			<span class="sr-only">RSS feed</span>
-			<Icon aria-hidden="true" class="h-6 w-6" focusable="false" name="mdi:rss" />
-		</a>
-	</div>
-	<div class="grid sm:grid-cols-[3fr_1fr] sm:gap-x-8 sm:gap-y-16">
-		<div>
-			{
-				pinnedPosts.length > 0 && (
-					<section class="mb-16">
-						<h2 class="title mb-6 text-xl">Les immanquables / the big ones</h2>
-						<ul class="space-y-4" role="list">
-							{pinnedPosts.map((p) => (
-								<li class="grid gap-1 sm:grid-cols-[auto_1fr]">
-									<PostPreview post={p} />
-								</li>
-							))}
-						</ul>
-					</section>
-				)
-			}
-			{
-				descYearKeys.map((yearKey) => (
-					<section class="mb-8">
-						<h2 id={`year-${yearKey}`} class="title text-lg">
-							<span class="sr-only">Posts in</span>
-							{yearKey}
-						</h2>
-						<ul class="mt-5 space-y-4 text-start">
-							{groupedByYear[yearKey]?.map((p) => (
-								<li class="grid gap-1 sm:grid-cols-[auto_1fr] sm:[&_q]:col-start-2">
-									<PostPreview post={p} />
-								</li>
-							))}
-						</ul>
-					</section>
-				))
-			}
-			<Pagination {...paginationProps} />
+
+```
+	<a class="text-accent" href="/rss.xml" target="_blank">
+		<span class="sr-only">RSS feed</span>
+		<Icon
+			aria-hidden="true"
+			class="h-6 w-6"
+			focusable="false"
+			name="mdi:rss"
+		/>
+	</a>
+</div>
+
+<div class="grid sm:grid-cols-[3fr_1fr] sm:gap-x-8 sm:gap-y-16">
+	<div>
+		<!-- Active filters -->
+		<div
+			id="active-filters"
+			class="mb-8 hidden"
+			aria-live="polite"
+			aria-atomic="true"
+		>
+			<div class="flex flex-wrap items-center gap-2">
+				<span class="text-muted mr-1">
+					Filtered by:
+				</span>
+
+				<div
+					id="active-filter-tags"
+					class="flex flex-wrap gap-2"
+				></div>
+
+				<button
+					id="clear-filters"
+					type="button"
+					class="cactus-link ml-1"
+				>
+					clear
+				</button>
+			</div>
 		</div>
+
+		<!-- Pinned posts -->
 		{
-			!!uniqueTags.length && (
-				<aside>
-					<h2 class="title mb-4 flex items-center gap-1 text-lg">
-						<svg
-							aria-hidden="true"
-							class="h-6 w-6"
-							fill="none"
-							stroke="var(--color-muted)"
-							stroke-linecap="round"
-							stroke-linejoin="round"
-							stroke-width="1.5"
-							viewBox="0 0 24 24"
-							xmlns="http://www.w3.org/2000/svg"
-						>
-							<path d="M0 0h24v24H0z" fill="none" stroke="none" />
-							<path d="M7.859 6h-2.834a2.025 2.025 0 0 0 -2.025 2.025v2.834c0 .537 .213 1.052 .593 1.432l6.116 6.116a2.025 2.025 0 0 0 2.864 0l2.834 -2.834a2.025 2.025 0 0 0 0 -2.864l-6.117 -6.116a2.025 2.025 0 0 0 -1.431 -.593z" />
-							<path d="M17.573 18.407l2.834 -2.834a2.025 2.025 0 0 0 0 -2.864l-7.117 -7.116" />
-							<path d="M6 9h-.01" />
-						</svg>
-						Tags
+			pinnedPosts.length > 0 && (
+				<section
+					class="publication-section mb-16"
+					data-section="pinned"
+				>
+					<h2 class="title mb-6 text-xl">
+						Les immanquables / the big ones
 					</h2>
-					<ul class="flex flex-wrap gap-2">
-						{uniqueTags.map((tag) => (
-							<li>
-								<a class="cactus-link flex items-center justify-center" href={`/tags/${tag}/`}>
-									<span aria-hidden="true">#</span>
-									<span class="sr-only">View all posts with the tag</span>
-									{tag}
-								</a>
+
+					<ul class="space-y-4" role="list">
+						{pinnedPosts.map((p) => (
+							<li
+								class="publication-item grid gap-1 sm:grid-cols-[auto_1fr]"
+								data-tags={JSON.stringify(p.data.tags)}
+							>
+								<PostPreview post={p} />
 							</li>
 						))}
 					</ul>
-					<span class="mt-4 block sm:text-end">
-						<a class="hover:text-link" href="/tags/">
-							plus / more <span aria-hidden="true">→</span>
-							<span class="sr-only">blog tags</span>
-						</a>
-					</span>
-				</aside>
+				</section>
 			)
 		}
+
+		<!-- All publications grouped by year -->
+		{
+			descYearKeys.map((yearKey) => (
+				<section
+					class="publication-section mb-8"
+					data-section="year"
+				>
+					<h2
+						id={`year-${yearKey}`}
+						class="title text-lg"
+					>
+						<span class="sr-only">Posts in</span>
+						{yearKey}
+					</h2>
+
+					<ul class="mt-5 space-y-4 text-start">
+						{groupedByYear[yearKey]?.map((p) => (
+							<li
+								class="publication-item grid gap-1 sm:grid-cols-[auto_1fr] sm:[&_q]:col-start-2"
+								data-tags={JSON.stringify(p.data.tags)}
+							>
+								<PostPreview post={p} />
+							</li>
+						))}
+					</ul>
+				</section>
+			))
+		}
+
+		<!-- No results message -->
+		<div
+			id="no-results"
+			class="hidden py-8"
+			aria-live="polite"
+		>
+			<p class="text-muted">
+				No publications match all selected tags.
+			</p>
+		</div>
 	</div>
+
+	{
+		!!uniqueTags.length && (
+			<aside>
+				<h2 class="title mb-4 flex items-center gap-1 text-lg">
+					<svg
+						aria-hidden="true"
+						class="h-6 w-6"
+						fill="none"
+						stroke="var(--color-muted)"
+						stroke-linecap="round"
+						stroke-linejoin="round"
+						stroke-width="1.5"
+						viewBox="0 0 24 24"
+						xmlns="http://www.w3.org/2000/svg"
+					>
+						<path
+							d="M0 0h24v24H0z"
+							fill="none"
+							stroke="none"
+						/>
+						<path d="M7.859 6h-2.834a2.025 2.025 0 0 0 -2.025 2.025v2.834c0 .537 .213 1.052 .593 1.432l6.116 6.116a2.025 2.025 0 0 0 2.864 0l2.834 -2.834a2.025 2.025 0 0 0 0 -2.864l-6.117 -6.116a2.025 2.025 0 0 0 -1.431 -.593z" />
+						<path d="M17.573 18.407l2.834 -2.834a2.025 2.025 0 0 0 0 -2.864l-7.117 -7.116" />
+						<path d="M6 9h-.01" />
+					</svg>
+
+					Tags
+				</h2>
+
+				<ul class="flex flex-wrap gap-2">
+					{uniqueTags.map((tag) => (
+						<li>
+							<button
+								type="button"
+								class="tag-filter cactus-link flex items-center justify-center"
+								data-tag={tag}
+								aria-pressed="false"
+							>
+								<span aria-hidden="true">#</span>
+								{tag}
+							</button>
+						</li>
+					))}
+				</ul>
+
+				<span class="mt-4 block sm:text-end">
+					<a class="hover:text-link" href="/tags/">
+						plus / more
+						<span aria-hidden="true">→</span>
+						<span class="sr-only">blog tags</span>
+					</a>
+				</span>
+			</aside>
+		)
+	}
+</div>
+```
+
 </PageLayout>
+
+<script>
+	const tagButtons =
+		document.querySelectorAll<HTMLButtonElement>(".tag-filter");
+
+	const publicationItems =
+		document.querySelectorAll<HTMLElement>(".publication-item");
+
+	const publicationSections =
+		document.querySelectorAll<HTMLElement>(".publication-section");
+
+	const activeFiltersContainer =
+		document.getElementById("active-filters");
+
+	const activeFilterTags =
+		document.getElementById("active-filter-tags");
+
+	const clearFiltersButton =
+		document.getElementById("clear-filters");
+
+	const noResults =
+		document.getElementById("no-results");
+
+	const selectedTags = new Set<string>();
+
+	/**
+	 * Read the currently selected tags from the URL.
+	 *
+	 * Example:
+	 * /posts/?tags=essay,music
+	 */
+	function readTagsFromUrl() {
+		const params = new URLSearchParams(window.location.search);
+		const tagsParam = params.get("tags");
+
+		if (!tagsParam) {
+			return;
+		}
+
+		tagsParam
+			.split(",")
+			.map((tag) => tag.trim())
+			.filter(Boolean)
+			.forEach((tag) => selectedTags.add(tag));
+	}
+
+	/**
+	 * Update the URL without reloading the page.
+	 *
+	 * Example:
+	 * /posts/?tags=essay,music
+	 */
+	function updateUrl() {
+		const url = new URL(window.location.href);
+
+		if (selectedTags.size === 0) {
+			url.searchParams.delete("tags");
+		} else {
+			const sortedTags = [...selectedTags].sort();
+			url.searchParams.set("tags", sortedTags.join(","));
+		}
+
+		window.history.replaceState({}, "", url);
+	}
+
+	/**
+	 * Create the little list of active filters above the publications.
+	 */
+	function updateActiveFilters() {
+		if (!activeFiltersContainer || !activeFilterTags) {
+			return;
+		}
+
+		activeFilterTags.replaceChildren();
+
+		if (selectedTags.size === 0) {
+			activeFiltersContainer.classList.add("hidden");
+			return;
+		}
+
+		activeFiltersContainer.classList.remove("hidden");
+
+		[...selectedTags].forEach((tag) => {
+			const tagElement = document.createElement("span");
+
+			tagElement.className =
+				"inline-flex items-center rounded-sm px-2 py-1 text-sm";
+
+			tagElement.textContent = `#${tag}`;
+
+			activeFilterTags.appendChild(tagElement);
+		});
+	}
+
+	/**
+	 * Filter publications using AND logic.
+	 *
+	 * A publication is shown only when it contains EVERY
+	 * currently selected tag.
+	 */
+	function updatePublications() {
+		let visiblePublicationCount = 0;
+
+		publicationItems.forEach((publication) => {
+			const tags: string[] = JSON.parse(
+				publication.dataset.tags ?? "[]",
+			);
+
+			const matches =
+				selectedTags.size === 0 ||
+				[...selectedTags].every((selectedTag) =>
+					tags.includes(selectedTag),
+				);
+
+			publication.hidden = !matches;
+
+			if (matches) {
+				visiblePublicationCount++;
+			}
+		});
+
+		/*
+		 * Hide year sections when none of their publications
+		 * remain visible.
+		 */
+		publicationSections.forEach((section) => {
+			const visibleItems =
+				section.querySelectorAll(
+					".publication-item:not([hidden])",
+				);
+
+			section.hidden = visibleItems.length === 0;
+		});
+
+		if (noResults) {
+			noResults.classList.toggle(
+				"hidden",
+				visiblePublicationCount > 0,
+			);
+		}
+
+		/*
+		 * Update the buttons so the current selection is
+		 * available to screen readers as well.
+		 */
+		tagButtons.forEach((button) => {
+			const tag = button.dataset.tag;
+
+			if (!tag) {
+				return;
+			}
+
+			const selected = selectedTags.has(tag);
+
+			button.setAttribute(
+				"aria-pressed",
+				String(selected),
+			);
+
+			button.dataset.selected = String(selected);
+		});
+
+		updateActiveFilters();
+		updateUrl();
+	}
+
+	/*
+	 * Clicking a tag toggles it.
+	 */
+	tagButtons.forEach((button) => {
+		button.addEventListener("click", () => {
+			const tag = button.dataset.tag;
+
+			if (!tag) {
+				return;
+			}
+
+			if (selectedTags.has(tag)) {
+				selectedTags.delete(tag);
+			} else {
+				selectedTags.add(tag);
+			}
+
+			updatePublications();
+		});
+	});
+
+	/*
+	 * Clear all filters.
+	 */
+	clearFiltersButton?.addEventListener("click", () => {
+		selectedTags.clear();
+		updatePublications();
+	});
+
+	/*
+	 * Support browser back/forward navigation.
+	 *
+	 * This is useful if somebody navigates to another page
+	 * and then comes back to the filtered publications URL.
+	 */
+	window.addEventListener("popstate", () => {
+		selectedTags.clear();
+		readTagsFromUrl();
+		updatePublications();
+	});
+
+	/*
+	 * Initialise the filter from the URL.
+	 */
+	readTagsFromUrl();
+	updatePublications();
+</script>
+
+<style>
+	.tag-filter {
+		cursor: pointer;
+		border: 0;
+		background: transparent;
+		font: inherit;
+		padding: 0;
+	}
+
+	.tag-filter[data-selected="true"] {
+		font-weight: 700;
+		text-decoration: underline;
+		text-decoration-thickness: 1px;
+		text-underline-offset: 3px;
+	}
+
+	.tag-filter[data-selected="false"] {
+		opacity: 0.7;
+	}
+
+	.tag-filter:hover {
+		opacity: 1;
+	}
+
+	.publication-item[hidden],
+	.publication-section[hidden] {
+		display: none;
+	}
+</style>
