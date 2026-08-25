@@ -1,5 +1,3 @@
----
-
 import type { CollectionEntry } from "astro:content";
 import { Icon } from "astro-icon/components";
 import PostPreview from "@/components/blog/PostPreview.astro";
@@ -14,7 +12,6 @@ export const getStaticPaths = (async () => {
 const allPosts = await getAllPosts();
 const allPostsByDate = allPosts.sort(collectionDateSort);
 
-```
 const uniqueTags = getUniqueTags(allPostsByDate).slice(0, MAX_TAGS);
 
 const pinnedPosts = allPostsByDate
@@ -31,7 +28,6 @@ return [
 		},
 	},
 ];
-```
 
 }) satisfies import("astro").GetStaticPaths;
 
@@ -50,13 +46,7 @@ title: "Publications",
 
 const groupedByYear = groupPostsByYear(allPosts);
 const descYearKeys = Object.keys(groupedByYear).sort((a, b) => +b - +a);
-------------------------------------------------------------------------
-
-<PageLayout meta={meta}>
-	<div class="mb-12 flex items-center gap-3">
-		<h1 class="title">Publications</h1>
-
-```
+<PageLayout meta={meta}> <div class="mb-12 flex items-center gap-3"> <h1 class="title">Publications</h1>
 	<a class="text-accent" href="/rss.xml" target="_blank">
 		<span class="sr-only">RSS feed</span>
 		<Icon
@@ -70,7 +60,6 @@ const descYearKeys = Object.keys(groupedByYear).sort((a, b) => +b - +a);
 
 <div class="grid sm:grid-cols-[3fr_1fr] sm:gap-x-8 sm:gap-y-16">
 	<div>
-		<!-- Active filters -->
 		<div
 			id="active-filters"
 			class="mb-8 hidden"
@@ -95,7 +84,6 @@ const descYearKeys = Object.keys(groupedByYear).sort((a, b) => +b - +a);
 			</div>
 		</div>
 
-		<!-- Pinned posts -->
 		{
 			pinnedPosts.length > 0 && (
 				<section
@@ -120,7 +108,6 @@ const descYearKeys = Object.keys(groupedByYear).sort((a, b) => +b - +a);
 			)
 		}
 
-		<!-- Publications grouped by year -->
 		{
 			descYearKeys.map((yearKey) => (
 				<section
@@ -149,7 +136,6 @@ const descYearKeys = Object.keys(groupedByYear).sort((a, b) => +b - +a);
 			))
 		}
 
-		<!-- No results -->
 		<div
 			id="no-results"
 			class="hidden py-8"
@@ -217,223 +203,4 @@ const descYearKeys = Object.keys(groupedByYear).sort((a, b) => +b - +a);
 		)
 	}
 </div>
-```
-
-</PageLayout>
-
-<script>
-	const tagButtons =
-		document.querySelectorAll<HTMLButtonElement>(".tag-filter");
-
-	const publicationItems =
-		document.querySelectorAll<HTMLElement>(".publication-item");
-
-	const publicationSections =
-		document.querySelectorAll<HTMLElement>(".publication-section");
-
-	const activeFilters =
-		document.getElementById("active-filters");
-
-	const activeFilterTags =
-		document.getElementById("active-filter-tags");
-
-	const clearFilters =
-		document.getElementById("clear-filters");
-
-	const noResults =
-		document.getElementById("no-results");
-
-	const selectedTags = new Set<string>();
-
-	function readTagsFromUrl() {
-		const params = new URLSearchParams(window.location.search);
-		const tags = params.get("tags");
-
-		if (!tags) {
-			return;
-		}
-
-		tags
-			.split(",")
-			.map((tag) => tag.trim())
-			.filter(Boolean)
-			.forEach((tag) => {
-				selectedTags.add(tag);
-			});
-	}
-
-	function updateUrl() {
-		const url = new URL(window.location.href);
-
-		if (selectedTags.size === 0) {
-			url.searchParams.delete("tags");
-		} else {
-			url.searchParams.set(
-				"tags",
-				[...selectedTags].sort().join(","),
-			);
-		}
-
-		window.history.replaceState({}, "", url);
-	}
-
-	function updateActiveFilters() {
-		if (!activeFilters || !activeFilterTags) {
-			return;
-		}
-
-		activeFilterTags.replaceChildren();
-
-		if (selectedTags.size === 0) {
-			activeFilters.classList.add("hidden");
-			return;
-		}
-
-		activeFilters.classList.remove("hidden");
-
-		[...selectedTags].forEach((tag) => {
-			const element = document.createElement("span");
-
-			element.textContent = `#${tag}`;
-			element.className = "cactus-link";
-
-			activeFilterTags.appendChild(element);
-		});
-	}
-
-	function updatePublications() {
-		let visibleCount = 0;
-
-		publicationItems.forEach((publication) => {
-			const tags: string[] = JSON.parse(
-				publication.dataset.tags ?? "[]",
-			);
-
-			/*
-			 * AND behaviour:
-			 *
-			 * If no tags are selected, show everything.
-			 *
-			 * Otherwise, the publication must contain
-			 * EVERY selected tag.
-			 */
-			const matches =
-				selectedTags.size === 0 ||
-				[...selectedTags].every((selectedTag) =>
-					tags.includes(selectedTag),
-				);
-
-			publication.hidden = !matches;
-
-			if (matches) {
-				visibleCount++;
-			}
-		});
-
-		/*
-		 * Hide entire years when all their publications
-		 * have been filtered out.
-		 */
-		publicationSections.forEach((section) => {
-			const visibleItems =
-				section.querySelectorAll(
-					".publication-item:not([hidden])",
-				);
-
-			section.hidden = visibleItems.length === 0;
-		});
-
-		if (noResults) {
-			noResults.classList.toggle(
-				"hidden",
-				visibleCount > 0,
-			);
-		}
-
-		/*
-		 * Update the visual/accessibility state of
-		 * each tag button.
-		 */
-		tagButtons.forEach((button) => {
-			const tag = button.dataset.tag;
-
-			if (!tag) {
-				return;
-			}
-
-			const selected = selectedTags.has(tag);
-
-			button.setAttribute(
-				"aria-pressed",
-				String(selected),
-			);
-
-			button.dataset.selected = String(selected);
-		});
-
-		updateActiveFilters();
-		updateUrl();
-	}
-
-	tagButtons.forEach((button) => {
-		button.addEventListener("click", () => {
-			const tag = button.dataset.tag;
-
-			if (!tag) {
-				return;
-			}
-
-			if (selectedTags.has(tag)) {
-				selectedTags.delete(tag);
-			} else {
-				selectedTags.add(tag);
-			}
-
-			updatePublications();
-		});
-	});
-
-	clearFilters?.addEventListener("click", () => {
-		selectedTags.clear();
-		updatePublications();
-	});
-
-	window.addEventListener("popstate", () => {
-		selectedTags.clear();
-		readTagsFromUrl();
-		updatePublications();
-	});
-
-	readTagsFromUrl();
-	updatePublications();
-</script>
-
-<style>
-	.tag-filter {
-		cursor: pointer;
-		border: 0;
-		background: transparent;
-		font: inherit;
-		padding: 0;
-	}
-
-	.tag-filter[data-selected="true"] {
-		font-weight: 700;
-		text-decoration: underline;
-		text-decoration-thickness: 1px;
-		text-underline-offset: 3px;
-	}
-
-	.tag-filter[data-selected="false"] {
-		opacity: 0.7;
-	}
-
-	.tag-filter:hover {
-		opacity: 1;
-	}
-
-	.publication-item[hidden],
-	.publication-section[hidden] {
-		display: none;
-	}
-</style>
+</PageLayout> <script> const tagButtons = document.querySelectorAll<HTMLButtonElement>(".tag-filter"); const publicationItems = document.querySelectorAll<HTMLElement>(".publication-item"); const publicationSections = document.querySelectorAll<HTMLElement>(".publication-section"); const activeFilters = document.getElementById("active-filters"); const activeFilterTags = document.getElementById("active-filter-tags"); const clearFilters = document.getElementById("clear-filters"); const noResults = document.getElementById("no-results"); const selectedTags = new Set<string>(); function readTagsFromUrl() { const params = new URLSearchParams(window.location.search); const tags = params.get("tags"); if (!tags) { return; } tags .split(",") .map((tag) => tag.trim()) .filter(Boolean) .forEach((tag) => { selectedTags.add(tag); }); } function updateUrl() { const url = new URL(window.location.href); if (selectedTags.size === 0) { url.searchParams.delete("tags"); } else { url.searchParams.set( "tags", [...selectedTags].sort().join(","), ); } window.history.replaceState({}, "", url); } function updateActiveFilters() { if (!activeFilters || !activeFilterTags) { return; } activeFilterTags.replaceChildren(); if (selectedTags.size === 0) { activeFilters.classList.add("hidden"); return; } activeFilters.classList.remove("hidden"); [...selectedTags].forEach((tag) => { const element = document.createElement("span"); element.textContent = `#${tag}`; element.className = "cactus-link"; activeFilterTags.appendChild(element); }); } function updatePublications() { let visibleCount = 0; publicationItems.forEach((publication) => { const tags: string[] = JSON.parse( publication.dataset.tags ?? "[]", ); const matches = selectedTags.size === 0 || [...selectedTags].every((selectedTag) => tags.includes(selectedTag), ); publication.hidden = !matches; if (matches) { visibleCount++; } }); publicationSections.forEach((section) => { const visibleItems = section.querySelectorAll( ".publication-item:not([hidden])", ); section.hidden = visibleItems.length === 0; }); if (noResults) { noResults.classList.toggle( "hidden", visibleCount > 0, ); } tagButtons.forEach((button) => { const tag = button.dataset.tag; if (!tag) { return; } const selected = selectedTags.has(tag); button.setAttribute( "aria-pressed", String(selected), ); button.dataset.selected = String(selected); }); updateActiveFilters(); updateUrl(); } tagButtons.forEach((button) => { button.addEventListener("click", () => { const tag = button.dataset.tag; if (!tag) { return; } if (selectedTags.has(tag)) { selectedTags.delete(tag); } else { selectedTags.add(tag); } updatePublications(); }); }); clearFilters?.addEventListener("click", () => { selectedTags.clear(); updatePublications(); }); window.addEventListener("popstate", () => { selectedTags.clear(); readTagsFromUrl(); updatePublications(); }); readTagsFromUrl(); updatePublications(); </script> <style> .tag-filter { cursor: pointer; border: 0; background: transparent; font: inherit; padding: 0; } .tag-filter[data-selected="true"] { font-weight: 700; text-decoration: underline; text-decoration-thickness: 1px; text-underline-offset: 3px; } .tag-filter[data-selected="false"] { opacity: 0.7; } .tag-filter:hover { opacity: 1; } .publication-item[hidden], .publication-section[hidden] { display: none; } </style>
