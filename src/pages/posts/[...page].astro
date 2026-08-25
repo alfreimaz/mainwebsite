@@ -1,4 +1,3 @@
-import type { CollectionEntry } from "astro:content";
 import { Icon } from "astro-icon/components";
 import PostPreview from "@/components/blog/PostPreview.astro";
 import { getAllPosts, getUniqueTags, groupPostsByYear } from "@/data/post";
@@ -31,13 +30,7 @@ return [
 
 }) satisfies import("astro").GetStaticPaths;
 
-interface Props {
-allPosts: CollectionEntry<"post">[];
-uniqueTags: string[];
-pinnedPosts: CollectionEntry<"post">[];
-}
-
-const { allPosts, uniqueTags, pinnedPosts } = Astro.props as Props;
+const { allPosts, uniqueTags, pinnedPosts } = Astro.props;
 
 const meta = {
 description: "Read my collection of posts and the things that interest me",
