@@ -8,6 +8,8 @@ pinned: true
 ---
 
 
+![cover](./cover.png)
+
 <p align="center"> * </p>
 
 Quand l’ombre rétrécit les heures s’allongent. Les secondes tombent avec fracas en pluie torrentielle, déchirant sans remord la peau de nos membres à vif, exposant notre chair à la chaleur impartiale du jour. On brûle sous le Soleil, on souffre sous le Soleil, on crève sous le Soleil. Et en l’occurrence, là, c’est le pneu qui est crevé. Des heures que nous sommes assis sur le sable, pile au beau milieu du désert, à chercher la froideur d’une portière que les rayons auraient laissée de marbre ; malheureusement, une portière pour trois ça fait peu. Alors, on s’improvise alchimistes, en quête du parfait (osons même dire du juste) équilibre entre partage et écart, afin de s’éviter la chaleur humaine inutile dans cet air entaillé sans pour autant commettre la lourde erreur de s’en débarrasser. Certes, on a l’air con le visage collé au fer, réclamant du pied ce qu’un camarade ambitieux cherche à conquérir, mais au moins ça garde au frais un carré de peau en plus, laissé intact.
