@@ -7,9 +7,7 @@ import { collectionDateSort } from "@/utils/date";
 
 const MAX_TAGS = 50;
 const MAX_PINNED_POSTS = 5;
-const MAX_TAGS = 50;
 
-export const getStaticPaths = (async () => {
 const allPosts = await getAllPosts();
 const allPostsByDate = allPosts.sort(collectionDateSort);
 
@@ -19,27 +17,12 @@ const pinnedPosts = allPostsByDate
 	.filter((p) => p.data.pinned)
 	.slice(0, MAX_PINNED_POSTS);
 
-return [
-	{
-		params: {},
-		props: {
-			allPosts: allPostsByDate,
-			uniqueTags,
-			pinnedPosts,
-		},
-	},
-];
-
-}) satisfies import("astro").GetStaticPaths;
-
-const { allPosts, uniqueTags, pinnedPosts } = Astro.props;
-
 const meta = {
-description: "Read my collection of posts and the things that interest me",
-title: "Publications",
+	description: "Read my collection of posts and the things that interest me",
+	title: "Publications",
 };
 
-const groupedByYear = groupPostsByYear(allPosts);
+const groupedByYear = groupPostsByYear(allPostsByDate);
 const descYearKeys = Object.keys(groupedByYear).sort((a, b) => +b - +a);
 ---
 <PageLayout meta={meta}> <div class="mb-12 flex items-center gap-3"> <h1 class="title">Publications</h1>
