@@ -72,8 +72,8 @@ Or, la conception numérique de la négation permet justement d’expliquer ces 
 
 Platon présente dans l’extrait toute une liste de couples contraires. Beau et laid, juste et injuste, grand et petit, fort et faible, lent et rapide, meilleure et pire. Et il est intéressant de noter deux caractéristiques de toutes ces choses considérées :
 
-Platon considère avant tout les contraires de propriétés, il n’est pas ici question de chercher les contraires de choses physiques ou évènements.
-Ces propriétés sont, pour la plupart, comparatives (avec le couple juste et injuste faisant possiblement office de seule exception), à savoir qu’elles nécessitent de mesurer plusieurs choses entre elles pour être évaluées.
+- Platon considère avant tout les contraires de propriétés, il n’est pas ici question de chercher les contraires de choses physiques ou évènements.
+- Ces propriétés sont, pour la plupart, comparatives (avec le couple juste et injuste faisant possiblement office de seule exception), à savoir qu’elles nécessitent de mesurer plusieurs choses entre elles pour être évaluées.
 
 ## Analyse II : la théorie des Formes
 
