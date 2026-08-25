@@ -15,11 +15,10 @@ const MAX_PINNED_POSTS = 5;
 export const getStaticPaths = (async ({ paginate }) => {
 	const allPosts = await getAllPosts();
 	const allPostsByDate = allPosts.sort(collectionDateSort);
-
 	const uniqueTags = getUniqueTags(allPostsByDate).slice(0, MAX_TAGS);
 
 	const pinnedPosts = allPostsByDate
-		.filter((p) => p.data.pinned)
+		.filter((post) => post.data.pinned)
 		.slice(0, MAX_PINNED_POSTS);
 
 	return paginate(allPostsByDate, {
@@ -27,6 +26,7 @@ export const getStaticPaths = (async ({ paginate }) => {
 		props: {
 			uniqueTags,
 			pinnedPosts,
+			allPosts: allPostsByDate,
 		},
 	});
 }) satisfies GetStaticPaths;
@@ -35,9 +35,15 @@ interface Props {
 	page: Page<CollectionEntry<"post">>;
 	uniqueTags: string[];
 	pinnedPosts: CollectionEntry<"post">[];
+	allPosts: CollectionEntry<"post">[];
 }
 
-const { page, uniqueTags, pinnedPosts } = Astro.props;
+const {
+	page,
+	uniqueTags,
+	pinnedPosts,
+	allPosts,
+} = Astro.props;
 
 const meta = {
 	description: "Read my collection of posts and the things that interest me",
@@ -45,7 +51,10 @@ const meta = {
 };
 
 const groupedByYear = groupPostsByYear(page.data);
-const descYearKeys = Object.keys(groupedByYear).sort((a, b) => +b - +a);
+
+const descYearKeys = Object.keys(groupedByYear).sort(
+	(a, b) => +b - +a,
+);
 
 const paginationProps = {
 	...(page.url.prev && {
@@ -66,54 +75,120 @@ const paginationProps = {
 <PageLayout meta={meta}>
 	<div class="mb-12 flex items-center gap-3">
 		<h1 class="title">Publications</h1>
+
 		<a class="text-accent" href="/rss.xml" target="_blank">
 			<span class="sr-only">RSS feed</span>
-			<Icon aria-hidden="true" class="h-6 w-6" focusable="false" name="mdi:rss" />
+
+			<Icon
+				aria-hidden="true"
+				class="h-6 w-6"
+				focusable="false"
+				name="mdi:rss"
+			/>
 		</a>
 	</div>
+
 	<div class="grid sm:grid-cols-[3fr_1fr] sm:gap-x-8 sm:gap-y-16">
 		<div>
+			<div
+				id="active-filters"
+				class="mb-8 hidden"
+				aria-live="polite"
+			>
+				<div class="flex flex-wrap items-center gap-2">
+					<span>Filtered by:</span>
+
+					<div
+						id="active-filter-tags"
+						class="flex flex-wrap gap-2"
+					></div>
+
+					<button
+						id="clear-filters"
+						type="button"
+						class="cactus-link"
+					>
+						clear
+					</button>
+				</div>
+			</div>
+
 			{
 				pinnedPosts.length > 0 && (
-					<section class="mb-16">
-						<h2 class="title mb-6 text-xl">Les immanquables / the big ones</h2>
+					<section
+						class="publication-section mb-16"
+					>
+						<h2 class="title mb-6 text-xl">
+							Les immanquables / the big ones
+						</h2>
+
 						<ul class="space-y-4" role="list">
-							{pinnedPosts.map((p) => (
+							{pinnedPosts.map((post) => (
 								<li
-	class="publication-item grid gap-1 sm:grid-cols-[auto_1fr]"
-	data-tags={JSON.stringify(p.data.tags ?? [])}
->
-	<PostPreview post={p} />
-</li>
+									class="publication-item grid gap-1 sm:grid-cols-[auto_1fr]"
+									data-tags={JSON.stringify(
+										post.data.tags ?? [],
+									)}
+								>
+									<PostPreview post={post} />
+								</li>
 							))}
 						</ul>
 					</section>
 				)
 			}
+
 			{
 				descYearKeys.map((yearKey) => (
-					<section class="mb-8">
-						<h2 id={`year-${yearKey}`} class="title text-lg">
-							<span class="sr-only">Posts in</span>
+					<section
+						class="publication-section mb-8"
+					>
+						<h2
+							id={`year-${yearKey}`}
+							class="title text-lg"
+						>
+							<span class="sr-only">
+								Posts in
+							</span>
+
 							{yearKey}
 						</h2>
+
 						<ul class="mt-5 space-y-4 text-start">
-							{groupedByYear[yearKey]?.map((p) => (
-								<li
-	class="publication-item grid gap-1 sm:grid-cols-[auto_1fr] sm:[&_q]:col-start-2"
-	data-tags={JSON.stringify(p.data.tags ?? [])}
->
-	<PostPreview post={p} />
-</li>
-							))}
+							{groupedByYear[yearKey]?.map(
+								(post) => (
+									<li
+										class="publication-item grid gap-1 sm:grid-cols-[auto_1fr] sm:[&_q]:col-start-2"
+										data-tags={JSON.stringify(
+											post.data.tags ?? [],
+										)}
+									>
+										<PostPreview
+											post={post}
+										/>
+									</li>
+								),
+							)}
 						</ul>
 					</section>
 				))
 			}
+
+			<div
+				id="no-results"
+				class="hidden py-8"
+				aria-live="polite"
+			>
+				<p>
+					No publications match all selected tags.
+				</p>
+			</div>
+
 			<Pagination {...paginationProps} />
 		</div>
+
 		{
-			!!uniqueTags.length && (
+			uniqueTags.length > 0 && (
 				<aside>
 					<h2 class="title mb-4 flex items-center gap-1 text-lg">
 						<svg
@@ -127,33 +202,52 @@ const paginationProps = {
 							viewBox="0 0 24 24"
 							xmlns="http://www.w3.org/2000/svg"
 						>
-							<path d="M0 0h24v24H0z" fill="none" stroke="none" />
+							<path
+								d="M0 0h24v24H0z"
+								fill="none"
+								stroke="none"
+							/>
+
 							<path d="M7.859 6h-2.834a2.025 2.025 0 0 0 -2.025 2.025v2.834c0 .537 .213 1.052 .593 1.432l6.116 6.116a2.025 2.025 0 0 0 2.864 0l2.834 -2.834a2.025 2.025 0 0 0 0 -2.864l-6.117 -6.116a2.025 2.025 0 0 0 -1.431 -.593z" />
+
 							<path d="M17.573 18.407l2.834 -2.834a2.025 2.025 0 0 0 0 -2.864l-7.117 -7.116" />
+
 							<path d="M6 9h-.01" />
 						</svg>
+
 						Tags
 					</h2>
+
 					<ul class="flex flex-wrap gap-2">
 						{uniqueTags.map((tag) => (
 							<li>
 								<button
-	type="button"
-	class="tag-filter cactus-link flex items-center justify-center"
-	data-tag={tag}
-	aria-pressed="false"
->
-	<span aria-hidden="true">#</span>
-	<span class="sr-only">Filter publications by tag</span>
-	{tag}
-</button>
+									type="button"
+									class="tag-filter cactus-link flex items-center justify-center"
+									data-tag={tag}
+									aria-pressed="false"
+								>
+									<span aria-hidden="true">
+										#
+									</span>
+
+									{tag}
+								</button>
 							</li>
 						))}
 					</ul>
+
 					<span class="mt-4 block sm:text-end">
-						<a class="hover:text-link" href="/tags/">
-							plus / more <span aria-hidden="true">→</span>
-							<span class="sr-only">blog tags</span>
+						<a
+							class="hover:text-link"
+							href="/tags/"
+						>
+							plus / more
+							<span aria-hidden="true">→</span>
+
+							<span class="sr-only">
+								blog tags
+							</span>
 						</a>
 					</span>
 				</aside>
@@ -162,6 +256,191 @@ const paginationProps = {
 	</div>
 </PageLayout>
 
+<script>
+	const tagButtons =
+		document.querySelectorAll<HTMLButtonElement>(
+			".tag-filter",
+		);
+
+	const publicationItems =
+		document.querySelectorAll<HTMLElement>(
+			".publication-item",
+		);
+
+	const publicationSections =
+		document.querySelectorAll<HTMLElement>(
+			".publication-section",
+		);
+
+	const activeFilters =
+		document.getElementById("active-filters");
+
+	const activeFilterTags =
+		document.getElementById("active-filter-tags");
+
+	const clearFilters =
+		document.getElementById("clear-filters");
+
+	const noResults =
+		document.getElementById("no-results");
+
+	const selectedTags = new Set<string>();
+
+	function readTagsFromUrl() {
+		const params = new URLSearchParams(
+			window.location.search,
+		);
+
+		const tags = params.get("tags");
+
+		selectedTags.clear();
+
+		if (!tags) {
+			return;
+		}
+
+		tags
+			.split(",")
+			.map((tag) => tag.trim())
+			.filter(Boolean)
+			.forEach((tag) => {
+				selectedTags.add(tag);
+			});
+	}
+
+	function updateUrl() {
+		const url = new URL(window.location.href);
+
+		if (selectedTags.size === 0) {
+			url.searchParams.delete("tags");
+		} else {
+			url.searchParams.set(
+				"tags",
+				[...selectedTags].sort().join(","),
+			);
+		}
+
+		window.history.pushState({}, "", url);
+	}
+
+	function updateActiveFilters() {
+		if (!activeFilters || !activeFilterTags) {
+			return;
+		}
+
+		activeFilterTags.replaceChildren();
+
+		if (selectedTags.size === 0) {
+			activeFilters.classList.add("hidden");
+			return;
+		}
+
+		activeFilters.classList.remove("hidden");
+
+		for (const tag of selectedTags) {
+			const element =
+				document.createElement("span");
+
+			element.textContent = `#${tag}`;
+			element.className = "cactus-link";
+
+			activeFilterTags.appendChild(element);
+		}
+	}
+
+	function updatePublications() {
+		let visibleCount = 0;
+
+		for (const publication of publicationItems) {
+			const tags: string[] = JSON.parse(
+				publication.dataset.tags ?? "[]",
+			);
+
+			const matches =
+				selectedTags.size === 0 ||
+				[...selectedTags].every((selectedTag) =>
+					tags.includes(selectedTag),
+				);
+
+			publication.hidden = !matches;
+
+			if (matches) {
+				visibleCount++;
+			}
+		}
+
+		for (const section of publicationSections) {
+			const visibleItems =
+				section.querySelectorAll(
+					".publication-item:not([hidden])",
+				);
+
+			section.hidden =
+				visibleItems.length === 0;
+		}
+
+		if (noResults) {
+			noResults.classList.toggle(
+				"hidden",
+				visibleCount > 0,
+			);
+		}
+
+		for (const button of tagButtons) {
+			const tag = button.dataset.tag;
+
+			if (!tag) {
+				continue;
+			}
+
+			const selected =
+				selectedTags.has(tag);
+
+			button.setAttribute(
+				"aria-pressed",
+				String(selected),
+			);
+
+			button.dataset.selected =
+				String(selected);
+		}
+
+		updateActiveFilters();
+	}
+
+	for (const button of tagButtons) {
+		button.addEventListener("click", () => {
+			const tag = button.dataset.tag;
+
+			if (!tag) {
+				return;
+			}
+
+			if (selectedTags.has(tag)) {
+				selectedTags.delete(tag);
+			} else {
+				selectedTags.add(tag);
+			}
+
+			updateUrl();
+			updatePublications();
+		});
+	}
+
+	clearFilters?.addEventListener("click", () => {
+		selectedTags.clear();
+		updateUrl();
+		updatePublications();
+	});
+
+	window.addEventListener("popstate", () => {
+		readTagsFromUrl();
+		updatePublications();
+	});
+
+	readTagsFromUrl();
+	updatePublications();
+</script>
 
 <style>
 	.tag-filter {
