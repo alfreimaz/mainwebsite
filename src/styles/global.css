@@ -153,8 +153,3 @@
 .tikz-diagram svg text {
   fill: currentColor !important;
 }
-
-.svg-one-color * {
-  fill: currentColor !important;
-  stroke: currentColor !important;
-}
