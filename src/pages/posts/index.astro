@@ -45,31 +45,31 @@ const meta = {
 	</div>
 
 	<div class="grid sm:grid-cols-[3fr_1fr] sm:gap-x-8 sm:gap-y-16">
-		<div>
-			<div
-				<div
-<div
-	id="active-filters"
-	class="mb-8"
-	aria-live="polite"
->
-	<div class="flex flex-wrap items-center gap-2">
-		<span>Filtres actifs / active filters :</span>
-
+	<div>
 		<div
-			id="active-filter-tags"
-			class="flex flex-wrap gap-2"
-		></div>
-
-		<button
-			id="clear-filters"
-			type="button"
-			class="cactus-link text-accent clickable-text"
+			id="active-filters"
+			class="mb-8"
+			aria-live="polite"
 		>
-			x
-		</button>
-	</div>
-</div>
+			<div class="flex flex-wrap items-center gap-2">
+				<span id="active-filters-label">
+					Filtres actifs / active filters :
+				</span>
+
+				<div
+					id="active-filter-tags"
+					class="flex flex-wrap gap-2"
+				></div>
+
+				<button
+					id="clear-filters"
+					type="button"
+					class="cactus-link text-accent clickable-text"
+				>
+					x
+				</button>
+			</div>
+		</div>
 
 			{
 				pinnedPosts.length > 0 && (
