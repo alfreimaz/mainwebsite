@@ -62,7 +62,7 @@ const meta = {
 					<button
 						id="clear-filters"
 						type="button"
-						class="cactus-link text-accent"
+						class="cactus-link text-accent clickable-text"
 					>
 						x
 					</button>
@@ -153,7 +153,7 @@ const meta = {
 				<button
 					id="previous-page"
 					type="button"
-					class="hover:text-link disabled:cursor-not-allowed disabled:opacity-40"
+					class="hover:text-link clickable-text disabled:cursor-not-allowed disabled:hidden"
 				>
 					← page-1
 				</button>
@@ -163,7 +163,7 @@ const meta = {
 				<button
 					id="next-page"
 					type="button"
-					class="hover:text-link disabled:cursor-not-allowed disabled:opacity-40"
+					class="hover:text-link clickable-text disabled:cursor-not-allowed disabled:hidden"
 				>
 					page+1 →
 				</button>
@@ -198,7 +198,7 @@ const meta = {
 							<path d="M6 9h-.01" />
 						</svg>
 
-						Filtrer / filter
+						Tags
 					</h2>
 
 					<ul class="flex flex-wrap gap-2">
@@ -544,6 +544,10 @@ const meta = {
 </script>
 
 <style>
+  .clickable-text {
+    cursor: pointer;
+  }
+
 	.tag-filter {
 		cursor: pointer;
 		border: 0;
