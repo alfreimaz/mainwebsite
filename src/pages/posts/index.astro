@@ -481,29 +481,24 @@ function readTagsFromHash() {
 
 	for (const button of tagButtons) {
 		button.addEventListener(
-			"click",
-			() => {
-				const tag =
-					button.dataset.tag;
+  "click",
+  () => {
+    const tag = button.dataset.tag;
 
-				if (!tag) {
-					return;
-				}
+    if (!tag) {
+      return;
+    }
 
-				if (
-					selectedTags.has(tag)
-				) {
-					selectedTags.delete(tag);
-				} else {
-					selectedTags.add(tag);
-				}
+    if (selectedTags.has(tag)) {
+      selectedTags.delete(tag);
+    } else {
+      selectedTags.add(tag);
+    }
 
-				currentPage = 1;
-
-				readTagsFromHash();
-updatePublications();
-			},
-		);
+    currentPage = 1;
+    updatePublications();
+  },
+);
 	}
 
 window.addEventListener("hashchange", () => {
