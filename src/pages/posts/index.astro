@@ -288,6 +288,27 @@ const meta = {
 		document.getElementById("page-indicator");
 
 	const selectedTags = new Set<string>();
+function readTagsFromHash() {
+	selectedTags.clear();
+
+	const hash = window.location.hash;
+
+	if (!hash.startsWith("#tags=") && !hash.startsWith("#tag=")) {
+		return;
+	}
+
+	const value = hash.slice(
+		hash.indexOf("=") + 1,
+	);
+
+	value
+		.split(",")
+		.map((tag) => decodeURIComponent(tag.trim()))
+		.filter(Boolean)
+		.forEach((tag) => {
+			selectedTags.add(tag);
+		});
+}
 
 	let currentPage = 1;
 
@@ -479,10 +500,18 @@ const meta = {
 
 				currentPage = 1;
 
-				updatePublications();
+				readTagsFromHash();
+updatePublications();
 			},
 		);
 	}
+
+window.addEventListener("hashchange", () => {
+	readTagsFromHash();
+	currentPage = 1;
+	updatePublications();
+});
+
 
 	clearFilters?.addEventListener(
 		"click",
