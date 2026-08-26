@@ -48,7 +48,7 @@ const meta = {
 	<div>
 		<div
 			id="active-filters"
-			class="mb-8"
+			class="mb-8 hidden"
 			aria-live="polite"
 		>
 			<div class="flex flex-wrap items-center gap-2">
@@ -363,7 +363,6 @@ function readTagsFromHash() {
 				document.createElement("span");
 
 			element.textContent = `#${tag}`;
-			element.className = "cactus-link";
 
 			activeFilterTags.appendChild(element);
 		}
