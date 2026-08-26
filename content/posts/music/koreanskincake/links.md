@@ -2,11 +2,10 @@
 title: "Korean SkincaKe"
 description: "Korean SkincaKe"
 publishDate: "16 April 2025"
-tags: ["music","techno"]
+tags: ["music","techno","english"]
 updatedDate: 20 August 2026
 pinned: true
 ---
-
 
 Here follow a few links to check out my techno/hardstyle/gabber project **Korean SkincaKe**.
 
