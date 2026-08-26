@@ -6,4 +6,4 @@ publishDate: "2026-08-26T13:52:00Z"
 
 Comme une envie de filtration.
 
-when life gives you commit errors, make lemmomade
+when life gives you commit errors, make lemmonade
