@@ -48,7 +48,7 @@ const meta = {
 	<div>
 		<div
 			id="active-filters"
-			class="mb-8 hidden"
+			class="mb-8"
 			aria-live="polite"
 		>
 			<div class="flex flex-wrap items-center gap-2">
@@ -350,11 +350,6 @@ function readTagsFromHash() {
 		}
 
 		activeFilterTags.replaceChildren();
-
-		if (selectedTags.size === 0) {
-			activeFilters.classList.add("hidden");
-			return;
-		}
 
 		activeFilters.classList.remove("hidden");
 
