@@ -3,7 +3,7 @@ title: "ILL-SING : the Type Theory Anthem"
 description: "Song for the Illogician 2026ii"
 publishDate: "28 August 2026"
 tags: ["music","logic","english"]
-updatedDate: 20 August 2026
+updatedDate: 29 August 2026
 pinned: false
 ---
 
