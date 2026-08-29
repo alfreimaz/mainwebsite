@@ -7,7 +7,7 @@ updatedDate: 20 August 2026
 pinned: false
 ---
 
-Published in the Illogician, 2026ii.
+*Published in the Illogician, 2026ii.*
 
 ![sheetmusic](./sheetmusic.png)
 
@@ -39,7 +39,7 @@ Reach for the stars<br>
 Reach for the boxes<br>
 And you will make the cut
 
-*Unknowingly brought to life through messages from*
+*Unknowingly brought to life through messages from :*
 - Giuliano Gorgone
 - Navid Kianfar
 - Magnus Kjærgaard
