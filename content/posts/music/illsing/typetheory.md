@@ -39,7 +39,7 @@ Reach for the stars<br>
 Reach for the boxes<br>
 And you will make the cut
 
-*Inspired by*
+*Unknowingly brought to life through messages from*
 - Giuliano Gorgone
 - Navid Kianfar
 - Magnus Kjærgaard
