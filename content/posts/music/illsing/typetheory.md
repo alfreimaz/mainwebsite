@@ -39,7 +39,7 @@ Reach for the stars<br>
 Reach for the boxes<br>
 And you will make the cut
 
-*Unknowingly brought to life through messages from :*
+*Brought to you (unknowingly) by the involuntary ILLC choir:*
 - Giuliano Gorgone
 - Navid Kianfar
 - Magnus Kjærgaard
