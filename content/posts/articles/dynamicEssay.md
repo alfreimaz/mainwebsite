@@ -20,7 +20,7 @@ if knowing requires truth? With only two ingredients already emerge
 incredibly intricate questions. However, I personally believe that
 improvisation, when added to the mix, results in even grander wonders.
 Indeed, it implies one major key difference: the text has not yet been
-written, and as such "truth\", even in its weakest definitions, appears
+written, and as such "truth", even in its weakest definitions, appears
 frail, unstable, undetermined. There is a fundamental lack of, well,
 fundamentals, no baseline guiding the performance from start to end.
 Improvisers decide what the story will be as they go. And although they
@@ -30,9 +30,9 @@ communicate it amongst themselves. This, more often than not, results in
 misunderstandings and multiple interpretations of a same scene,
 misunderstandings that the audience loves, as a peak behind the curtain
 of a performer's mind, because the audience assumes what should have
-happened. They "know\" the performer misremembered a character's name.
-They "know\" that what has been set up will come back later in the
-scene. And the improvisers "know\" where they want to take it.\
+happened. They "know" the performer misremembered a character's name.
+They "know" that what has been set up will come back later in the
+scene. And the improvisers "know" where they want to take it.\
 \
 Could then the logical definition of knowledge, or at least certain
 belief, be applied to such cases? What is the difference in treatment
@@ -67,7 +67,7 @@ We will come back to this a few pages down.\
 \
 If you were to attend a show, you would notice that before a scene is
 played out, both the constraint and its theme are announced by a
-referee, then the players get a few seconds (called the "caucus\") to
+referee, then the players get a few seconds (called the "caucus") to
 argue for a general story, or to decide who plays which character.
 Therefore, there is a small window of time to decide of what is, to
 bastardise the term, common knowledge to all the players. However, not
@@ -77,7 +77,7 @@ it.\
 During improvisation, it is allowed for the actors not yet performing to
 enter the stage at any time, and for any actor to leave and return to
 the resting benches (again, if the constraint allows for it, as some
-like "huis-clos\" explicitly anchor actors on stage). Thus, it is
+like "huis-clos" explicitly anchor actors on stage). Thus, it is
 possible for actors to scheme and discuss amongst benchwarmers before
 they join in the scene. It is, however, not allowed for anyone outside
 the scene to address anyone inside: once a player is on stage, all
@@ -104,7 +104,7 @@ inferred about what they are about to play from the simple fact that
 *they* are about to play it.\
 \
 To sum it all up, here follow the different means of communication
-(which we will often call "actions\", to gamify) players have access to
+(which we will often call "actions", to gamify) players have access to
 while performing: theme, dialogue, acting, caucus, bench-planning, time
 and habit. We order those in Table 1 [^2].
 
@@ -126,27 +126,27 @@ remaining pages will assume on the place of knowledge in fiction.
 
 ## Knowledge in fiction
 
-"How can fictitious facts be known if knowing requires truth?\". One
-could already discuss the nature of a "fictitious fact\", an apparent
+"How can fictitious facts be known if knowing requires truth?". One
+could already discuss the nature of a "fictitious fact", an apparent
 oxymoron, but let us treat facts as simple statements for now. The first
 thing to clarify is that, for the rest of the paper, our definition of
 knowledge (and belief) will not exactly match that which we are used to.
 Instead, it must be double. We separate cases where someone knows
 something about the play itself and cases where someone knows something
 about what is happening in the play. For example, we distinguish
-statements like \"I know the play is in french\" from \"I know that Bob
-is Alice's father\", given Bob and Alice two characters in the play.
+statements like "I know the play is in french" from "I know that Bob
+is Alice's father", given Bob and Alice two characters in the play.
 More specifically, for the second one, we will assume systematic cheeky
-ellipses, allowing for some rephrasing: "I know Bob is Alice's father\"
+ellipses, allowing for some rephrasing: "I know Bob is Alice's father"
 will be interpreted as "I know that, in the scene, Bob is Alice's
-father\". In short, knowledge of the scene being played out will always
+father". In short, knowledge of the scene being played out will always
 be relativised to the context of the scene itself. This allows us to
 merge both understandings of knowledge into one, of which the object is
 systematically the scene, and then either some of its properties, or
-some "aboutness\" (the characters, their relationship, in general: what
+some "aboutness" (the characters, their relationship, in general: what
 the scene is depicting). Suppose instead that "I know Bob is Alice's
-father\" was interpreted as is, then it would be one of those
-"fictitious facts\", in the sense that it refers to some fictitious
+father" was interpreted as is, then it would be one of those
+"fictitious facts", in the sense that it refers to some fictitious
 non-entities. But how can a statement refer to something that is not?
 Some researchers actually defend that "the use of a singular term is
 said to have ontological commitment iff it has been chosen while
@@ -154,7 +154,7 @@ substituting a bounded variable that occurs in an existentially
 quantified expression. Accordingly, in an argumentative context, a
 proponent is not entitled to the thesis that, say, *Vampires exist*, by
 the opponent's concession that *Nosferatu* is such a
-creature\"[Rahman]. In a similar way, saying "Bob is Alice's father\"
+creature"[Rahman]. In a similar way, saying "Bob is Alice's father"
 does not necessarily entail that both characters actually exist. It only
 talks about their relation, or properties.\
 \
@@ -179,8 +179,8 @@ Instead, simply notice the use of *believe* and *know* in the clauses:
 this paradox fully relies on how we engage with the story, how we treat
 the characters and scenes that it portrays. Now, going back to the
 dichotomy we presented before, this type of belief here mentioned is not
-"contained\" in the scene, it is not of the same kind as "I know Bob is
-Alice's father\". Instead it appears to be that this knowledge
+"contained" in the scene, it is not of the same kind as "I know Bob is
+Alice's father". Instead it appears to be that this knowledge
 disregards the relativisation of the characters to their scene. Knowing
 a character is not real is crucially different from knowing they are not
 real in the scene. Although there are many ways to treat characters and
@@ -190,7 +190,7 @@ entities of their own, which can be extracted out of their scenes. This
 hints at the similarity in treatment between fictitious characters and
 actual entities, to which we will come back later on. Our
 recontextualisation's main point is to handle factivity of knowledge,
-bounding truth to the scene, even if characters were to "leak out\"
+bounding truth to the scene, even if characters were to "leak out"
 [^4].\
 \
 However, it is essential to notice that everything we have said so far
@@ -213,7 +213,7 @@ As, not only the facts themselves can be later on contested (as we will
 see further down), but the players themselves cannot know whether the
 announcement has truly reached everyone, and for we know that common
 knowledge requires this infinite chain of "knowledge of someone else's
-knowledge\", that also cannot be used in our model. There is
+knowledge", that also cannot be used in our model. There is
 nevertheless one point at which knowledge is possible: the very end.
 After an improvised show, the scene played out is set in stone. Both the
 audience and the improvisers can retrospectively know what happened.
@@ -234,7 +234,7 @@ additions:
     Additionally, we also link together identical worlds across multiple
     agents' belief. This implies that inconsistencies in ordering are
     visually represented as crossing lines, and that "the wider the
-    cross, the more different the agents' beliefs are\".
+    cross, the more different the agents' beliefs are".
 
 -   We also suppose, for clarity, that the possible worlds present in
     the belief orders are merely representative of an equivalence class,
@@ -254,19 +254,19 @@ turn into truth. Indeed, "as a result of the Success postulate, the
 incoming formula F that brings about the belief change is assumed to be
 completely trustworthy: the agent accepts without question the incoming
 information F and incorporates it into her set of beliefs as per the
-belief change process.\"[^5][The Stanford Encyclopedia of Philosophy]. As such, improvisers could be
+belief change process."[^5][The Stanford Encyclopedia of Philosophy]. As such, improvisers could be
 seen as their own trusted source, strongly separating them from the
 audience in how they engage with the material and the proposition. The
 audience received, the players create. This change, simple in
 appearance, is actually more akin to a paradigm shift[^6]: where truth
 generally precedes belief, here we go the other way around. Despite
-belief revision being usually perceived as \"corrective\", despite
-generally assuming that it is when \"our beliefs are wrong, \[that\] we
-engage in dynamic procedures of belief revision\"[van Benthem],
+belief revision being usually perceived as "corrective", despite
+generally assuming that it is when "our beliefs are wrong, \[that\] we
+engage in dynamic procedures of belief revision"[van Benthem],
 improvisation requires to treat belief revision as a creative tool in
 itself. Now, it is still essential to consider what each agent knows of
 the concerned mean of communication, or the thought, i.e. whether it is
-discreet, obvious, an aside, a private joke, etc. indeed, \"in order to
+discreet, obvious, an aside, a private joke, etc. indeed, "in order to
 understand and formalize belief revision, it is essential to take into
 account the actual 'learning event' that 'triggered' the belief change.
 For example, our beliefs about the current situation after hearing a
@@ -275,19 +275,19 @@ fully private announcement. \[\...\] In contrast, our beliefs about the
 triggering action are irrelevant as far our static revision is
 concerned: our conditional beliefs about the current situation given
 some hypothetical information do not depend on the way this information
-might be acquired\" [Baltag]. Also, note that, in the spirit of
+might be acquired" [Baltag]. Also, note that, in the spirit of
 standard DEL, we assume discrete intervals of time, with every action
 spanning a whole unit[^7].
 
 ## Weak and strong assertions
 
-Before properly describing each action, or "trigger\", in belief
+Before properly describing each action, or "trigger", in belief
 revision terms, let us test the waters first and come back to one of our
 key challenges to account for: that when some new piece of information
 contradicts what the audience believes, they can have two main types of
 reaction: acceptance or rejection. Suppose that in a scene, some actor
-presents themselves as "Alice\" and that, later on, for the same
-character, someone calls them "Bob\". The audience is most likely going
+presents themselves as "Alice" and that, later on, for the same
+character, someone calls them "Bob". The audience is most likely going
 to notice the change and resist against it, assuming the second
 improviser has made a mistake, as it contradicts what was previously
 established. Now, on the other hand, suppose that a whole scene is
@@ -320,7 +320,7 @@ other than going to the dentist. Hence no contradiction.\
 Another approach would be to claim that rejection does not only arise
 from contradiction with the pre-established facts, but also with an
 implied, pragmatical statement. For instance, that "No one has more than
-one name\", and similar propositions or "rules\" that, in general, we
+one name", and similar propositions or "rules" that, in general, we
 use and assume day to day. In that case, both types of assertion could
 be understood as radical belief upgrades, with rejection emerging from
 the impossibility for the audience of finding a best world satisfying
@@ -329,43 +329,43 @@ without being contradictory.\
 \
 Now, both methods seem to work on their own. However, there is an
 argument to be made in favour of the second one. Consider our previous
-example with one improviser renaming the character Alice to "Bob\".
+example with one improviser renaming the character Alice to "Bob".
 Usually, players will solve this mistake by claiming that the character
 played by the improviser who made mistake was in fact the one
 misremembering. In short, we shift the mistake from the improviser to
 the character, with someone saying something the likes of "You can't
 even remember the names of my friends, how am I supposed to trust
-you?\", simultaneously addressing the mistake and utilising it to add
+you?", simultaneously addressing the mistake and utilising it to add
 depth to the scene, introducing new stakes. This could still works with
 our first method were we to treat both the mistake and the players
 addressing it as the cause of a singular update, but the other most
 common way of treating such a mistake does not grant the same favour.
 That other technique is to actually have the mistake be right. Suppose
 that, later on, Alice comes out and says "I have been lying this whole
-time, going under many aliases\". Then, because our initial statement
-that "the character's name is Alice\" was taken, as we assumed, as a
+time, going under many aliases". Then, because our initial statement
+that "the character's name is Alice" was taken, as we assumed, as a
 belief update, there exists no world left satisfying the proposition
-that "the character's name is not Alice\". As such, this new revelation
+that "the character's name is not Alice". As such, this new revelation
 should also end in a contradiction, and therefore be rejected by the
 audience as some kind of mistake. Yet it is not. It is, as we said,
 taken as a *revelation*, in much the same ways as the dentist example
 was, a plot-twist. This double nature of how people interpret
 contradiction seems to be the final nail in the coffin for that
 particular method. One could argue that instead of taking naming
-statements as "the character's name is Alice\", we should take them as
-"that character was called Alice\", weakening the proposition, and
+statements as "the character's name is Alice", we should take them as
+"that character was called Alice", weakening the proposition, and
 allowing worlds where the wrong name was used in the beginning to still
 hold true. This however prevents us from explaining the perceived
-mistake, as "that character was called Alice\" and "that character was
-called Bob\", are non-contradictory[^8].\
+mistake, as "that character was called Alice" and "that character was
+called Bob", are non-contradictory[^8].\
 \
 Both mending cases can however be explained by our second method.
 Suppose the mistake is taken as wrong, and the blame shifted to the
 character, then the contradiction arises for there was a presupposition
-that "What characters say is right\", which gets canceled or at least
+that "What characters say is right", which gets canceled or at least
 weakened by addressing the mistake. On the other hand, suppose that
 Alice turned out to be lying, then that same statement (or the weaker
-"Characters do not lie\"[^9]) is the one at the core of the
+"Characters do not lie"[^9]) is the one at the core of the
 contradiction, canceled by the revelation. This, however, crucially
 relies on the audience's own pragmatic inference, and therefore relies
 on the characters being treated in much the same way we treat actual
@@ -376,15 +376,15 @@ true, despite knowing they are not[^10].\
 \
 A final point to raise, which we have not yet addressed, is the nature
 of said pragmatic inferences. We assumed earlier that those were bound
-to the scene. Saying "Alice does not lie\" is akin to saying that "In
-the scene, the character of Alice does not lie\". We could also consider
+to the scene. Saying "Alice does not lie" is akin to saying that "In
+the scene, the character of Alice does not lie". We could also consider
 these inferences to be about the scene itself, of the meta kind
 mentioned above. In theory, that could be possible, but, and this
 strictly comes from personal experience with fiction and arts in
 general, it does not seem to be how people think of the content. We
 assume values and properties of the characters. There still are
 assumptions of the improvisers (for example that "the improvisers treat
-traumatic subjects appropriately\"), assumptions outside the scene, but
+traumatic subjects appropriately"), assumptions outside the scene, but
 those do not seem to produce the same kind of rejection. Forgetting a
 name will get a laugh, breaking a social rule will make people wince.
 
@@ -485,7 +485,7 @@ A  & \varphi \arrow[u, no head] & \neg\varphi \arrow[l]
 ### Theme
 
 Let us consider the formula statement $\varphi$ as "the scene is about
-\[the theme\]\"[^14], whatever the announced theme may be. As mentioned
+\[the theme\]"[^14], whatever the announced theme may be. As mentioned
 earlier, respecting the theme is one of the mandatory constraints to all
 improvisers, and the audience knows it. Therefore, there is no
 possibility for the scene to play out in a way that contradicts the
@@ -598,7 +598,7 @@ As mentioned earlier, time indications are extremely discreet as not to
 perturb the audience. This means that they can very easily be missed by
 the improvisers too, especially if they happen to not be facing the
 referee. We consider the statement $\varphi$ as "the scene is about to
-end\" which, once again, as it is a requirement players must abide to,
+end" which, once again, as it is a requirement players must abide to,
 cannot be contested and thus can be interpreted as a belief update to
 those who saw it. Similarly to how bench planning was an upgrade to a
 subset of the improvisers, time is instead an update to a subset of the
@@ -636,10 +636,10 @@ main text itself, here follow a few:
 -   First of all, the structure and wording of both communicated
     propositions and pragmatic inferences are still very much hazy. We
     mentioned the possibility to account for naming as "This character's
-    name is Alice\" or "This character was called Alice\", but actually
+    name is Alice" or "This character was called Alice", but actually
     there seems to be a semi-infinite amount of relevant information.
     For instance, maybe we should word it as "This character was called
-    Alice and they answered\", seemingly strengthening the assumption
+    Alice and they answered", seemingly strengthening the assumption
     that it indeed is their name. We previously assumed equivalence
     classes of worlds, where only the relevant proposition are actually
     considered. But what is the relevant proposition? Should the
@@ -729,13 +729,13 @@ if deemed worthy enough, it will join other fields of study on the main
 
 
 
-[^1]: We will be using the words "scene\" and "play\" interchangeably.
+[^1]: We will be using the words "scene" and "play" interchangeably.
 
 [^2]: We here assume for structural purposes that time indications are
     discreetly signaled, and thus not perceived by the audience. We also
     assume that improvisers are not identically familiar with the styles
     of all other players, and that some habits might not be known to
-    all. This is typically where the \"match\" nature of the show comes
+    all. This is typically where the "match" nature of the show comes
     into play, as teams train amongst themselves, not with other teams.
     In reality, the world of improvisation is small enough that anyone
     will get to know all other players, but probably not to the same
@@ -757,12 +757,12 @@ if deemed worthy enough, it will join other fields of study on the main
     their original work. Some say that "Once created, \[\...\] a
     fictional character can go on existing without its author or his or
     her creative acts, for it is preserved in literary works that may
-    long outlive their author\"[Thomasson]. This however assumes the
+    long outlive their author"[Thomasson]. This however assumes the
     existence of a tangible source material, which will never exist for
     improvisation, as it is usually not recorded nor transcribed.
 
 [^5]: Note that, ironically, this complete trust and acceptance in what
-    is being said could be seen as the baseline for the "yes and\"
+    is being said could be seen as the baseline for the "yes and"
     principle of improvisation, probably its most famous one, which
     claims that improvisers should always accept the newly given
     information and build on top of it, effectively making it a trusted
@@ -776,14 +776,14 @@ if deemed worthy enough, it will join other fields of study on the main
     be perceived in different ways by the audience (long silences
     showing awkwardness, a fast pace showing excitement, etc.).
 
-[^8]: One could argue that \"the character's name is Alice\" and "the
-    character's name is Bob\" are also not contradictory in a logical
-    sense. Then, use instead "Your one and only name is Bob\". It was
+[^8]: One could argue that "the character's name is Alice" and "the
+    character's name is Bob" are also not contradictory in a logical
+    sense. Then, use instead "Your one and only name is Bob". It was
     simply more digest to treat a simpler case.
 
 [^9]: This is how we write both statements for conciseness, but in
     reality it would make more sense to treat them as "character 1 does
-    not lie\", "character 2 does not lie\", etc., to avoid one
+    not lie", "character 2 does not lie", etc., to avoid one
     character's behaviour to prevent all others from making the same
     mistake.
 
