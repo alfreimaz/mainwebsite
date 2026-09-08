@@ -713,7 +713,7 @@ if deemed worthy enough, it will join other fields of study on the main
 
 - Daphne Wang, Mehrnoosh Sadrzadeh, Samson Abramsky, and Víctor H. Cervantes. **On the Quantum-like Contextuality of Ambiguous Phrases**. *CoRR*, abs/2107.14589, 2021. [arXiv:2107.14589](https://arxiv.org/abs/2107.14589)
 
-- Shahid Rahman and Juan Redmond. **A Dialogical Frame for Fictions as Hypothetical Objects**. *Filosofia Unisinos*, 16(1), 2015. [HAL](https://shs.hal.science/halshs-01216227v1/document){#a-name}
+- [Shahid Rahman and Juan Redmond. **A Dialogical Frame for Fictions as Hypothetical Objects**. *Filosofia Unisinos*, 16(1), 2015. [HAL](https://shs.hal.science/halshs-01216227v1/document)]{#a-name}
 
 - Colin Radford and Michael Weston. **How Can We Be Moved by the Fate of Anna Karenina?** *Aristotelian Society Supplementary Volume*, 49(1), 67–94, 1975. [https://doi.org/10.1093/aristoteliansupp/49.1.67](https://doi.org/10.1093/aristoteliansupp/49.1.67)
 
