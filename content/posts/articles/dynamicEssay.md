@@ -49,7 +49,7 @@ on and off stage.
 Now, obviously, it would be hard to follow along without any idea of
 what improvised theater is. I will be explaining the style which I am
 most familiar with: the style most common to French-speaking
-Switzerland, particularly Geneva [Fédération d'Improvisation Genevoise], though it has similarities with
+Switzerland, particularly Geneva [Fédération d'Improvisation Genevoise](#references), though it has similarities with
 that of Amsterdam.\
 \
 Improvised theater is, as anyone could guess, theater that is
@@ -134,7 +134,7 @@ knowledge (and belief) will not exactly match that which we are used to.
 Instead, it must be double. We separate cases where someone knows
 something about the play itself and cases where someone knows something
 about what is happening in the play. For example, we distinguish
-statements like "I know the play is in french" from "I know that Bob
+statements like "I know the play is in French" from "I know that Bob
 is Alice's father", given Bob and Alice two characters in the play.
 More specifically, for the second one, we will assume systematic cheeky
 ellipses, allowing for some rephrasing: "I know Bob is Alice's father"
@@ -199,7 +199,7 @@ been talking about knowledge. You, as the author, know what will happen
 next if, for instance, you have already written it. But when it comes to
 the audience (and improvisers), there is but one way of engaging with
 the material: belief, not knowledge. The audience does not know that a
-certain character is nice, for said character might be traitor later on,
+certain character is nice, for said character might be a traitor later on,
 they only believe so. And similarly for improvisers. Although, one could
 argue that in a one person improvised show, said improviser could *know*
 what is going to happen, or whether said character is nice, as they are
@@ -336,7 +336,7 @@ misremembering. In short, we shift the mistake from the improviser to
 the character, with someone saying something the likes of "You can't
 even remember the names of my friends, how am I supposed to trust
 you?", simultaneously addressing the mistake and utilising it to add
-depth to the scene, introducing new stakes. This could still works with
+depth to the scene, introducing new stakes. This could still work with
 our first method were we to treat both the mistake and the players
 addressing it as the cause of a singular update, but the other most
 common way of treating such a mistake does not grant the same favour.
@@ -789,7 +789,7 @@ if deemed worthy enough, it will join other fields of study on the main
 
 [^10]: Fundamentally, there is nothing preventing a scene from having
     characters with inconsistent names, or contradictory beliefs
-    (liberties that can be found in more contemporary absurdist theater.
+    (liberties that can be found in more contemporary absurdist theater).
     Yet we still seem to rely on what we are used to from the real
     world.
 
