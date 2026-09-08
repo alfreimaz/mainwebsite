@@ -13,6 +13,7 @@ import branch from '../assets/branch.png';
 import eyeribs from '../assets/eyeribs.png';
 import wow from '../assets/wow.png';
 import { getUniqueTags } from "@/data/post";
+import faceOther from '../assets/face2cut.jpg';
 
 // Posts
 const allPosts = await getAllPosts();
@@ -243,6 +244,25 @@ if (bigonesText) {
   });
 </script>
 
+
+<script>
+  let clicks = 0;
+
+  const container = document.querySelector("#click-image");
+  const faceOne = document.querySelector("#face-one");
+  const faceTwo = document.querySelector("#face-two");
+
+  container?.addEventListener("click", () => {
+    clicks++;
+
+    if (clicks === 5) {
+      faceOne?.setAttribute("style", "display: none;");
+      faceTwo?.setAttribute("style", "display: block;");
+    }
+  });
+</script>
+
+
 <style>
   .clickable-text {
     cursor: pointer;
@@ -260,11 +280,26 @@ if (bigonesText) {
 }
 </style>
 <div class="prose prose-sm prose-cactus max-w-none">
-<center><Image
-  src={face2cut}
-  alt="alex"
-  layout="full-width"
-/>
+<center>
+
+<div id="click-image">
+  <Image
+    id="face-one"
+    src={face2cut}
+    alt="alex"
+    layout="full-width"
+  />
+
+  <Image
+    id="face-two"
+    src={faceOther}
+    alt="alex"
+    layout="full-width"
+    style="display: none;"
+  />
+</div>
+
+
 <p id="funny-joke"> tout au naturel, circa &eacute;t&eacute; 2026 <br />&nbsp; &nbsp;&nbsp;</p>
 </center>
 </div>
