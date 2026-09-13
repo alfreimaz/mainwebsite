@@ -53,7 +53,7 @@
 
 /* you could refactor below to use light-dark(), depending on your target audience */
 @theme {
-	--color-global-bg: oklch(0.9885 0.0069 64);
+	--color-global-bg: oklch(0.9824 0.0094 84.71);
 	--color-global-text: oklch(26.99% 0.0096 235.05);
 	--color-muted: oklch(44.6% 0.03 256.802);
 	--color-link: oklch(55.44% 0.0431 185.69);
