@@ -457,7 +457,9 @@ allPostsByDate.filter((p) => p.data.tags.includes("music")).length > MAX_MUSIC_P
 				<ul class="space-y-6" role="list">
 					{latestNotes.map((note) => (
 						<li>
+              <a href="/notes/${note}"
 							<Note note={note} as="h3" isPreview />
+              </a>
 						</li>
 					))}
 				</ul>
