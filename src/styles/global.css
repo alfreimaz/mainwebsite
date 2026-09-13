@@ -17,7 +17,8 @@
 @property --color-global-bg {
 	syntax: "<color>";
 	inherits: true;
-	initial-value: oklch(98.48% 0 0);
+	/*initial-value: oklch(98.48% 0 0);*/
+  initial-value: oklch(0.9412 0.0192 64)
 }
 @property --color-global-text {
 	syntax: "<color>";
