@@ -3,7 +3,7 @@ title: "De l'art de faire gagner les deux camps"
 description: "Analyse pragmatique de corpus"
 publishDate: "11 May 2025"
 tags: ["french", "social", "linguistics","essay"]
-updatedDate: 23 August 2026
+updatedDate: 13 September 2026
 pinned: false
 ---
 
