@@ -26,7 +26,7 @@ JE <br>
 J’ai chaud.
 
 L’AUTRE <br>
-En voilà donc une surprise !
+En voilà donc une surprise&nbsp;!
 
 JE (*tirant du même souffle court*) <br>
 Surprise ou pas, j’ai chaud.
@@ -45,7 +45,7 @@ JE (*le col tenu écarté du cou*)<br>
 Ça je ne l’ai jamais dit…
 
 L’AUTRE<br>
-Oh ! mais mon cher, penser n’est pas dire.
+Oh&nbsp;! mais mon cher, penser n’est pas dire.
 
 *Il bombe la poitrine, gonflée d’une fierté au bitume.*
 
@@ -64,7 +64,7 @@ JE (*la voix fuyante*)<br>
 Certes. (*Il marque une pause*) Je radote, je sais –
 
 L’AUTRE (*exubérant, dramatique*)<br>
-Radoter&nbsp;? C’est bien pire ! On crève tous de chaud, mais au moins nous gardons notre salive intacte, sans cracher de nos têtes d’inutiles paroles ! Comment te permets-tu de gaspiller ce don du parler descendu des tiens pour n’en proférer que de courtes évidences et de longs enrayages, dans l’unique plaisir de combler ton manque privatif de confidence emportée&nbsp;?
+Radoter&nbsp;? C’est bien pire&nbsp;! On crève tous de chaud, mais au moins nous gardons notre salive intacte, sans cracher de nos têtes d’inutiles paroles&nbsp;! Comment te permets-tu de gaspiller ce don du parler descendu des tiens pour n’en proférer que de courtes évidences et de longs enrayages, dans l’unique plaisir de combler ton manque privatif de confidence emportée&nbsp;?
 
 *La radio cherche à s’exprimer.*
 
@@ -77,7 +77,7 @@ Tout ça juste pour une bête plainte&nbsp;?
 *Une ample respiration.*
 
 L’AUTRE<br>
-Bête oui, et je recommencerai ! dès que surviendront tes nouvelles idioties de chimère indécise. Donc monte garde grand et attends moi debout en chien de faïence sans faillir pour mieux défendre ton bout de viande la prochaine fois, car j’aurai les papilles en alerte prêtes à fendre sur ta foi.
+Bête oui, et je recommencerai&nbsp;! dès que surviendront tes nouvelles idioties de chimère indécise. Donc monte garde grand et attends moi debout en chien de faïence sans faillir pour mieux défendre ton bout de viande la prochaine fois, car j’aurai les papilles en alerte prêtes à fendre sur ta foi.
 
 L’HOMME (*détourné des mots*)<br>
 Je me fatigue de ces joutes.
@@ -85,7 +85,7 @@ Je me fatigue de ces joutes.
 *L’AUTRE expire une bouchée d’air gris qui s’élève hors du cadre. Il esquisse un sourire puis le déforme en une feinte innocence, les yeux écarquillés jusqu’à les perdre, fuyant l’orbite dans le pourtour des lèvres cyniques. Les pupilles inondent.*
 
 L’AUTRE<br>
-Eh bien pars&nbsp;? Prends ton envol !
+Eh bien pars&nbsp;? Prends ton envol&nbsp;!
 
 L’HOMME (*le fumet lui remontant le nez*)<br>
 Je reste.
@@ -99,7 +99,7 @@ Que trop peu.
 *Les sillons noirs gonflent.*
 
 L’AUTRE (*narquois aux tripes*)<br>
-Il te faudra donc nous supporter mon ami !
+Il te faudra donc nous supporter mon ami&nbsp;!
 
 L’HOMME<br>
 «&nbsp;Te&nbsp;» supporter.
@@ -108,9 +108,9 @@ JE (*d’un coup de veste*)<br>
 S’il faut, il fera –
 
 L’AUTRE (*l’œil retourné*)<br>
-Si faux ! S’y fera qui veut bien m’écouter.
+Si faux&nbsp;! S’y fera qui veut bien m’écouter.
 
-Une heure passe, puis d’autres suivent, non sans leurs entailles. Les palais s’assèchent en répétitions et se raffermissent pour certains en gorgées. La fumée, elle, joue les anti-douleurs. Le début du soir approchant, le Soleil rougi finit enfin de brûler le fond de sa rage, alors que la nuit s’attelle à emplir l’air de ses ombres vacillantes. Le vent déplace les lumières et les lanternes aussi, quand elles pendent de nos doigts, le fer chaud empoigné par la hanse. Des suites de notre après-midi entière prisée de souffrance, à cramer dans un canyon abrasif, genoux à terre, on décide de s’imposer une énième douleur aux jambes&nbsp;: d’aller pousser dans les mollets le reste d’énergie fade que les rations militaires nous ont fournies pour partir en repérage dans les environs, sans espérer voir autre chose que du sable fin. En revanche, pas question de s’imposer un demi-tour pour reprendre nos affaires quand on aura enfin un début d’idée d’où aller. Alors chacun s’en va ramasser ses babioles&nbsp;: des bières chaudes, une valise, des paquets de cartes, de cigarettes encore crues, et tutti quanti. On évide la carcasse de sa prose par grands gestes. Toutefois, je redoute un moment&nbsp;: celui où on ouvrira le coffre. Enfin, «&nbsp;on&nbsp;» … Soyons réalistes ! Plutôt eux. J’aurais beaucoup trop honte pour l’ouvrir moi-même. Déjà qu’il me faudra le tirer au bout d’une corde. Que faire d’autre&nbsp;? le porter dans mes bras&nbsp;? et lui taper la discussion&nbsp;? ou le laisser me porter sinon&nbsp;? Tout sauf le recracher derrière nous, prématuré. Je dois d’abord choisir, mais comment&nbsp;? Ils me diraient que j’ai l’habitude, qu’il me suffit de fermer les yeux et de nier.
+Une heure passe, puis d’autres suivent, non sans leurs entailles. Les palais s’assèchent en répétitions et se raffermissent pour certains en gorgées. La fumée, elle, joue les anti-douleurs. Le début du soir approchant, le Soleil rougi finit enfin de brûler le fond de sa rage, alors que la nuit s’attelle à emplir l’air de ses ombres vacillantes. Le vent déplace les lumières et les lanternes aussi, quand elles pendent de nos doigts, le fer chaud empoigné par la hanse. Des suites de notre après-midi entière prisée de souffrance, à cramer dans un canyon abrasif, genoux à terre, on décide de s’imposer une énième douleur aux jambes&nbsp;: d’aller pousser dans les mollets le reste d’énergie fade que les rations militaires nous ont fournies pour partir en repérage dans les environs, sans espérer voir autre chose que du sable fin. En revanche, pas question de s’imposer un demi-tour pour reprendre nos affaires quand on aura enfin un début d’idée d’où aller. Alors chacun s’en va ramasser ses babioles&nbsp;: des bières chaudes, une valise, des paquets de cartes, de cigarettes encore crues, et tutti quanti. On évide la carcasse de sa prose par grands gestes. Toutefois, je redoute un moment&nbsp;: celui où on ouvrira le coffre. Enfin, «&nbsp;on&nbsp;» … Soyons réalistes&nbsp;! Plutôt eux. J’aurais beaucoup trop honte pour l’ouvrir moi-même. Déjà qu’il me faudra le tirer au bout d’une corde. Que faire d’autre&nbsp;? le porter dans mes bras&nbsp;? et lui taper la discussion&nbsp;? ou le laisser me porter sinon&nbsp;? Tout sauf le recracher derrière nous, prématuré. Je dois d’abord choisir, mais comment&nbsp;? Ils me diraient que j’ai l’habitude, qu’il me suffit de fermer les yeux et de nier.
 
 Fluide, les corps désarticulés, esquivant les lances du guetteur perpétuel, pour qui la nuit promeut clémence et non repos, le Soleil lorgnant sans cesse depuis son horizon, on se fraie un chemin le long du véhicule, raclant les dernières gouttes tièdes des parois en vue de ne laisser au désert avide que la ferraille sans sa rouille promise, se gardant bien de le recommander aux autres. Guidé par ce mouvement de danse, aussitôt le pas fini, on se retrouve les trois debout devant l’arrière de la voiture éventrée, à l’armature osseuse fracassée pareille à une implosion qui aurait eu la décence de ne pas projeter les tripes. Pas de sang. Une vue propre et horrible. Parfum infect. Celle du mort rassis à la curiosité morbide. La cage thoracique déchirée, maintenue en place par le frêle cordon ombilical au vœu de cacher la chair putréfiée. Un chirurgien se décide et s’avance pour arracher le fil, sans scalpel, dévoilant soudain aux lumières noires le cœur battant du cadavre. Le fœtus gît là, frappé de plein fouet par le Soleil endormi, brûlé vif dès sa naissance par l’observation, la bouche ouverte, de laquelle ne s’échappe pourtant aucun bruit. Des barreaux ivoires limés en canines. Comme des sangsues, deux paires d’yeux se fixent sur lui, la mienne l’évite, écœurée ou repue. Je tourne les talons, à mon tour sous les regards. Finalement, ils ne disent rien. Ils font bien, je ne saurais pas quoi leur rétorquer. Mais que dis-je&nbsp;? je suis mort, je ne peux de toute façon plus parler.
 
