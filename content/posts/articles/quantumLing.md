@@ -1,5 +1,5 @@
 ---
-title: "Is the cat dead, dead dead, truly alive or playing jazz ?"
+title: "Is the cat dead, dead dead, truly alive or playing jazz?"
 description: "Quantum course essay"
 publishDate: "27 Mar 2026"
 tags: ["english", "linguistics","quantum","essay"]
