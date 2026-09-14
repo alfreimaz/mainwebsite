@@ -3,7 +3,7 @@ title: "Short poems 2"
 description: "Short poems in english"
 publishDate: "21 Aug 2026"
 tags: ["english", "poem", "literature"]
-updatedDate: 21 August 2026
+updatedDate: 14 September 2026
 pinned: false
 ---
 
@@ -41,7 +41,7 @@ Disintegrate,<br>
 And spread<br>
 Too thin.<br>
 Nobody daring to suspect<br>
-That it was already rotting.
+That it was contaminating.
 
 
 
