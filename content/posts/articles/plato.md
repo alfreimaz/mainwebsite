@@ -1,5 +1,5 @@
 ---
-title: "Quel sens Platon donne-t-il au terme 'contraire' ?"
+title: "Quel sens Platon donne-t-il au terme 'contraire'?"
 description: "Premier essai de philo"
 publishDate: "23 May 2023"
 tags: ["french", "philosophy", "logic","essay"]
