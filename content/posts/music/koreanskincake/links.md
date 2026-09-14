@@ -2,7 +2,7 @@
 title: "Korean SkincaKe"
 description: "Korean SkincaKe"
 publishDate: "16 April 2025"
-tags: ["music","techno","english"]
+tags: ["english","music","techno"]
 updatedDate: 20 August 2026
 pinned: true
 ---
