@@ -1,5 +1,5 @@
 ---
-title: &nbsp;
+title: \&nbsp;
 description: unbreakable spaces
 publishDate: "2026-09-14T18:04:00Z"
 ---
