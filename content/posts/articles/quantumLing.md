@@ -1,5 +1,5 @@
 ---
-title: "Is the cat dead, dead dead, truly alive or playing jazz?"
+title: "Is the cat dead, dead dead, truly alive or playing jazz&nbsp;?"
 description: "Quantum course essay"
 publishDate: "27 Mar 2026"
 tags: ["english", "linguistics","quantum","essay"]
@@ -37,7 +37,7 @@ being words, and in the case of words, those fragments being morphemes).
 One key aspect to identify here is that this framework fundamentally
 struggles with giving meaning to those more basic elements. If a
 linguistic atom cannot be split further, how can we derive its meaning
-without simply imposing it? To avoid this call to fundamentalism,
+without simply imposing it&nbsp;? To avoid this call to fundamentalism,
 lexical meaning is, contrary to that of sentences, generally understood
 through the distributional framework. Instead of deriving meaning
 through composition, the distributional approach stems from the idea
@@ -60,7 +60,7 @@ ambiguities.\
 Indeed, lexical ambiguity is more subtle than its syntactical
 counterpart, and traditionally harder to explicitate formally[^1].
 Furthermore, it is of multiple natures, since "\[at\] the lexical level,
-one can distinguish between two broad types of ambiguity: homonymy
+one can distinguish between two broad types of ambiguity&nbsp;: homonymy
 refers to cases in which, due to some historical accident, words that
 share exactly the same spelling and pronunciation are used to describe
 completely distinct concept \[\...\] On the other hand, the senses of a
@@ -84,24 +84,24 @@ ambiguities. This is where quantum theory might help.
 
 ## Quantum strategy
 
-What if ambiguous words were akin to superimposed quantum states? This
+What if ambiguous words were akin to superimposed quantum states&nbsp;? This
 is the main idea behind Wang et al.[Wang, 2021:3], in continuation to [Piedeleu],
 and, indeed, if one could view standard unambiguous words as pure
 states, one might be able to create some understanding of lexical
 ambiguity from there. Namely, homonyms would be perceived as a
 superimposition of said pure states[^3], one that could easily collapse
-under measurement. But what measurement? Well, reading, or hearing, or
-even more generally: interacting with the word. Engaging with an
+under measurement. But what measurement&nbsp;? Well, reading, or hearing, or
+even more generally&nbsp;: interacting with the word. Engaging with an
 ambiguous word causes a collapse of its meaning. Indeed, it does not
 seem possible for an agent to hold all the possible meanings of a word
 true at once. Instead, we select one, based on the context. If I say I
 saw a cat on the street, you would more likely than not imagine the
 animal. If I say I saw a cat in a jazz club, that reading might not be
 your preferred one[^4]. This apparent "contextuality\" of language the
-authors sum up in the following way: "given that a certain
+authors sum up in the following way&nbsp;: "given that a certain
 interpretation of a word is selected within a certain context, can we
 use this information to deduce how the same word may be interpreted in a
-different context (e.g. in different phrases) in the corpus? Our
+different context (e.g. in different phrases) in the corpus&nbsp;? Our
 intuition is that this is not the case\"[Wang, 2021:3]. This context dependency
 is the reason why one of the goals of the method we are about to present
 is to show its quantum contextuality. However, note that both notions
@@ -139,17 +139,17 @@ meanings the way described in Table 1.
 | lap   | run              | drink     |
 | file  | document         | smoothen  |
 
-<p align=center> Table 1 : sample of ambiguities </p>
+<p align=center> Table 1&nbsp;: sample of ambiguities </p>
 
 Now, combine all these words in a subject-verb structure (this is where
 compositionality comes into play) and for each of their respective
-meanings, ask yourself "does this reading make sense?\". Does it make
-sense, for instance, for a dog to drink? does it make sense for a bus to
-document something? If yes, we note the combination with a *1*, and if
+meanings, ask yourself "does this reading make sense&nbsp;?\". Does it make
+sense, for instance, for a dog to drink&nbsp;? does it make sense for a bus to
+document something&nbsp;? If yes, we note the combination with a *1*, and if
 not with a *0*.[^5]. This, according to the authors[^6], gives us the
 results of Table 2. As mentioned previously, one of our goals with this
 framework is to achieve contextuality, but that title alone is not
-specific enough, as we differentiate between three kinds: probabilistic,
+specific enough, as we differentiate between three kinds&nbsp;: probabilistic,
 possibilistic and strongly possibilistic. This nomenclature comes from
 Abramsky's work, see [Abramsky], who summarised the criteria each type
 must obtain[^7].
@@ -161,7 +161,7 @@ must obtain[^7].
    boxer |  lap   | *1* |  *1* |  *1* |  *1*
    boxer |  file  | *1* |  *1* |  *0* |  *0*
 
-<p align=center> Table 2 : possibilistic combinations </p>
+<p align=center> Table 2&nbsp;: possibilistic combinations </p>
 
 For now, we are only concerned with possibilistic contextuality, which
 Table 2 happily satisfies. Results are possibilistically contextual if
@@ -189,17 +189,17 @@ without said family being inconsistent. This is precisely possibilistic
 contextuality, which in our linguistic case can be reduced to the
 impossibility of assuming a certain set meaning for every ambiguous word
 without running into any impossible phrasings. Then, should we simply
-stop here? We have indeed found a case of contextuality, implying there
-is at least one situation where the framework can be applied, right?
+stop here&nbsp;? We have indeed found a case of contextuality, implying there
+is at least one situation where the framework can be applied, right&nbsp;?
 Well, to ensure that this system actually acts similarly to quantum
-behaviour, we might need to take a small detour to another key concept:
+behaviour, we might need to take a small detour to another key concept&nbsp;:
 non-signallity. Take the original instance of Alice and Bob's
 experiment. We would call the setup non-signalling if one key criterion
-obtains: no matter what Alice observes, this should not impact what
+obtains&nbsp;: no matter what Alice observes, this should not impact what
 measurements Bob can conduct, and inversely. And, as it turns out, one
 of the consequences of Bell's Theorem is that any quantum system needs
 to be non-signalling to ensure proper behaviour, see [Abramsky]. The
-implications this has on our concerns may be disputable: indeed, no
+implications this has on our concerns may be disputable&nbsp;: indeed, no
 equivalent theorem has been proven of language and, furthermore,
 "certainly there is no reason to assume it\"[Wang, 2021:3]. This is,
 nevertheless, a requirement of the quantum framework and, as such, using
@@ -218,8 +218,8 @@ ways[^11]. We must then find some other approach.
 As a response to this issue, Wang et al.[Wang, 2021:3] changed focus and turned
 their heads towards probabilistic contextuality, hoping to find an
 instance both contextual and non-signalling. This strategy diverges in
-two main aspects from the possibilistic outlook: first, we replace our
-question "Does this make sense?\" with data analysis of linguistic
+two main aspects from the possibilistic outlook&nbsp;: first, we replace our
+question "Does this make sense&nbsp;?\" with data analysis of linguistic
 corpus. That is, we look for attested occurrences of the word pairs we
 consider, instead of native gut feeling. Secondly, we replace our *1*
 and *0*'s with statistical probabilities[^12]. The result can be seen
@@ -236,7 +236,7 @@ pairing[^13].
    boxer |  lap  |  11/53 |  22/53 |  8/53  |  12/53
    boxer |  file |  35/54 |  19/54 |  *0* |  *0*
 
-<p align=center> Table 3 : probabilistic combinations </p>
+<p align=center> Table 3&nbsp;: probabilistic combinations </p>
 
 A consquence of these alterations is that, now, contextuality of the
 system has to be checked slightly differently. Indeed, we are not
@@ -250,14 +250,14 @@ behaviour, i.e. statistical distribution that cannot be explained via
 the work of an external source (of a global assignment, if you will).
 Bell proved that a certain inequality, when violated, showed
 quantum-like contextuality of the system. Here is the method to
-calculate it: take a few (one for each line of the table) logical
+calculate it&nbsp;: take a few (one for each line of the table) logical
 "unjointly satisfiable\"[Abramsky] propositions, then add up the
 probabilities of the cases (bound to their respected lines) that satisfy
 said propositions. This sum must be equal or below the number of lines
 in table, minus 1, for the system to be classically explainable, given
 any particular set of formulas. Contextuality is ensured when the
 inequality fails. Here, given our example, are the formulas one might
-consider: <br><br>
+consider&nbsp;: <br><br>
 $\varphi_1 = (coach\rightarrow 1 \land lap\rightarrow 1)
 \vee (coach\rightarrow 0 \land lap\rightarrow 0)$ <br>
 $\varphi_2 = (coach\rightarrow 1 \land file\rightarrow 1)
@@ -267,14 +267,14 @@ $\varphi_3 = (boxer\rightarrow 1 \land lap\rightarrow 1)
 $\varphi_4 = (boxer\rightarrow 0 \land file\rightarrow 1)
 \vee (boxer\rightarrow 1 \land file\rightarrow 0)$
 
-The inconsistency of those formulas is easy to check. We then assign to every $\varphi_i$ the probability $p_i$ for it to obtain, in our case:
+The inconsistency of those formulas is easy to check. We then assign to every $\varphi_i$ the probability $p_i$ for it to obtain, in our case&nbsp;:
 <br><br>
 $p_1 = 2/11 + 7/11 = 9/11 $<br>
 $p_2 = 43/44 + 0 = 43/44 $<br>
 $p_3 = 11/53 + 12/53 = 23/53 $<br>
 $p_4 = 19/54 + 0 = 19/54 $<br>
 
-Our Bell inequality to transgress is then:<br><br>
+Our Bell inequality to transgress is then&nbsp;:<br><br>
  $\sum_{i=1}^4 p_i\leq 3$<br><br>
 After adding all $p_i$'s together, we get
 $\sim 2,58$, which is lower than our assumed threshold of $3$ (the
@@ -295,13 +295,13 @@ $coach\rightarrow 0$, then the sum of probabilities between a
 measurement with "lap\" ($2/11 + 7/11 = 9/11$) is not the same as with a
 measurement through "file\" ($43/44 + 1/44 = 1$). But an identical
 distribution is what defines possibilistic non-signallity, showing it
-still does not hold in our case. And as such, one major issue arises:
+still does not hold in our case. And as such, one major issue arises&nbsp;:
 the instability of the corpus. It is extremely unlikely for
 probabilities to magically show patterns in their repeated sums.
 Furthermore, suppose, fixing a corpus, that we find a non-signalling
 system. Adding or removing a single word to that corpus could break the harmony between
 the distributions, making it signalling. Even more problematic, what
-would happen if we did it all again, with a much smaller sample? Well,
+would happen if we did it all again, with a much smaller sample&nbsp;? Well,
 things might not change, but some attested combinations might
 disappear[^15] and in the same breath again change the probability
 distributions. We thus still need a way of solidifying probabilities in
@@ -350,20 +350,20 @@ manageable.\"[Wang, 2021:3]. This choice itself can however be criticised too.
 In fact, given that the framework here described does not make any
 distinctions between polysemous and homonymous words, as the method
 could be applied to both, one can wonder why it would not be the same
-process for metaphors? And in fact, why not expand on similar concepts
+process for metaphors&nbsp;? And in fact, why not expand on similar concepts
 like homophony and homography, where the ambiguity only arises in one
-specific way of engaging with the word, namely sound or text? If the
+specific way of engaging with the word, namely sound or text&nbsp;? If the
 discrimination against metaphorical meaning resulted from an ontological
 claim, a belief about their singularity in theory and incompatibility
 with the quantum framework, would the same exclusion apply to homophony
 and homography, as superposition can only be observed under a very
-specific light? One could also wonder about words gaining or losing
+specific light&nbsp;? One could also wonder about words gaining or losing
 interpretations over time. Preexisting words gain slang meanings on
 daily basis, and lose archaic ones at least as often, but what impact
-does this have on the contextuality of language? Could it gain or lose
-contextuality? In a similar way, is it necessary for all interpretations
-to be accounted for to evaluate the contextuality of a system? If a word
-is contextual with 3 interpretations, should it not also be so with 2?
+does this have on the contextuality of language&nbsp;? Could it gain or lose
+contextuality&nbsp;? In a similar way, is it necessary for all interpretations
+to be accounted for to evaluate the contextuality of a system&nbsp;? If a word
+is contextual with 3 interpretations, should it not also be so with 2&nbsp;?
 However, this framework does not ensure this, which seems to indicate
 that it is still bound to be a method of analysis, and not a claim about
 the underlying structure of language itself.\
