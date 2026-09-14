@@ -23,11 +23,11 @@ Sont dans cette section retranscrites les différentes répliques présentes dan
 R:	Je fête cette année mes 450 ans d’histoire en Valais. On m’a baptisée «&nbsp;raclette&nbsp;» en 1874, en référence au fait de racler la meule de fromage fondant près du feu.
 
 2.	F:	Comme le fameux slogan l’affirme, je crée la bonne humeur.
-<br> R:	Pur mensonge... ce n’est pas toi qui la crées, c’est le fromage fondu en général !
+<br> R:	Pur mensonge... ce n’est pas toi qui la crées, c’est le fromage fondu en général!
 
 
 3.	R:	On me fait fondre et on me racle avec amour, grâce au four traditionnel valaisan. On	prend le temps de me savourer, dedans ou dehors.<br>
-F:	On me concocte avec soin, me brassant patiemment, à la maison ou en pleine nature !
+F:	On me concocte avec soin, me brassant patiemment, à la maison ou en pleine nature!
 
 **P.25**
 
@@ -36,33 +36,33 @@ R:	Certes, mais il n’y a qu’un caquelon dans lequel on te fait fondre. J’a
 5.	R:	On a jugé la qualité de mes fromages lors d’un premier Championnat du monde de la	raclette, l’an dernier en Valais.<br>
 F:	J’ai déjà été célébrée quatre fois lors d’un Mondial de fondue, dans le canton de Vaud.
 
-6.	F:	On peut me préparer avec des ingrédients végétaux, la preuve avec la recette de fondue	végane signée Fooby (lire en page 37) !<br>
-R:	Comme toi, j’existe aussi en mode végane sur le marché !
+6.	F:	On peut me préparer avec des ingrédients végétaux, la preuve avec la recette de fondue	végane signée Fooby (lire en page 37)!<br>
+R:	Comme toi, j’existe aussi en mode végane sur le marché!
 
 7.	F:	Je permets aux clubs de foot et de hockey de gagner des sous et aux derbys d’être plus	gourmands.<br>
-R:	Prétentieuse que tu es, les clubs de sport organisent aussi des soirées raclette !
+R:	Prétentieuse que tu es, les clubs de sport organisent aussi des soirées raclette!
 
 8.	R:	On me déguste sans échanger ses microbes potentiels, si tu vois ce que je veux dire...<br>
-F:	Rabat-joie. D’accord, un point pour toi. Avec moi, on partage tout !
+F:	Rabat-joie. D’accord, un point pour toi. Avec moi, on partage tout!
 
 **P.26**
 
-9.	F:	Envie de me déguster en solo? J’existe aussi en portion individuelle, prête en un éclair	au four à micro-ondes ! <br>
+9.	F:	Envie de me déguster en solo? J’existe aussi en portion individuelle, prête en un éclair	au four à micro-ondes! <br>
 R:	Tu n’as pas le monopole du choix du nombre de convives. On peut me savourer à 1, 2, 3 ou 10 personnes...
 
 10.	F:	Il n’y a pas que préparée avec du vin blanc que je suis bonne: on peut par exemple me	concocter avec de la bière, avec ou sans alcool. Par ailleurs, la fondue au Vacherin	Fribourgeois AOP s’élabore avec de l’eau.<br>
 R:	Pas besoin de m’ajouter quelque liquide que ce soit. Je me suffis à moi-même.
 
-11.	F:	Au-delà du Gruyère AOP et du Vacherin Fribourgeois AOP, on peut me préparer avec	de nombreux fromages, y compris une touche de bleu, de Tilsiter, d’Appenzeller (voire	la recette de fondue à la poire Williams en page 36), de Schabziger ou de Tête de Moine	AOP. On m’élabore même avec... du fromage à raclette ! <br>
+11.	F:	Au-delà du Gruyère AOP et du Vacherin Fribourgeois AOP, on peut me préparer avec	de nombreux fromages, y compris une touche de bleu, de Tilsiter, d’Appenzeller (voire	la recette de fondue à la poire Williams en page 36), de Schabziger ou de Tête de Moine	AOP. On m’élabore même avec... du fromage à raclette! <br>
 R:	Tu n’es pas la seule, je suis certes célèbre préparée avec du fromage à raclette, à l’instar du Raclette du Valais AOP, mais j’excelle aussi avec du raclette de chèvre ou du Vacherin Fribourgeois AOP.
 
 **P.27**
 
 12.	F:	Autour de la table je suscite toujours le débat: moitié-moitié ou pas, prête à l’emploi	en sachet ou à concocter soi-même en râpant le fromage...<br>
-R:	Ce sont plutôt les accompagnements qui animent les discussions avec moi. Les puristes ne jurent que par les pommes de terre en robe des champs, les cornichons et les petits oignons. Ils crient au scandale quand d’autres me dégustent avec des fruits secs, des poires, du romarin, du gingembre ou du lard grillé !
+R:	Ce sont plutôt les accompagnements qui animent les discussions avec moi. Les puristes ne jurent que par les pommes de terre en robe des champs, les cornichons et les petits oignons. Ils crient au scandale quand d’autres me dégustent avec des fruits secs, des poires, du romarin, du gingembre ou du lard grillé!
 
 13.	F:	Je peux me présenter colorée, rouge avec de la sauce tomate ou teintée de vert avec	des herbettes séchées par exemple.<br>
-R:	Curry, paprika, abricots secs... Avec toutes les épices et accompagnements avec lesquels on me savoure, tu fais pâle figure. Un point pour moi !
+R:	Curry, paprika, abricots secs... Avec toutes les épices et accompagnements avec lesquels on me savoure, tu fais pâle figure. Un point pour moi!
 
 14.	R	: On ne te déguste le plus souvent qu’avec du pain, ce n’est pas très élaboré...<br>
 F:	Ne fais pas la maligne, Madame pommes de terre-cornichons.
@@ -70,11 +70,11 @@ F:	Ne fais pas la maligne, Madame pommes de terre-cornichons.
 15.	R:	Pas de rythme imposé avec moi. On me fait fondre quand on est en appétit.<br>
 F:	Un point pour toi, c’est plus compliqué avec moi de faire des pauses. Mais on m’associe à la tradition du coup du milieu, qui consiste à déguster une larme d’eau-de-vie entre deux bouchées.
 
-16.	F:	Je suis synonyme de gage potentiel: qui perd son morceau de pain dans le caquelon a	une dette !<br>
+16.	F:	Je suis synonyme de gage potentiel: qui perd son morceau de pain dans le caquelon a	une dette!<br>
 R:	Et tu trouves ça glorieux?
 
 17.	F:	Quand on a fini de me déguster, je réserve un délice irrésistible aux convives, au fond	de mon caquelon: il se nomme religieuse.<br>
-R:	Le bord croustillant de ma meule de fromage se nomme également ainsi, et il est bien meilleur que ta religieuse coriace !
+R:	Le bord croustillant de ma meule de fromage se nomme également ainsi, et il est bien meilleur que ta religieuse coriace!
 
 ## Destinateur et destinataire
 
@@ -85,7 +85,7 @@ Cependant, rappelons qu’il s’agit bien là d’un échange publicitaire et f
 Il nous faudra donc, notamment pour les morceaux de phrases aux fonctions expressives et conatives (qui seront définie dans la section suivante), préciser qui exactement les dit et à qui elles sont adressées, car on ne traitera pas de la même manière une phrase prononcée par un personnage pour gagner un débat fictif qu’une phrase qui vise à pousser le lecteur à la consommation. On peut dès lors remarquer plusieurs choses:
 - Premièrement, notons que l’autrice s’adresse bien au lecteur, mais de manière non-explicite. En effet, Joëlle Challandes ne prend à aucun moment le parti d’écrire en son propre nom ; c’est uniquement par le discours de la raclette et de la fondue qu’elle intervient et qu’elle nous vante les mérites des produits de la Coop ou nous présente de futurs achats possibles.
 - Deuxièmement, on pourrait aussi raisonnablement ajouter au contexte l’entité de la Coop, en ce qu’elle est représentée, qu’elle s’exprime, par l’autrice qui elle-même fait partie d’un ensemble de personnes en permettant la publicité. Cependant, cela nous demanderait de tordre les théories linguistiques (développées avant tout pour exprimer les interactions humaines) plus qu’elles ne le permettent réellement. La piste est donc évoquée mais ne sera pas plus discutée.
-- Troisièmement, nous pouvons relever une dernière relation destinateur-destinataire à ajouter: celle liant la fondue au lecteur. Sa présence est justifiée par les phrases 6, 9 et 11. En effet, la phrase 6.F contient l’aparté «&nbsp;(lire en page 37)&nbsp;», la 11.F «&nbsp;(voire la recette de fondue à la poire Williams en page 36)&nbsp;», et la 9.F «&nbsp;Envie de me déguster en solo?&nbsp;». Dans les deux premières, la référence aux numéros de page du journal, notion qui n’existe que dans la réalité du lecteur, explicite clairement que la phrase lui est adressée. On pourrait défendre que ce soit là Joëlle Challandes elle-même qui s’adresse au lecteur en ajoutant un complément à ce que dirait la fondue, ce qui semble justifier l’usage de parenthèses. Or, l’inclusion de ces apartés au sein même du dialogue (comprenez en opposition à un encart sur le côté ou à un astérisque) pourrait tout aussi bien montrer qu’il s’agit bien d’un aparté donné par la fondue elle-même. L’ambiguïté reste solide dans ces deux cas. Cependant, pour ce qui est de la 9.F, dont le destinataire ne peut être que le lecteur (car ce n’est vraisemblablement pas la raclette qui va aller acheter des tailles de portions différentes), et ce de manière plus évidente encore, c’est bien la fondue qui s’exprime directement et non pas un aparté de l’autrice. Pas de marques typographiques présentes pour marquer un changement de destinateur. Nous avons donc là une preuve claire du discours de la fondue comme quelque fois directement adressé au lecteur, mais qu’en est-il de la raclette? Si nous ne l'avions pas mentionnée plus tôt, ce n’est pas pour rien. En effet, il manque un marqueur clair: la raclette ne s’adresse jamais au lecteur par un «&nbsp;tu&nbsp;» ou «&nbsp;vous&nbsp;», ne l’implique jamais directement par ses répliques, elle ne fait jamais référence au contexte du magazine et ne pose pas plus de questions. Et, bien qu’elle semble préparer une liste de course (et la fondue aussi, par ailleurs) en énumérant sans peine toutes les alternatives et différents produits disponibles à l’achat (comme aux phrases 6.R, 11.R et 12.R), c’est toujours là l’expression de l’autrice qui se laisse entrevoir. Regardons la phrase 6.R comme exemple: «&nbsp;Comme toi, j’existe aussi en mode végane sur le marché !&nbsp;». Certes, la phrase en elle-même vise sans doute aucun à pousser le lecteur à essayer ou au minimum à s’intéresser à ces alternatives en question. Mais elle ne semble pas lui être directement adressée pour autant: c’est là une phrase déclarative classique, la raclette n’évoque qu’un fait, et elle est même justifiée dans son contexte car elle permet de répondre à un argument de la fondue («&nbsp;On peut me préparer avec des ingrédients végétaux&nbsp;», 6.F). S’il faut donc admettre que sa présence n’est là que pour faire connaître les alternatives véganes au lecteur, c’est bien l’autrice qui s’adresse à lui et non pas la raclette par elle-même.
+- Troisièmement, nous pouvons relever une dernière relation destinateur-destinataire à ajouter: celle liant la fondue au lecteur. Sa présence est justifiée par les phrases 6, 9 et 11. En effet, la phrase 6.F contient l’aparté «&nbsp;(lire en page 37)&nbsp;», la 11.F «&nbsp;(voire la recette de fondue à la poire Williams en page 36)&nbsp;», et la 9.F «&nbsp;Envie de me déguster en solo?&nbsp;». Dans les deux premières, la référence aux numéros de page du journal, notion qui n’existe que dans la réalité du lecteur, explicite clairement que la phrase lui est adressée. On pourrait défendre que ce soit là Joëlle Challandes elle-même qui s’adresse au lecteur en ajoutant un complément à ce que dirait la fondue, ce qui semble justifier l’usage de parenthèses. Or, l’inclusion de ces apartés au sein même du dialogue (comprenez en opposition à un encart sur le côté ou à un astérisque) pourrait tout aussi bien montrer qu’il s’agit bien d’un aparté donné par la fondue elle-même. L’ambiguïté reste solide dans ces deux cas. Cependant, pour ce qui est de la 9.F, dont le destinataire ne peut être que le lecteur (car ce n’est vraisemblablement pas la raclette qui va aller acheter des tailles de portions différentes), et ce de manière plus évidente encore, c’est bien la fondue qui s’exprime directement et non pas un aparté de l’autrice. Pas de marques typographiques présentes pour marquer un changement de destinateur. Nous avons donc là une preuve claire du discours de la fondue comme quelque fois directement adressé au lecteur, mais qu’en est-il de la raclette? Si nous ne l'avions pas mentionnée plus tôt, ce n’est pas pour rien. En effet, il manque un marqueur clair: la raclette ne s’adresse jamais au lecteur par un «&nbsp;tu&nbsp;» ou «&nbsp;vous&nbsp;», ne l’implique jamais directement par ses répliques, elle ne fait jamais référence au contexte du magazine et ne pose pas plus de questions. Et, bien qu’elle semble préparer une liste de course (et la fondue aussi, par ailleurs) en énumérant sans peine toutes les alternatives et différents produits disponibles à l’achat (comme aux phrases 6.R, 11.R et 12.R), c’est toujours là l’expression de l’autrice qui se laisse entrevoir. Regardons la phrase 6.R comme exemple: «&nbsp;Comme toi, j’existe aussi en mode végane sur le marché!&nbsp;». Certes, la phrase en elle-même vise sans doute aucun à pousser le lecteur à essayer ou au minimum à s’intéresser à ces alternatives en question. Mais elle ne semble pas lui être directement adressée pour autant: c’est là une phrase déclarative classique, la raclette n’évoque qu’un fait, et elle est même justifiée dans son contexte car elle permet de répondre à un argument de la fondue («&nbsp;On peut me préparer avec des ingrédients végétaux&nbsp;», 6.F). S’il faut donc admettre que sa présence n’est là que pour faire connaître les alternatives véganes au lecteur, c’est bien l’autrice qui s’adresse à lui et non pas la raclette par elle-même.
 
 ## Analyse de Jackobson
 
@@ -111,7 +111,7 @@ Nous mettons maintenant en évidence quelles fonctions se retrouvent dans le dé
 10.	Encore des expressions comme «&nbsp;bonne&nbsp;» en 10.F ou «&nbsp;je me suffis à moi-même&nbsp;» en 10.R pour la fonction expressive double. On notera aussi que la réplique de la fondue est avant tout là pour communiquer des informations au lecteur, comme lors des premiers échanges.
 11.	Même raisonnement qu’au paragraphe précédent pour les termes comme «&nbsp;excelle&nbsp;» en 10.R. Remarquons aussi que «&nbsp;Tu n’es pas la seule&nbsp;», présent dans la même phrase, tient une fonction expressive. On interprétera également l’aparté «&nbsp;(voire la recette de fondue à la poire Williams en page 36)&nbsp;» de l’exact même manière que l’aparté en 6.F, c’est-à-dire comme à la fois une fonction référentielle et conative dirigées directement vers le lecteur.
 12.	«&nbsp;plutôt&nbsp;» est un terme similaire à «&nbsp;mais&nbsp;» et «&nbsp;aussi&nbsp;», en ce qu’il comporte les fonctions expressive et phatique, respectivement en critiquant une idée précédente et en permettant un lien avec celle-ci. Autrement, la phrase joue principalement le rôle d’une liste de course.
-13.	Pareillement à l’échange en 12, il est ici surtout question d’une liste de potentiels ingrédients à essayer pour le lecteur. On notera cependant l’expression «&nbsp;tu fais pâle figure&nbsp;» en 13.R, clairement à fonction expressive, mais aussi le retour de la phrase «&nbsp;Un point pour moi !&nbsp;», à fonction référentielle vis-à-vis du contexte du match.
+13.	Pareillement à l’échange en 12, il est ici surtout question d’une liste de potentiels ingrédients à essayer pour le lecteur. On notera cependant l’expression «&nbsp;tu fais pâle figure&nbsp;» en 13.R, clairement à fonction expressive, mais aussi le retour de la phrase «&nbsp;Un point pour moi!&nbsp;», à fonction référentielle vis-à-vis du contexte du match.
 14.	«&nbsp;ce n’est pas très élaboré&nbsp;» en 14.R témoigne d’une fonction expressive, là où «&nbsp;Ne fait pas la maligne&nbsp;» en 14.F y ajoute également une fonction conative. Dans cette même phrase, «&nbsp;Madame pommes de terre-cornichons&nbsp;» est un bon exemple d’expression à la fois à fonction référentielle et à fonction expressive, car elle réfère au destinataire et permet l’expression d’une critique du destinateur. C’est aussi la deuxième expression à tenir une fonction poétique, car la critique n’est pas directement émise mais avant tout sous-entendu par la juxtaposition de cette expression et de l’apparente désapprobation qui la précède. Remarquons que, bien que la réplique de la raclette se veuille piquante, y est malgré tout utilisé le terme «&nbsp;déguste&nbsp;» pour maintenir la positivité générale, terme alors à fonction expressive de la position de l’autrice.
 15.	Dernier retour de l’expression «&nbsp;Un point pour toi&nbsp;» en 15.F, qu’on interprétera comme précédemment. Cet échange est également l’occasion du retour de «&nbsp;mais&nbsp;», qui suivra le même traitement. Notons cependant la rare présence d’un terme comme «&nbsp;compliqué&nbsp;» (autrement dit d’un terme à connotation négative), qui reste malgré tout à fonction expressive double, directement suivi par «&nbsp;mais&nbsp;» comme mentionné avant.
 16.	«&nbsp;Et tu trouves ça glorieux?&nbsp;» en 16.R est un parfait exemple de fonction expressive simple, c’est ici une pure réponse de la raclette. Nous la considérerons comme simple car il parait absurde de la clamer être la pensée de l’autrice également, elle qui est censée nous vanter les mérites des deux. Comme pour la 9.F, la question est ici rhétorique et ne tient alors pas de fonction phatique particulière.
@@ -121,7 +121,7 @@ Notons que la liste n’est pas parfaitement exhaustive, certaines récurrences 
 
 ## Ce qui fait un match
 
-Concernant le contexte des répliques, il est plusieurs fois répété, comme mentionné précédemment, qu’elles s’inscrivent dans un match de répartie («&nbsp;Fondue vs Raclette: quel match !&nbsp;», «&nbsp;Mettons-les face à face pour voir de quel côté penche la balance...&nbsp;», «&nbsp;Mais voyons maintenant, au jeu des arguments, qui l’emporte...&nbsp;», le tout p.24). On est donc en droit, comme on analyserait une pièce de théâtre sur la vraisemblance de ses échanges, de se demander si ce match suit les règles de son style. Or, dans un match, on souhaiterait:
+Concernant le contexte des répliques, il est plusieurs fois répété, comme mentionné précédemment, qu’elles s’inscrivent dans un match de répartie («&nbsp;Fondue vs Raclette: quel match!&nbsp;», «&nbsp;Mettons-les face à face pour voir de quel côté penche la balance...&nbsp;», «&nbsp;Mais voyons maintenant, au jeu des arguments, qui l’emporte...&nbsp;», le tout p.24). On est donc en droit, comme on analyserait une pièce de théâtre sur la vraisemblance de ses échanges, de se demander si ce match suit les règles de son style. Or, dans un match, on souhaiterait:
 
 1. Que les participants s’adressent à leur opposition et (au moins indirectement) au spectateur
 2. Que le débat soit encadré, que ses règles soient suivies
@@ -140,7 +140,7 @@ R:	Je fête cette année mes 450 ans d’histoire en Valais. On m’a baptisée 
 1874, en référence au fait de racler la meule de fromage fondant près du feu.
 
 2.	R:	On me fait fondre et on me racle avec amour, grâce au four traditionnel valaisan. On	prend le temps de me savourer, dedans ou dehors.<br>
-F:	On me concocte avec soin, me brassant patiemment, à la maison ou en pleine nature !
+F:	On me concocte avec soin, me brassant patiemment, à la maison ou en pleine nature!
 
 5.	R:	On a jugé la qualité de mes fromages lors d’un premier Championnat du monde de la	raclette, l’an dernier en Valais.<br>
 F:	J’ai déjà été célébrée quatre fois lors d’un Mondial de fondue, dans le canton de Vaud.
@@ -149,7 +149,7 @@ L’ordre entre les répliques pourrait très bien ici être inversé sans aucun
 
 ### Deuxième critère
 
-De manière plutôt anticlimatique, le débat se termine en page 28 sur ces mots: «&nbsp;Egalité parfaite: dans le pays du consensus, il ne peut pas en être autrement...&nbsp;», mais cette conclusion suit elle réellement du dialogue, ou est-ce une imposition finale de la main de l’autrice? Il faut admettre que le texte ne nous donne jamais de règles précises que sembleraient suivre les participants. Cependant, les dialogues 8, 13 et 15 mentionnent chacun la notion de «&nbsp;point&nbsp;» (8.F: «&nbsp;D’accord, un point pour toi&nbsp;» & 13.R: «&nbsp;Un point pour moi !&nbsp;» & 15.F: «&nbsp;Un point pour toi&nbsp;»). Soient deux possibilités:
+De manière plutôt anticlimatique, le débat se termine en page 28 sur ces mots: «&nbsp;Egalité parfaite: dans le pays du consensus, il ne peut pas en être autrement...&nbsp;», mais cette conclusion suit elle réellement du dialogue, ou est-ce une imposition finale de la main de l’autrice? Il faut admettre que le texte ne nous donne jamais de règles précises que sembleraient suivre les participants. Cependant, les dialogues 8, 13 et 15 mentionnent chacun la notion de «&nbsp;point&nbsp;» (8.F: «&nbsp;D’accord, un point pour toi&nbsp;» & 13.R: «&nbsp;Un point pour moi!&nbsp;» & 15.F: «&nbsp;Un point pour toi&nbsp;»). Soient deux possibilités:
 1. Ces phrases performent et sont le moyen par lequel un «&nbsp;point&nbsp;» est attribué, auquel cas, selon la classification d’Austin des actes de langage, ces phrases, puisque accordant quelque chose au moment de leur énonciation, quand bien même ici fictive, seraient des actes illocutoires, plus précisément des exercitifs.
 2. Ces phrases constatent qu’un «&nbsp;point&nbsp;» a été attribué, selon une autre règle sous-jacente, auquel cas elles seraient dites constatives.
 
@@ -162,12 +162,12 @@ Néanmoins, malgré l’étrangeté survenant de ces anomalies, il ne nous est p
 Enfin, il parait essentiel à tout débat que ses participants se critiquent, à coup d’arguments comme de rhétorique, en bref: que ses participants cherchent chacun à gagner. En effet, un débat où l’un des camps présent joue en faveur de son opposition sera vite qualifié de «&nbsp;faux débat&nbsp;», ou de manière générale sera rejeté au vu de son illégitimité. On chercherait donc à minimiser les éléments inutiles, les discussions sur ce qui ne peut avantager ni l’un ni l’autre. Cependant, on observe que nombre de dialogues tiennent sur des sujets non-pertinents: par exemples, les phrases en 1, 3, 5, 10 ou 12. Aussi, il est important de remarquer le grand nombre de terme à fonction expressive ramenant un air de positivité au débat, et ce même lors de critiques. On prendra notamment pour exemple la 14.R: «&nbsp;On ne te déguste le plus souvent qu’avec du pain, ce n’est pas très élaboré...&nbsp;» qui allie critique et éloge (par la connotation de "déguste") en une même phrase. Malgré tout, certains arguments sont présentés, mais, et c’est sûrement sur ce point que la forme pêche, ils semblent trop peu nombreux pour réellement qualifier de débat ce qui, de prime abord, ressemble avant tout à un alignement de faits historiques ou de recommandations culinaires à tester aux prochaines fêtes. Prenez la phrase 7.F: «&nbsp;Je permets aux clubs de foot et de hockey de gagner des sous et aux derbys d’être plus gourmands.&nbsp;». Quelques simples éléments auraient pu la transformer en argument marquant, telles que «&nbsp;Moi, je permets aux clubs de foot et de hockey de gagner des sous et aux derbys d’être plus gourmands.&nbsp;» pour montrer que la fondue estime que ce n’est pas le cas de la raclette. De telles modifications rendraient le dialogue plus naturel, évitant ainsi que la raclette ne réponde à une affirmation de la phrase (que seules les soirées fondue existent) qui n’est pas explicitée. Considérons enfin un dernier exemple:
 
 2. F: Comme le fameux slogan l'affirme, je crée la bonne humeur.<br>
-R: Pur mensonge... ce n'est pas toi qui la crées, c'est le fromage fondu en général !
+R: Pur mensonge... ce n'est pas toi qui la crées, c'est le fromage fondu en général!
 
 Quand bien même la forme donne l'impression d'une dispute, en réalité l'intention de l'autrice de dépeindre et la fondue et la raclette positivement transparait clairement dans la généralité quant aux bien-faits du fromage. C'est là encore un argument de vente déguisé. En d’autres termes, les critiques sont trop peu assumées. Les seuls échanges structurés comme de vrais arguments sont les suivants:
 
 8.	R:	On me déguste sans échanger ses microbes potentiels, si tu vois ce que je veux dire...<br>
-F:	Rabat-joie. D’accord, un point pour toi. Avec moi, on partage tout !
+F:	Rabat-joie. D’accord, un point pour toi. Avec moi, on partage tout!
 
 14.	R:	On ne te déguste le plus souvent qu’avec du pain, ce n’est pas très élaboré...<br>
 F:	Ne fais pas la maligne, Madame pommes de terre-cornichons.
@@ -180,7 +180,7 @@ En résumé, cet échange, bien qu’il ait la structure générale d’un déba
 
 ## Bibliographie
 
--	Challandes, J. & Von Niederhäusern, K. (2024, 8 octobre). «&nbsp;Fondue vs raclette: quel match !&nbsp;», Coopérations 41, 24-29.
+-	Challandes, J. & Von Niederhäusern, K. (2024, 8 octobre). «&nbsp;Fondue vs raclette: quel match!&nbsp;», Coopérations 41, 24-29.
 -	Jakobson, R. (1963). «&nbsp;Essais de linguistique générale&nbsp;», Paris, Minuit, 213-220
 -	Grice, H. P. (1979). «&nbsp;Logique et conversation&nbsp;», Communications 30, 57-72.
 -	Austin, J. L. (1970). «&nbsp;Quand dire c’est faire&nbsp;», Paris, Seuil. 
