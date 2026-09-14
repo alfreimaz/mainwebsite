@@ -41,7 +41,7 @@ Disintegrate,<br>
 And spread<br>
 Too thin.<br>
 Nobody daring to suspect<br>
-That it was contaminating.
+What it was contaminating.
 
 
 
