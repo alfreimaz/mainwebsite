@@ -11,7 +11,7 @@ export default {
 							textUnderlineOffset: "2px",
 							"&:hover": {
 								"@media (hover: hover)": {
-									textDecorationColor: "var(--color-link)",
+									textDecorationColor: "var(--color-link/5)",
 									textDecorationThickness: "2px",
 								},
 							},
