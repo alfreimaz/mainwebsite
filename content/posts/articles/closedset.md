@@ -3,7 +3,7 @@ title: "Coming out of the closed set"
 description: "Queer set-theory article"
 publishDate: "14 Sep 2026"
 tags: ["english", "logic","philosophy","social","queer","essay"]
-updatedDate: 14 September 2026
+updatedDate: 21 September 2026
 pinned: false
 ---
 
@@ -22,7 +22,7 @@ Russel's paradox is one of if not the most foundational result of set theory, an
 
 Both cases therefore end up in contradiction, rendering the nature of the object uncertain, and often even undesirable. One of the standard changes made to set theory to avoid such paradoxes is that sets should instead be viewed as a collection of preexisting things, and that their names merely *describe* what they contain, without any imposed restrictions on the content itself[^2]. This is often referred to as the "arbitrary" school of thought, one that severs the "necessary" ties between a set and the concept/name therein associated. To sum it all up, the descriptive name of a set follows from the nature of its elements, rather than the elements being chosen depending on what the description of the set is&nbsp;: this is a bottom-up approach, rather than a top-down one.
 
-### "Bottom-up" is a technical term here
+### "Bottom" and "Top" are technical terms here
 And said approach can also be applied to sexuality. Let us view one's sexual orientation as the descriptive name of a set of attractions (that is, some element of the powerset of all people, namely those the person is attracted to[^3]). Then, the name itself given to the sexuality would only *describe* what can be found in it, not imposing anything, and with no necessity for it to be a unique identifier (multiple sets could be described in a similar way - a same sexuality label - without the need to contain the same elements, as it is merely a meta-description, and not a relevant part of the set's identity).
 
 Furthermore, and on that note, notice also that this approach allows us to explain how two people with the same sexual orientation may not have the same type. Their sets can be described using the same name, with no need for the sets themselves to be identical. If sexuality instead prescribed who you found attractive, in a top-down approach, then said distinction could not be made, as two people with the same label should necessarily like the same people[^4]. This issue could obviously be circumvented (keeping a top-down view) by fine-tuning the name of the sets, similarly to indexing them as "the heterosexuality of Alice" and "the heterosexuality of Berth", thus making them slightly different. However, ironically, this would be much closer to the problem of an abundance of "boxes" that we mentioned in earlier, the one we precisely wanted to avoid, as the labels themselves would matter (rather than simply being used for discussion purposes), and for we would then probably need one for every type (so, arguably, one for every person).
@@ -63,8 +63,8 @@ Be gay, do set theory.
 [^2]: Note that, in ZFC, it is still possible to arrange sets based on a certain property using the "specification" axiom schema, which could then be seen as top-down. Instead, we argue that the needs for the description to specifically be a formula in $\mathcal{L}_\epsilon$ and for the constructed set itself to be some subset of an already existing set both show weakness of that interpretation. We will thus ignore this view for the rest of the essay. Nevertheless, this shows that labels still are a contentious discussion, even in set theory.
 [^3]: We simplify a lot here, for instance ignoring degrees of attraction between people of someone's type. Attraction usually fluctuates between individuals, which would require some other framework to properly model.
 [^4]: And, also problematically, they should logically be attracted to *everyone* matching that labels' prerequisite, which is obviously not what happens for most people.
-[^5]: In all fairness, it would be completely reasonable to also include life experiences in the construction of sexuality, as a way to also account for queer identity in general, but in the interest of time we will skip over that part, and leave that for other gays to solve.
+[^5]: In all fairness, it would be completely reasonable to also include life experiences in the construction of sexuality, as a way to also account for queer identity in general, but in the interest of time we will skip over that part, and leave that problem for other gays to solve.
 [^6]: Otherwise we would be back in a top-down view of gender.
-[^7]: One might also notice that the "paradox" here is merely a rejection of agender identity. The strength of Russel's paradox crucially is that it goes both ways. Therefore, agenderism is also not a true paradox for there still is one consistent direction (assuming you are not agender does not imply you are).
+[^7]: One might also notice that the "paradox" here is merely a rejection of agender identity. The strength of Russel's paradox crucially is that it goes both ways (pun intended). Therefore, agenderism is also not a true paradox for there still is one consistent direction (assuming you are not agender does not imply you are).
 [^8]: Yes, this paradox relies on double negation, but what can I say, we already mentioned same sign operations were fine, so might as well say same polarity ones are too.
-[^9]: Remember that the paradox breaks in the bottom-view approach, as the "then" statements do not necessarily follow.
+[^9]: Remember that the paradox breaks in the bottom-up approach, as the "then" statements do not necessarily follow.
