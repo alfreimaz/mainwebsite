@@ -2,7 +2,7 @@
 title: "Short poems 2"
 description: "Short poems in english"
 publishDate: "21 Aug 2026"
-tags: ["english", "poem", "literature"]
+tags: ["english", "poem", "literature","queer"]
 updatedDate: 14 September 2026
 pinned: false
 ---
