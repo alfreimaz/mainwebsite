@@ -10,12 +10,10 @@ import { Image } from 'astro:assets';
 import SocialList from "@/components/SocialList.astro";
 import face2cut from '../assets/face3.jpeg';
 import branch from '../assets/branch.png';
-import cat from '../assets/cat.png';
 import eyeribs from '../assets/eyeribs.png';
 import wow from '../assets/wow.png';
 import { getUniqueTags } from "@/data/post";
 import faceOther from '../assets/face3uwued.jpeg';
-
 
 // Posts
 const allPosts = await getAllPosts();
@@ -79,20 +77,6 @@ const latestNotes = allNotes
 ---
 
 <PageLayout meta={{ title: "Prologue" }}>
-
-
-<div
-  aria-hidden="true"
-  style="position: fixed; right: 24px; bottom: 0px; transform: translateY(-50%); width: 150px; z-index: 9999; pointer-events: none;"
->
-  <img
-    src={cat.src}
-    alt=""
-    style="display: block; width: 100%; height: auto;"
-  />
-</div>
-
-
 	<section>
 		<div class="heading-row">
   <h1 class="title">Prologue
@@ -294,12 +278,9 @@ if (bigonesText) {
   cursor: pointer;
   margin: 0;
 }
-
 </style>
 <div class="prose prose-sm prose-cactus max-w-none">
 <center>
-
-
 
 <div id="click-image">
   <Image
