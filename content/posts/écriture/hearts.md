@@ -1,5 +1,5 @@
 ---
-title: "Short poems 2"
+title: "Short poems pt.2"
 description: "Short poems in english"
 publishDate: "21 Aug 2026"
 tags: ["english", "poem", "literature","queer"]
