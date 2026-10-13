@@ -2,7 +2,7 @@
 title: "Short poems 1"
 description: "Short poems in english"
 publishDate: "24 Aug 2025"
-tags: ["english", "poem", "literature"]
+tags: ["english", "poem", "literature","politics"]
 updatedDate: 20 August 2026
 pinned: false
 ---
