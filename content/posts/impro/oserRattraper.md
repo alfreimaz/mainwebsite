@@ -11,7 +11,7 @@ pinned: false
 
 **Objectif**&nbsp;: aider à oser faire des propositions plus complexes et dédramatiser les erreurs en montrant comment les autres peuvent les légitimer/leur donner du sens.  
 
-## Echauffement&nbsp;: 30 min
+## Echauffement&nbsp;: 30min
 
 ### Cercle de chauffe
 Les joueureuxses en cercle proposent chacun.ex une anecdote récente de leur vie et un échauffement physique (rouler les épaules, agiter les doigts, etc.) pour délier les langues et les articulations.
