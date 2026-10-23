@@ -1,9 +1,9 @@
 ---
 title: "Short poems pt.3"
 description: "Short poems in english"
-publishDate: "13 Oct 2026"
+publishDate: "23 Oct 2026"
 tags: ["english", "poem", "literature","politics"]
-updatedDate: 13 October 2026
+updatedDate: 23 October 2026
 pinned: false
 ---
 
@@ -68,5 +68,13 @@ i nearly fell into the void<br/>
 there was nothing there on the other side<br/>
 the halfway mark<br/>
 was but on the end of the line
+
+
+### october
+Beams of light shining on desert streets<br/>
+Like a new sun for an old king<br/>
+Wearing a crown of thorns that only hurts<br/>
+Those who try to take it away<br/>
+While our right to speak can’t do the same<br/>
 
 
